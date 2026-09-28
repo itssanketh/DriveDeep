@@ -1,0 +1,388 @@
+- generic [active] [ref=f93e1]:
+  - link "Skip to the line-up" [ref=f93e2] [cursor=pointer]:
+    - /url: "#finale"
+  - generic: View
+  - banner:
+    - navigation "Eras":
+      - link "Bodylines" [ref=f93e5] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=f93e8]:
+          - generic [ref=f93e9]:
+            - generic [ref=f93e10]: B
+            - generic [ref=f93e11]: o
+            - generic [ref=f93e12]: d
+            - generic [ref=f93e13]: "y"
+            - generic [ref=f93e14]: l
+            - generic [ref=f93e15]: i
+            - generic [ref=f93e16]: "n"
+            - generic [ref=f93e17]: e
+            - generic [ref=f93e18]: s
+          - generic [ref=f93e19]:
+            - generic [ref=f93e20]: B
+            - generic [ref=f93e21]: o
+            - generic [ref=f93e22]: d
+            - generic [ref=f93e23]: "y"
+            - generic [ref=f93e24]: l
+            - generic [ref=f93e25]: i
+            - generic [ref=f93e26]: "n"
+            - generic [ref=f93e27]: e
+            - generic [ref=f93e28]: s
+  - main [ref=f93e29]:
+    - region "From carriage to hypercar." [ref=f93e30]:
+      - generic [ref=f93e31]:
+        - generic:
+          - heading "From carriage to hypercar." [level=1]:
+            - text: From carriageto
+            - emphasis: hypercar.
+          - paragraph: Scroll to explore
+        - generic:
+          - paragraph: • 1886 to 2021
+          - heading "135 years of bodylines." [level=2]:
+            - text: 135 years of
+            - emphasis: bodylines.
+          - paragraph: Seven real cars. Hover a card to turn it, click to meet the car.
+        - generic:
+          - button "1886, Benz Patent-Motorwagen" [ref=f93e32] [cursor=pointer]:
+            - generic [ref=f93e33]: "1886"
+          - button "1886, Benz Patent-Motorwagen" [ref=f93e37] [cursor=pointer]:
+            - generic [ref=f93e38]: "1886"
+          - button "1886, Benz Patent-Motorwagen" [ref=f93e42] [cursor=pointer]:
+            - generic [ref=f93e43]: "1886"
+          - button "1908, Ford Model T" [ref=f93e47] [cursor=pointer]:
+            - generic [ref=f93e48]: "1908"
+          - button "1908, Ford Model T" [ref=f93e52] [cursor=pointer]:
+            - generic [ref=f93e53]: "1908"
+          - button "1908, Ford Model T" [ref=f93e57] [cursor=pointer]:
+            - generic [ref=f93e58]: "1908"
+          - button "1934, Chrysler Airflow" [ref=f93e62] [cursor=pointer]:
+            - generic [ref=f93e63]: "1934"
+          - button "1934, Chrysler Airflow" [ref=f93e67] [cursor=pointer]:
+            - generic [ref=f93e68]: "1934"
+          - button "1934, Chrysler Airflow" [ref=f93e72] [cursor=pointer]:
+            - generic [ref=f93e73]: "1934"
+          - button "1954, Mercedes-Benz 300 SL" [ref=f93e77] [cursor=pointer]:
+            - generic [ref=f93e78]: "1954"
+          - button "1954, Mercedes-Benz 300 SL" [ref=f93e82] [cursor=pointer]:
+            - generic [ref=f93e83]: "1954"
+          - button "1954, Mercedes-Benz 300 SL" [ref=f93e87] [cursor=pointer]:
+            - generic [ref=f93e88]: "1954"
+          - button "1985, Lamborghini Countach 5000 QV" [ref=f93e92] [cursor=pointer]:
+            - generic [ref=f93e93]: "1985"
+          - button "1985, Lamborghini Countach 5000 QV" [ref=f93e97] [cursor=pointer]:
+            - generic [ref=f93e98]: "1985"
+          - button "1985, Lamborghini Countach 5000 QV" [ref=f93e102] [cursor=pointer]:
+            - generic [ref=f93e103]: "1985"
+          - button "1992, McLaren F1" [ref=f93e107] [cursor=pointer]:
+            - generic [ref=f93e108]: "1992"
+          - button "1992, McLaren F1" [ref=f93e112] [cursor=pointer]:
+            - generic [ref=f93e113]: "1992"
+          - button "1992, McLaren F1" [ref=f93e117] [cursor=pointer]:
+            - generic [ref=f93e118]: "1992"
+          - button "2021, Rimac Nevera" [ref=f93e122] [cursor=pointer]:
+            - generic [ref=f93e123]: "2021"
+          - button "2021, Rimac Nevera" [ref=f93e127] [cursor=pointer]:
+            - generic [ref=f93e128]: "2021"
+    - region "The cars" [ref=f93e132]:
+      - generic [ref=f93e133]:
+        - generic:
+          - article "Benz Patent-Motorwagen":
+            - generic:
+              - paragraph: 01 The carriage that pulls itself
+              - heading "Benz Patent-Motorwagen" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: B
+                      - generic: e
+                      - generic: "n"
+                      - generic: z
+                  - generic:
+                    - generic:
+                      - generic: P
+                      - generic: a
+                      - generic: t
+                      - generic: e
+                      - generic: "n"
+                      - generic: t
+                      - generic: "-"
+                  - generic:
+                    - generic:
+                      - generic: M
+                      - generic: o
+                      - generic: t
+                      - generic: o
+                      - generic: r
+                      - generic: w
+                      - generic: a
+                      - generic: g
+                      - generic: e
+                      - generic: "n"
+              - paragraph: Karl Benz patented it in January 1886.
+            - generic:
+              - generic:
+                - term: Engine
+                - definition: 954 cc, one cylinder
+              - generic:
+                - term: Power
+                - definition: 0.75 hp
+              - generic:
+                - term: Top speed
+                - definition: 16 km/h
+          - article "Ford Model T":
+            - generic:
+              - paragraph: 02 A car for everyone
+              - heading "Ford Model T" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: F
+                      - generic: o
+                      - generic: r
+                      - generic: d
+                  - generic:
+                    - generic:
+                      - generic: M
+                      - generic: o
+                      - generic: d
+                      - generic: e
+                      - generic: l
+                  - generic: T
+              - paragraph: Tall, upright and built for dirt roads.
+            - generic:
+              - generic:
+                - term: Engine
+                - definition: 2.9 L four-cylinder
+              - generic:
+                - term: Power
+                - definition: 20 hp
+              - generic:
+                - term: Built
+                - definition: 1908 to 1927
+          - article "Chrysler Airflow":
+            - generic:
+              - paragraph: 03 Shaped by the wind
+              - heading "Chrysler Airflow" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: C
+                      - generic: h
+                      - generic: r
+                      - generic: "y"
+                      - generic: s
+                      - generic: l
+                      - generic: e
+                      - generic: r
+                  - generic:
+                    - generic:
+                      - generic: A
+                      - generic: i
+                      - generic: r
+                      - generic: f
+                      - generic: l
+                      - generic: o
+                      - generic: w
+              - paragraph: Engineers tested scale models in a wind tunnel and rounded off the upright box.
+            - generic:
+              - generic:
+                - term: Engine
+                - definition: Straight-eight
+              - generic:
+                - term: Shaped in
+                - definition: A wind tunnel
+              - generic:
+                - term: Seating
+                - definition: Between the axles
+          - article "Mercedes-Benz 300 SL":
+            - generic:
+              - paragraph: 04 The engineered sports car
+              - heading "Mercedes-Benz 300 SL" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: M
+                      - generic: e
+                      - generic: r
+                      - generic: c
+                      - generic: e
+                      - generic: d
+                      - generic: e
+                      - generic: s
+                      - generic: "-"
+                  - generic:
+                    - generic:
+                      - generic: B
+                      - generic: e
+                      - generic: "n"
+                      - generic: z
+                  - generic:
+                    - generic:
+                      - generic: "3"
+                      - generic: "0"
+                      - generic: "0"
+                  - generic:
+                    - generic:
+                      - generic: S
+                      - generic: L
+              - paragraph: Its tube-frame chassis ran so high along the sides that normal doors would not fit, so the doors opened upward.
+            - generic:
+              - generic:
+                - term: Engine
+                - definition: 3.0 L straight-six
+              - generic:
+                - term: Fuel
+                - definition: Direct injection
+              - generic:
+                - term: Doors
+                - definition: Gullwing
+          - article "Lamborghini Countach 5000 QV":
+            - generic:
+              - paragraph: 05 The wedge
+              - heading "Lamborghini Countach 5000 QV" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: L
+                      - generic: a
+                      - generic: m
+                      - generic: b
+                      - generic: o
+                      - generic: r
+                      - generic: g
+                      - generic: h
+                      - generic: i
+                      - generic: "n"
+                      - generic: i
+                  - generic:
+                    - generic:
+                      - generic: C
+                      - generic: o
+                      - generic: u
+                      - generic: "n"
+                      - generic: t
+                      - generic: a
+                      - generic: c
+                      - generic: h
+                  - generic:
+                    - generic:
+                      - generic: "5"
+                      - generic: "0"
+                      - generic: "0"
+                      - generic: "0"
+                  - generic:
+                    - generic:
+                      - generic: Q
+                      - generic: V
+              - paragraph: Marcello Gandini drew the first Countach in 1971 as a low, flat wedge with the V12 behind the driver.
+            - generic:
+              - generic:
+                - term: Engine
+                - definition: 5.2 L V12
+              - generic:
+                - term: Valves
+                - definition: Four per cylinder
+              - generic:
+                - term: Designer
+                - definition: Marcello Gandini
+          - article "McLaren F1":
+            - generic:
+              - paragraph: 06 Carbon, and a seat in the middle
+              - heading "McLaren F1" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: M
+                      - generic: c
+                      - generic: L
+                      - generic: a
+                      - generic: r
+                      - generic: e
+                      - generic: "n"
+                  - generic:
+                    - generic:
+                      - generic: F
+                      - generic: "1"
+              - paragraph: Gordon Murray put the driver in the centre with a passenger on each side.
+            - generic:
+              - generic:
+                - term: Engine
+                - definition: 6.1 L BMW V12
+              - generic:
+                - term: Chassis
+                - definition: Carbon-fibre tub
+              - generic:
+                - term: Seats
+                - definition: Three, driver centred
+          - article "Rimac Nevera":
+            - generic:
+              - paragraph: 07 Four motors, no engine
+              - heading "Rimac Nevera" [level=2]:
+                - generic [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic: R
+                      - generic: i
+                      - generic: m
+                      - generic: a
+                      - generic: c
+                  - generic:
+                    - generic:
+                      - generic: "N"
+                      - generic: e
+                      - generic: v
+                      - generic: e
+                      - generic: r
+                      - generic: a
+              - paragraph: An electric motor drives each wheel, and the battery is built into the carbon-fibre tub.
+            - generic:
+              - generic:
+                - term: Power
+                - definition: 1,914 hp
+              - generic:
+                - term: Battery
+                - definition: 120 kWh
+              - generic:
+                - term: Top speed
+                - definition: 412 km/h
+    - region [ref=f93e134]:
+      - paragraph [ref=f93e135]: 08 The line-up
+      - heading [level=2] [ref=f93e136]:
+        - text: 135 years,
+        - emphasis [ref=f93e137]: in one row.
+      - list [ref=f93e138]:
+        - listitem [ref=f93e139]:
+          - link "1886 Benz Patent-Motorwagen" [ref=f93e140] [cursor=pointer]:
+            - /url: "#motorwagen"
+            - generic [ref=f93e141]: "1886"
+            - generic [ref=f93e142]: Benz Patent-Motorwagen
+        - listitem [ref=f93e143]:
+          - link "1908 Ford Model T" [ref=f93e144] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=f93e145]: "1908"
+            - generic [ref=f93e146]: Ford Model T
+        - listitem [ref=f93e147]:
+          - link "1934 Chrysler Airflow" [ref=f93e148] [cursor=pointer]:
+            - /url: "#airflow"
+            - generic [ref=f93e149]: "1934"
+            - generic [ref=f93e150]: Chrysler Airflow
+        - listitem [ref=f93e151]:
+          - link "1954 Mercedes-Benz 300 SL" [ref=f93e152] [cursor=pointer]:
+            - /url: "#sl300"
+            - generic [ref=f93e153]: "1954"
+            - generic [ref=f93e154]: Mercedes-Benz 300 SL
+        - listitem [ref=f93e155]:
+          - link "1985 Lamborghini Countach 5000 QV" [ref=f93e156] [cursor=pointer]:
+            - /url: "#countach"
+            - generic [ref=f93e157]: "1985"
+            - generic [ref=f93e158]: Lamborghini Countach 5000 QV
+        - listitem [ref=f93e159]:
+          - link "1992 McLaren F1" [ref=f93e160] [cursor=pointer]:
+            - /url: "#f1"
+            - generic [ref=f93e161]: "1992"
+            - generic [ref=f93e162]: McLaren F1
+        - listitem [ref=f93e163]:
+          - link "2021 Rimac Nevera" [ref=f93e164] [cursor=pointer]:
+            - /url: "#nevera"
+            - generic [ref=f93e165]: "2021"
+            - generic [ref=f93e166]: Rimac Nevera
+      - paragraph [ref=f93e167]: A non-commercial showcase. Photos collected from Pinterest.

@@ -1,0 +1,226 @@
+- generic [ref=f43e4]:
+  - banner:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f43e14]:
+      - generic [ref=f43e16]:
+        - generic [ref=f43e17]:
+          - combobox "Search" [ref=f43e19]: rimac nevera side profile
+          - generic [ref=f43e20]:
+            - button "Remove search input" [ref=f43e23] [cursor=pointer]
+            - generic "Upload image" [ref=f43e30]:
+              - button "Lens" [ref=f43e31] [cursor=pointer]
+            - generic [ref=f43e36]:
+              - status [ref=f43e37]
+              - generic "Search by voice" [ref=f43e39]:
+                - button "Voice search" [ref=f43e40] [cursor=pointer]
+        - button "All Pins Dropdown" [ref=f43e47] [cursor=pointer]:
+          - generic [ref=f43e49]:
+            - generic [ref=f43e50]: All Pins
+            - img "Dropdown" [ref=f43e52]
+      - link "Your profile" [ref=f43e58] [cursor=pointer]:
+        - /url: /sankeths908/
+      - button "Accounts" [ref=f43e70] [cursor=pointer]
+  - navigation [ref=f43e75]:
+    - generic [ref=f43e77]:
+      - generic [ref=f43e78]:
+        - generic "Home" [ref=f43e82]:
+          - link "Home" [ref=f43e83] [cursor=pointer]:
+            - /url: /
+        - generic "Home" [ref=f43e90]:
+          - link "Home" [ref=f43e91] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f43e95]:
+          - generic "Explore" [ref=f43e98]:
+            - link "Explore" [ref=f43e99] [cursor=pointer]:
+              - /url: /ideas
+          - generic:
+            - status "Notifications"
+        - generic "Your boards" [ref=f43e106]:
+          - link "Your boards" [ref=f43e107] [cursor=pointer]:
+            - /url: /sankeths908/
+        - generic "Create" [ref=f43e114]:
+          - button "Create" [ref=f43e115] [cursor=pointer]
+        - generic "Updates" [ref=f43e124]:
+          - button "Updates" [ref=f43e125] [cursor=pointer]
+        - generic "Messages" [ref=f43e134]:
+          - button "Messages" [ref=f43e135] [cursor=pointer]
+      - generic "Settings & Support" [ref=f43e144]:
+        - button "Settings & Support" [ref=f43e145] [cursor=pointer]
+  - generic:
+    - complementary "Footer floating buttons"
+  - main [ref=f43e150]:
+    - generic [ref=f43e152]:
+      - heading "Search Results Page" [level=1] [ref=f43e154]
+      - region "Search filters and refinements" [ref=f43e158]:
+        - generic [ref=f43e161]:
+          - button "Show filters" [ref=f43e167] [cursor=pointer]
+          - button "Less AI" [ref=f43e178] [cursor=pointer]
+      - generic [ref=f43e189]:
+        - generic [ref=f43e190]: Loading more search results for rimac nevera side profile
+        - list [ref=f43e195]:
+          - listitem [ref=f43e196]:
+            - button [ref=f43e198] [cursor=pointer]:
+              - group "Pin card" [ref=f43e201]:
+                - generic [ref=f43e203]:
+                  - link "Rimac Nevera R 2024 pin page" [ref=f43e205]:
+                    - /url: /pin/293156257009432675/
+                    - 'img "This may contain: an aerial view of the rear end of a silver sports car with its lights on" [ref=f43e215]'
+                  - generic "More actions" [ref=f43e223]:
+                    - button "More actions" [ref=f43e224]
+          - listitem [ref=f43e229]:
+            - button [ref=f43e231] [cursor=pointer]:
+              - group "Pin card" [ref=f43e234]:
+                - generic [ref=f43e236]:
+                  - link "Rimac Nevera pin page" [ref=f43e238]:
+                    - /url: /pin/177118197842429218/
+                    - 'img "This may contain: a drawing of a car with measurements for the front and side view, from top to bottom" [ref=f43e248]'
+                  - generic "More actions" [ref=f43e256]:
+                    - button "More actions" [ref=f43e257]
+          - listitem [ref=f43e262]:
+            - button [ref=f43e264] [cursor=pointer]:
+              - group "Pin card" [ref=f43e267]:
+                - generic [ref=f43e269]:
+                  - link "Rimac pin page" [ref=f43e271]:
+                    - /url: /pin/339881103151202724/
+                    - 'img "This may contain: a silver sports car hanging from the side of a wall with its wheels on it" [ref=f43e281]'
+                  - generic "More actions" [ref=f43e289]:
+                    - button "More actions" [ref=f43e290]
+          - listitem [ref=f43e295]:
+            - button [ref=f43e297] [cursor=pointer]:
+              - group "Pin card" [ref=f43e300]:
+                - generic [ref=f43e302]:
+                  - link "Nevera pin page" [ref=f43e304]:
+                    - /url: /pin/498632990009436047/
+                    - 'img "This may contain: the rear end of a blue sports car on a dark surface with light coming from behind" [ref=f43e314]'
+                  - generic "More actions" [ref=f43e322]:
+                    - button "More actions" [ref=f43e323]
+          - listitem [ref=f43e328]:
+            - button [ref=f43e330] [cursor=pointer]:
+              - group "Pin card" [ref=f43e333]:
+                - generic [ref=f43e335]:
+                  - 'link "Mate Rimac: Inside the Nevera Story pin page" [ref=f43e337]':
+                    - /url: /pin/836191855859623116/
+                    - 'img "This may contain: a silver and black sports car driving on the road in front of some desert hills" [ref=f43e347]'
+                  - generic "More actions" [ref=f43e355]:
+                    - button "More actions" [ref=f43e356]
+          - listitem [ref=f43e361]:
+            - button [ref=f43e363] [cursor=pointer]:
+              - group "Pin card" [ref=f43e366]:
+                - generic [ref=f43e368]:
+                  - link "Nevera pin page" [ref=f43e370]:
+                    - /url: /pin/238479742762945876/
+                    - 'img "This may contain: the rear end of a blue sports car in a dark room with its lights on" [ref=f43e380]'
+                  - generic "More actions" [ref=f43e388]:
+                    - button "More actions" [ref=f43e389]
+          - listitem [ref=f43e394]:
+            - button [ref=f43e396] [cursor=pointer]:
+              - group "Pin card" [ref=f43e399]:
+                - generic [ref=f43e401]:
+                  - link "Rimac pin page" [ref=f43e403]:
+                    - /url: /pin/355573333098584250/
+                    - 'img "This may contain: the top view of a blue sports car" [ref=f43e413]'
+                  - generic "More actions" [ref=f43e421]:
+                    - button "More actions" [ref=f43e422]
+          - listitem [ref=f43e427]:
+            - button [ref=f43e429] [cursor=pointer]:
+              - group "Pin card" [ref=f43e432]:
+                - generic [ref=f43e434]:
+                  - link "Cars &amp; more pin page" [ref=f43e436]:
+                    - /url: /pin/630715122891485847/
+                    - 'img "This may contain: a blue and black sports car on a white background" [ref=f43e446]'
+                  - generic "More actions" [ref=f43e454]:
+                    - button "More actions" [ref=f43e455]
+          - listitem [ref=f43e460]:
+            - button [ref=f43e462] [cursor=pointer]:
+              - group "Pin card" [ref=f43e465]:
+                - generic [ref=f43e467]:
+                  - link "Rimac Nevera R pin page" [ref=f43e469]:
+                    - /url: /pin/7036943162994082/
+                    - 'img "This may contain: the rear end of a silver sports car in a dark room with lights on it" [ref=f43e479]'
+                  - generic "More actions" [ref=f43e487]:
+                    - button "More actions" [ref=f43e488]
+          - listitem [ref=f43e493]:
+            - button [ref=f43e495] [cursor=pointer]:
+              - group "Pin card" [ref=f43e498]:
+                - generic [ref=f43e500]:
+                  - link "Rimac Nevera 2024 pin page" [ref=f43e502]:
+                    - /url: /pin/293156257015685323/
+                    - 'img "This may contain: a blue sports car hanging upside down from the ceiling with it''s hood up" [ref=f43e512]'
+                  - generic "More actions" [ref=f43e520]:
+                    - button "More actions" [ref=f43e521]
+          - listitem [ref=f43e526]:
+            - button [ref=f43e528] [cursor=pointer]:
+              - group "Pin card" [ref=f43e531]:
+                - generic [ref=f43e533]:
+                  - link "Nevera pin page" [ref=f43e535]:
+                    - /url: /pin/381961612163291704/
+                    - 'img "This may contain: the rear end of a white sports car with its lights turned on in the woods" [ref=f43e545]'
+                  - generic "More actions" [ref=f43e553]:
+                    - button "More actions" [ref=f43e554]
+          - listitem [ref=f43e559]:
+            - button [ref=f43e561] [cursor=pointer]:
+              - group "Pin card" [ref=f43e564]:
+                - generic [ref=f43e566]:
+                  - link "Nevera pin page" [ref=f43e568]:
+                    - /url: /pin/70298444179592179/
+                    - 'img "This may contain: the rear end of a black sports car at night" [ref=f43e578]'
+                  - generic "More actions" [ref=f43e586]:
+                    - button "More actions" [ref=f43e587]
+          - listitem [ref=f43e592]:
+            - button [ref=f43e594] [cursor=pointer]:
+              - group "Pin card" [ref=f43e597]:
+                - generic [ref=f43e599]:
+                  - link "Rimac Nevera 2024 pin page" [ref=f43e601]:
+                    - /url: /pin/293156257015685316/
+                    - 'img "This may contain: a blue and black sports car on a white background with no one around it in the photo" [ref=f43e611]'
+                  - generic "More actions" [ref=f43e619]:
+                    - button "More actions" [ref=f43e620]
+          - listitem [ref=f43e625]:
+            - button [ref=f43e627] [cursor=pointer]:
+              - group "Pin card" [ref=f43e630]:
+                - generic [ref=f43e632]:
+                  - link "Rimac pin page" [ref=f43e634]:
+                    - /url: /pin/186899453287108384/
+                    - 'img "This may contain: the rear end of a silver sports car with its trunk open and tail lights on" [ref=f43e644]'
+                  - generic "More actions" [ref=f43e652]:
+                    - button "More actions" [ref=f43e653]
+          - listitem [ref=f43e658]:
+            - button [ref=f43e660] [cursor=pointer]:
+              - group "Pin card" [ref=f43e663]:
+                - generic [ref=f43e665]:
+                  - link "Nevera pin page" [ref=f43e667]:
+                    - /url: /pin/515873332333807760/
+                    - 'img "This may contain: the rear end of a white car with its lights on" [ref=f43e677]'
+                  - generic "More actions" [ref=f43e685]:
+                    - button "More actions" [ref=f43e686]
+          - listitem [ref=f43e691]:
+            - button [ref=f43e693] [cursor=pointer]:
+              - group "Pin card" [ref=f43e696]:
+                - generic [ref=f43e698]:
+                  - link "Cars &amp; more pin page" [ref=f43e700]:
+                    - /url: /pin/658370039320479237/
+                    - 'img "This may contain: a grey sports car parked on top of a parking lot" [ref=f43e710]'
+                  - generic "More actions" [ref=f43e718]:
+                    - button "More actions" [ref=f43e719]
+          - listitem [ref=f43e724]:
+            - button [ref=f43e726] [cursor=pointer]:
+              - group "Pin card" [ref=f43e729]:
+                - generic [ref=f43e731]:
+                  - link "Rimac pin page" [ref=f43e733]:
+                    - /url: /pin/378091331237594589/
+                    - 'img "This may contain: the rear end of a sports car with its doors open and seats folded down in front" [ref=f43e743]'
+                  - generic "More actions" [ref=f43e751]:
+                    - button "More actions" [ref=f43e752]
+          - listitem [ref=f43e757]:
+            - button [ref=f43e759] [cursor=pointer]:
+              - group "Pin card" [ref=f43e762]:
+                - generic [ref=f43e764]:
+                  - link "rimac nevera pin page" [ref=f43e766]:
+                    - /url: /pin/311381761758535536/
+                    - 'img "This may contain: a purple sports car is parked on the side of the road in front of some trees" [ref=f43e776]'
+                  - generic "More actions" [ref=f43e784]:
+                    - button "More actions" [ref=f43e785]
+          - listitem [ref=f43e790]
+          - listitem [ref=f43e794]
+          - listitem [ref=f43e798]

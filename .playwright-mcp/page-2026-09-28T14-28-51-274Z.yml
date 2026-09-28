@@ -1,0 +1,221 @@
+- generic [ref=f55e4]:
+  - banner:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f55e14]:
+      - generic [ref=f55e16]:
+        - generic [ref=f55e17]:
+          - combobox "Search" [ref=f55e19]: chrysler airflow 1934 side view
+          - generic [ref=f55e20]:
+            - button "Remove search input" [ref=f55e23] [cursor=pointer]
+            - generic "Upload image" [ref=f55e30]:
+              - button "Lens" [ref=f55e31] [cursor=pointer]
+            - generic [ref=f55e36]:
+              - status [ref=f55e37]
+              - generic "Search by voice" [ref=f55e39]:
+                - button "Voice search" [ref=f55e40] [cursor=pointer]
+        - button "All Pins Dropdown" [ref=f55e47] [cursor=pointer]:
+          - generic [ref=f55e49]:
+            - generic [ref=f55e50]: All Pins
+            - img "Dropdown" [ref=f55e52]
+      - link "Your profile" [ref=f55e58] [cursor=pointer]:
+        - /url: /sankeths908/
+      - button "Accounts" [ref=f55e70] [cursor=pointer]
+  - navigation [ref=f55e75]:
+    - generic [ref=f55e77]:
+      - generic [ref=f55e78]:
+        - generic "Home" [ref=f55e82]:
+          - link "Home" [ref=f55e83] [cursor=pointer]:
+            - /url: /
+        - generic "Home" [ref=f55e90]:
+          - link "Home" [ref=f55e91] [cursor=pointer]:
+            - /url: /
+        - generic "Explore" [ref=f55e98]:
+          - link "Explore" [ref=f55e99] [cursor=pointer]:
+            - /url: /ideas
+        - generic "Your boards" [ref=f55e106]:
+          - link "Your boards" [ref=f55e107] [cursor=pointer]:
+            - /url: /sankeths908/
+        - generic "Create" [ref=f55e114]:
+          - button "Create" [ref=f55e115] [cursor=pointer]
+        - generic "Updates" [ref=f55e124]:
+          - button "Updates" [ref=f55e125] [cursor=pointer]
+        - generic "Messages" [ref=f55e134]:
+          - button "Messages" [ref=f55e135] [cursor=pointer]
+      - generic "Settings & Support" [ref=f55e144]:
+        - button "Settings & Support" [ref=f55e145] [cursor=pointer]
+  - generic:
+    - complementary "Footer floating buttons"
+  - main [ref=f55e150]:
+    - generic [ref=f55e152]:
+      - heading "Search Results Page" [level=1] [ref=f55e154]
+      - region "Search filters and refinements" [ref=f55e158]:
+        - button "Show filters" [ref=f55e167] [cursor=pointer]
+      - generic [ref=f55e178]:
+        - generic [ref=f55e179]: Loading more search results for chrysler airflow 1934 side view
+        - list [ref=f55e184]:
+          - listitem [ref=f55e185]:
+            - button [ref=f55e187] [cursor=pointer]:
+              - group "Pin card" [ref=f55e190]:
+                - generic [ref=f55e192]:
+                  - link "an old model car is shown in black and white color scheme on the dark background pin page" [ref=f55e194]:
+                    - /url: /pin/460070918198242023/
+                    - 'img "This may contain: an old model car is shown in black and white color scheme on the dark background" [ref=f55e204]'
+                  - generic "More actions" [ref=f55e212]:
+                    - button "More actions" [ref=f55e213]
+          - listitem [ref=f55e218]:
+            - button [ref=f55e220] [cursor=pointer]:
+              - group "Pin card" [ref=f55e223]:
+                - generic [ref=f55e225]:
+                  - link "an old black car is parked in front of a large building with a clock tower pin page" [ref=f55e227]:
+                    - /url: /pin/480829697734359013/
+                    - 'img "This may contain: an old black car is parked in front of a large building with a clock tower" [ref=f55e237]'
+                  - generic "More actions" [ref=f55e245]:
+                    - button "More actions" [ref=f55e246]
+          - listitem [ref=f55e251]:
+            - button [ref=f55e253] [cursor=pointer]:
+              - group "Pin card" [ref=f55e256]:
+                - generic [ref=f55e258]:
+                  - link "an old fashion car painted in brown and white pin page" [ref=f55e260]:
+                    - /url: /pin/94716398415963953/
+                    - 'img "This may contain: an old fashion car painted in brown and white" [ref=f55e270]'
+                  - generic "More actions" [ref=f55e278]:
+                    - button "More actions" [ref=f55e279]
+          - listitem [ref=f55e284]:
+            - button [ref=f55e286] [cursor=pointer]:
+              - group "Pin card" [ref=f55e289]:
+                - generic [ref=f55e291]:
+                  - 'link "Sold at Auction: 1935 CHRYSLER AIRFLOW COUPE pin page" [ref=f55e293]':
+                    - /url: /pin/682928730987483475/
+                    - 'img "This may contain: an old black car is parked on the street" [ref=f55e303]'
+                  - generic "More actions" [ref=f55e311]:
+                    - button "More actions" [ref=f55e312]
+          - listitem [ref=f55e317]:
+            - button [ref=f55e319] [cursor=pointer]:
+              - group "Pin card" [ref=f55e322]:
+                - generic [ref=f55e324]:
+                  - link "Here Are 10 Technological Firsts From Chrysler pin page" [ref=f55e326]:
+                    - /url: /pin/1142647736734793957/
+                    - 'img "This may contain: an old black and white car parked in front of a wall" [ref=f55e336]'
+                  - generic "More actions" [ref=f55e344]:
+                    - button "More actions" [ref=f55e345]
+          - listitem [ref=f55e350]:
+            - button [ref=f55e352] [cursor=pointer]:
+              - group "Pin card" [ref=f55e355]:
+                - generic [ref=f55e357]:
+                  - link "1934 Chrysler Eight Airflow CU 4 door pin page" [ref=f55e359]:
+                    - /url: /pin/97742254405511497/
+                    - 'img "This may contain: an old car is parked in the grass" [ref=f55e369]'
+                  - generic "More actions" [ref=f55e377]:
+                    - button "More actions" [ref=f55e378]
+          - listitem [ref=f55e383]:
+            - button [ref=f55e385] [cursor=pointer]:
+              - group "Pin card" [ref=f55e388]:
+                - generic [ref=f55e390]:
+                  - link "1934 Chrysler Airflow pin page" [ref=f55e392]:
+                    - /url: /pin/AfTmaXrW_tc8i-h9MeOhOZUV8LqwiWXe0yon8JY-IvEsOmUNTDsEWto/
+                    - 'img "This may contain: an old car is parked on the side of the road" [ref=f55e402]'
+                  - generic "More actions" [ref=f55e410]:
+                    - button "More actions" [ref=f55e411]
+          - listitem [ref=f55e416]:
+            - button [ref=f55e418] [cursor=pointer]:
+              - group "Pin card" [ref=f55e421]:
+                - generic [ref=f55e423]:
+                  - link "26 Facts About Chrysler Airflow pin page" [ref=f55e425]:
+                    - /url: /pin/4610489850301826944/
+                    - 'img "This may contain: an old car is parked in front of a wall with a black background and white trim" [ref=f55e435]'
+                  - generic "More actions" [ref=f55e443]:
+                    - button "More actions" [ref=f55e444]
+          - listitem [ref=f55e449]:
+            - button [ref=f55e451] [cursor=pointer]:
+              - group "Pin card" [ref=f55e454]:
+                - generic [ref=f55e456]:
+                  - link "Here&#39;s All 23 of Carroll Shelby&#39;s Personal Cars Up For Auction Next Month pin page" [ref=f55e458]:
+                    - /url: /pin/842665780254853757/
+                    - 'img "This may contain: an old fashioned car is parked on the street" [ref=f55e468]'
+                  - generic "More actions" [ref=f55e476]:
+                    - button "More actions" [ref=f55e477]
+          - listitem [ref=f55e482]:
+            - button [ref=f55e484] [cursor=pointer]:
+              - group "Pin card" [ref=f55e487]:
+                - generic [ref=f55e489]:
+                  - link "1936 Chrysler Imperial Airflow Sedan pin page" [ref=f55e491]:
+                    - /url: /pin/17732992267659749/
+                    - 'img "This may contain: an antique car is parked in front of some bushes" [ref=f55e501]'
+                  - generic "More actions" [ref=f55e509]:
+                    - button "More actions" [ref=f55e510]
+          - listitem [ref=f55e515]:
+            - button [ref=f55e517] [cursor=pointer]:
+              - group "Pin card" [ref=f55e520]:
+                - generic [ref=f55e522]:
+                  - link "1936 Chrysler Airflow pin page" [ref=f55e524]:
+                    - /url: /pin/985231159474638/
+                    - 'img "This may contain: an old black car is parked in a room with white walls and curtains behind it" [ref=f55e534]'
+                  - generic "More actions" [ref=f55e542]:
+                    - button "More actions" [ref=f55e543]
+          - listitem [ref=f55e548]:
+            - button [ref=f55e550] [cursor=pointer]:
+              - group "Pin card" [ref=f55e553]:
+                - generic [ref=f55e555]:
+                  - link "1936 Chrysler Imperial Airflow - CLASSIC.COM pin page" [ref=f55e557]:
+                    - /url: /pin/382524562119381363/
+                    - 'img "This may contain: an old black car is parked on the street" [ref=f55e567]'
+                  - generic "More actions" [ref=f55e575]:
+                    - button "More actions" [ref=f55e576]
+          - listitem [ref=f55e581]:
+            - button [ref=f55e583] [cursor=pointer]:
+              - group "Pin card" [ref=f55e586]:
+                - generic [ref=f55e588]:
+                  - link "1937 Chrysler Airflow C-17 4 door pin page" [ref=f55e590]:
+                    - /url: /pin/382524562119381365/
+                    - 'img "This may contain: an old green car parked in front of a fence with people looking at the cars" [ref=f55e600]'
+                  - generic "More actions" [ref=f55e608]:
+                    - button "More actions" [ref=f55e609]
+          - listitem [ref=f55e614]:
+            - button [ref=f55e616] [cursor=pointer]:
+              - group "Pin card" [ref=f55e619]:
+                - generic [ref=f55e621]:
+                  - link "Vintage car yellow Wolfsonian 800x551 600pi pin page" [ref=f55e623]:
+                    - /url: /pin/225602262568660239/
+                    - 'img "This may contain: a painting of an old yellow car with chrome grills on the front and side" [ref=f55e633]'
+                  - generic "More actions" [ref=f55e641]:
+                    - button "More actions" [ref=f55e642]
+          - listitem [ref=f55e647]:
+            - button [ref=f55e649] [cursor=pointer]:
+              - group "Pin card" [ref=f55e652]:
+                - generic [ref=f55e654]:
+                  - link "#TBT | 1937 Chrysler CW Imperial Airflow | Custom-Built by LeBaron for Major Bowes One of three ever made, one of two that survive. A personal gift from Chrysler to the radio pioneer who invented the modern talent show — and put a young Frank Sinatra on the map. Jade panels, Dirigold fittings, a full bar, and sterling silver drinkware. Allegedly used by Admiral Nimitz in WWII. Sold — but never forgotten. pin page" [ref=f55e656]:
+                    - /url: /pin/182395853666641147/
+                    - 'img "This may contain: an old black car with the words, 1932 chrysler cw airflow major bows" [ref=f55e666]'
+                  - generic "More actions" [ref=f55e674]:
+                    - button "More actions" [ref=f55e675]
+          - listitem [ref=f55e680]:
+            - button [ref=f55e682] [cursor=pointer]:
+              - group "Pin card" [ref=f55e685]:
+                - generic [ref=f55e687]:
+                  - link "Retro car - cool picture pin page" [ref=f55e689]:
+                    - /url: /pin/359091770300390057/
+                    - 'img "This may contain: an old black car is parked by the water" [ref=f55e699]'
+                  - generic "More actions" [ref=f55e707]:
+                    - button "More actions" [ref=f55e708]
+          - listitem [ref=f55e713]:
+            - button [ref=f55e715] [cursor=pointer]:
+              - group "Pin card" [ref=f55e718]:
+                - generic [ref=f55e720]:
+                  - link "1940 Dodge Airflow RX-70 Tanker pin page" [ref=f55e722]:
+                    - /url: /pin/10555380366144117/
+                    - 'img "This may contain: an old red truck is on display in a museum" [ref=f55e732]'
+                  - generic "More actions" [ref=f55e740]:
+                    - button "More actions" [ref=f55e741]
+          - listitem [ref=f55e746]
+          - listitem [ref=f55e750]
+          - listitem [ref=f55e754]
+          - listitem [ref=f55e758]
+          - listitem [ref=f55e762]
+          - listitem [ref=f55e766]
+          - listitem [ref=f55e770]
+          - listitem [ref=f55e774]
+          - listitem [ref=f55e778]
+          - listitem [ref=f55e782]
+  - generic:
+    - contentinfo "Footer"

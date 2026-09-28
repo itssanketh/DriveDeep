@@ -1,0 +1,385 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e4]:
+    - banner:
+      - link "Skip to content":
+        - /url: "#"
+      - generic [ref=f21e14]:
+        - generic [ref=f21e16]:
+          - generic [ref=f21e17]:
+            - combobox "Search" [ref=f21e19]: mercedes 300 sl gullwing side profile studio
+            - generic [ref=f21e20]:
+              - button "Remove search input" [ref=f21e23] [cursor=pointer]
+              - generic "Upload image" [ref=f21e30]:
+                - button "Lens" [ref=f21e31] [cursor=pointer]
+              - generic [ref=f21e36]:
+                - status [ref=f21e37]
+                - generic "Search by voice" [ref=f21e39]:
+                  - button "Voice search" [ref=f21e40] [cursor=pointer]
+          - button "All Pins Dropdown" [ref=f21e47] [cursor=pointer]:
+            - generic [ref=f21e49]:
+              - generic [ref=f21e50]: All Pins
+              - img "Dropdown" [ref=f21e52]
+        - link "Your profile" [ref=f21e58] [cursor=pointer]:
+          - /url: /sankeths908/
+        - button "Accounts" [ref=f21e70] [cursor=pointer]
+    - navigation [ref=f21e75]:
+      - generic [ref=f21e77]:
+        - generic [ref=f21e78]:
+          - generic "Home" [ref=f21e82]:
+            - link "Home" [ref=f21e83] [cursor=pointer]:
+              - /url: /
+          - generic "Home" [ref=f21e90]:
+            - link "Home" [ref=f21e91] [cursor=pointer]:
+              - /url: /
+          - generic [ref=f21e95]:
+            - generic "Explore" [ref=f21e98]:
+              - link "Explore" [ref=f21e99] [cursor=pointer]:
+                - /url: /ideas
+            - generic:
+              - status "Notifications"
+          - generic "Your boards" [ref=f21e106]:
+            - link "Your boards" [ref=f21e107] [cursor=pointer]:
+              - /url: /sankeths908/
+          - generic "Create" [ref=f21e114]:
+            - button "Create" [ref=f21e115] [cursor=pointer]
+          - generic "Updates" [ref=f21e124]:
+            - button "Updates" [ref=f21e125] [cursor=pointer]
+          - generic "Messages" [ref=f21e134]:
+            - button "Messages" [ref=f21e135] [cursor=pointer]
+        - generic "Settings & Support" [ref=f21e144]:
+          - button "Settings & Support" [ref=f21e145] [cursor=pointer]
+    - generic:
+      - complementary "Footer floating buttons"
+    - main [ref=f21e150]:
+      - generic [ref=f21e152]:
+        - heading "Search Results Page" [level=1] [ref=f21e154]
+        - region "Search filters and refinements" [ref=f21e158]:
+          - button "Show filters" [ref=f21e167] [cursor=pointer]
+        - generic [ref=f21e178]:
+          - generic [ref=f21e179]: Loading more search results for mercedes 300 sl gullwing side profile studio
+          - list [ref=f21e184]:
+            - listitem [ref=f21e185]:
+              - button [ref=f21e187] [cursor=pointer]:
+                - group "Pin card" [ref=f21e190]:
+                  - generic [ref=f21e192]:
+                    - link "Mercedes-Benz 300SL Gullwing 1954 pin page" [ref=f21e194]:
+                      - /url: /pin/17099673582524966/
+                      - 'img "This may contain: an old silver car is shown on a white background with no one in it''s image" [ref=f21e204]'
+                    - generic "More actions" [ref=f21e212]:
+                      - button "More actions" [ref=f21e213]
+            - listitem [ref=f21e218]:
+              - button [ref=f21e220] [cursor=pointer]:
+                - group "Pin card" [ref=f21e223]:
+                  - generic [ref=f21e225]:
+                    - link "1954 Mercedes-Benz 300SL Gullwing pin page" [ref=f21e227]:
+                      - /url: /pin/229542912253273214/
+                      - 'img "This may contain: an old silver mercedes sports car on a white background with no people in the photo" [ref=f21e237]'
+                    - generic "More actions" [ref=f21e245]:
+                      - button "More actions" [ref=f21e246]
+            - listitem [ref=f21e251]:
+              - button [ref=f21e253] [cursor=pointer]:
+                - group "Pin card" [ref=f21e256]:
+                  - generic [ref=f21e258]:
+                    - link "1957 Mercedes-Benz 300 SL Gullwing pin page" [ref=f21e260]:
+                      - /url: /pin/502151427215847342/
+                      - 'img "This may contain: a black and white photo of an old mercedes 300sl coupe car, side view" [ref=f21e270]'
+                    - generic "More actions" [ref=f21e278]:
+                      - button "More actions" [ref=f21e279]
+            - listitem [ref=f21e284]:
+              - button [ref=f21e286] [cursor=pointer]:
+                - group "Pin card" [ref=f21e289]:
+                  - generic [ref=f21e291]:
+                    - link "1955 Mercedes-Benz 300 SL Gullwing Coupe | The Amelia Auction 2024 | Classic Car Auctions | Broad Arrow Auctions pin page" [ref=f21e293]:
+                      - /url: /pin/24418022975445284/
+                      - 'img "This may contain: an old silver mercedes sports car on a white background" [ref=f21e303]'
+                    - generic "More actions" [ref=f21e311]:
+                      - button "More actions" [ref=f21e312]
+            - listitem [ref=f21e317]:
+              - button [ref=f21e319] [cursor=pointer]:
+                - group "Pin card" [ref=f21e322]:
+                  - generic [ref=f21e324]:
+                    - 'link "Auction Block: 1956 Mercedes-Benz 300 SL Gullwing pin page" [ref=f21e326]':
+                      - /url: /pin/495536765245846539/
+                      - 'img "This may contain: an old black mercedes sports car with its doors open" [ref=f21e336]'
+                    - generic "More actions" [ref=f21e344]:
+                      - button "More actions" [ref=f21e345]
+            - listitem [ref=f21e350]:
+              - button [ref=f21e352] [cursor=pointer]:
+                - group "Pin card" [ref=f21e355]:
+                  - generic [ref=f21e357]:
+                    - link "1955 Mercedes-Benz 300SL Gullwing_6078 pin page" [ref=f21e359]:
+                      - /url: /pin/5840674509195194/
+                      - 'img "This may contain: an old black mercedes benz sports car parked in a garage with the hood up and front lights on" [ref=f21e369]'
+                    - generic "More actions" [ref=f21e377]:
+                      - button "More actions" [ref=f21e378]
+            - listitem [ref=f21e383]:
+              - button [ref=f21e385] [cursor=pointer]:
+                - group "Pin card" [ref=f21e388]:
+                  - generic [ref=f21e390]:
+                    - link "an old silver mercedes sports car parked on a white floor in front of a gray background pin page" [ref=f21e392]:
+                      - /url: /pin/141722719519866405/
+                      - 'img "This may contain: an old silver mercedes sports car parked on a white floor in front of a gray background" [ref=f21e402]'
+                    - generic "More actions" [ref=f21e410]:
+                      - button "More actions" [ref=f21e411]
+            - listitem [ref=f21e416]:
+              - button [ref=f21e418] [cursor=pointer]:
+                - group "Pin card" [ref=f21e421]:
+                  - generic [ref=f21e423]:
+                    - link "Mercedes–Benz 300 SL pin page" [ref=f21e425]:
+                      - /url: /pin/54676582969284646/
+                      - 'img "This may contain: an old car is shown in the dark" [ref=f21e435]'
+                    - generic "More actions" [ref=f21e443]:
+                      - button "More actions" [ref=f21e444]
+            - listitem [ref=f21e449]:
+              - button [ref=f21e451] [cursor=pointer]:
+                - group "Pin card" [ref=f21e454]:
+                  - generic [ref=f21e456]:
+                    - link "Mercedes-Benz 300 SL &#39;Gullwing&#39; Coupe 1955 pin page" [ref=f21e458]:
+                      - /url: /pin/293156256993302675/
+                      - 'img "This may contain: an old fashioned car is shown in this image" [ref=f21e468]'
+                    - generic "More actions" [ref=f21e476]:
+                      - button "More actions" [ref=f21e477]
+            - listitem [ref=f21e482]:
+              - button [ref=f21e484] [cursor=pointer]:
+                - group "Pin card" [ref=f21e488]:
+                  - generic [ref=f21e490]:
+                    - generic [ref=f21e491]:
+                      - link "The 300SL Gullwing is the Blueprint for Dailyable Heritage pin page" [ref=f21e492]:
+                        - /url: /pin/338051515802503118/
+                        - generic [ref=f21e499]:
+                          - img "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e503]
+                          - img "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e507]
+                          - img "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e511]
+                          - img "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e515]
+                          - img "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e519]
+                      - status [ref=f21e520]
+                    - generic [ref=f21e523]:
+                      - generic [ref=f21e526]:
+                        - button "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e528]
+                        - button "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e531]
+                        - button "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e534]
+                        - button "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e537]
+                        - button "The 300SL Gullwing is the Blueprint for Dailyable Heritage" [ref=f21e540]
+                      - generic "More actions" [ref=f21e546]:
+                        - button "More actions" [ref=f21e547]
+            - listitem [ref=f21e552]:
+              - button [ref=f21e554] [cursor=pointer]:
+                - group "Pin card" [ref=f21e557]:
+                  - generic [ref=f21e559]:
+                    - link "Mercedes-Benz 300 SL Gullwing Coupe, 1954 pin page" [ref=f21e561]:
+                      - /url: /pin/47217496065584358/
+                      - 'img "This may contain: an old car is shown on a white background" [ref=f21e571]'
+                    - generic "More actions" [ref=f21e579]:
+                      - button "More actions" [ref=f21e580]
+            - listitem [ref=f21e585]:
+              - button [ref=f21e587] [cursor=pointer]:
+                - group "Pin card" [ref=f21e590]:
+                  - generic [ref=f21e592]:
+                    - link "Mercedes-Benz 300SL Gullwing 1955 pin page" [ref=f21e594]:
+                      - /url: /pin/293156257013103779/
+                      - 'img "This may contain: an old red sports car with its doors open" [ref=f21e604]'
+                    - generic "More actions" [ref=f21e612]:
+                      - button "More actions" [ref=f21e613]
+            - listitem [ref=f21e618]:
+              - button [ref=f21e620] [cursor=pointer]:
+                - group "Pin card" [ref=f21e623]:
+                  - generic [ref=f21e625]:
+                    - link "1955 Mercedes-Benz 300 SL pin page" [ref=f21e627]:
+                      - /url: /pin/91409067421523966/
+                      - 'img "This may contain: a black and white photo of a classic car in the dark with its lights on" [ref=f21e637]'
+                    - generic "More actions" [ref=f21e645]:
+                      - button "More actions" [ref=f21e646]
+            - listitem [ref=f21e651]:
+              - button [ref=f21e653] [cursor=pointer]:
+                - group "Pin card" [ref=f21e656]:
+                  - generic [ref=f21e658]:
+                    - link "Mercedes 300 SL Gullwing pin page" [ref=f21e660]:
+                      - /url: /pin/294493263154666717/
+                      - 'img "This may contain: an old black car with its doors open" [ref=f21e670]'
+                    - generic "More actions" [ref=f21e678]:
+                      - button "More actions" [ref=f21e679]
+            - listitem [ref=f21e684]:
+              - button [ref=f21e686] [cursor=pointer]:
+                - group "Pin card" [ref=f21e689]:
+                  - generic [ref=f21e691]:
+                    - link "a blue mercedes 300sl roadster is shown from the side, on a white background pin page" [ref=f21e693]:
+                      - /url: /pin/76913106136921015/
+                      - 'img "This may contain: a blue mercedes 300sl roadster is shown from the side, on a white background" [ref=f21e703]'
+                    - generic "More actions" [ref=f21e711]:
+                      - button "More actions" [ref=f21e712]
+            - listitem [ref=f21e717]:
+              - button [ref=f21e719] [cursor=pointer]:
+                - group "Pin card" [ref=f21e722]:
+                  - generic [ref=f21e724]:
+                    - link "Mercedes-Benz 300 Sl “gullwing” Back And Side View Sticker pin page" [ref=f21e726]:
+                      - /url: /pin/4602749309349806144/
+                      - 'img "This may contain: an old car with its doors open sitting in front of a white background" [ref=f21e736]'
+                    - generic "More actions" [ref=f21e744]:
+                      - button "More actions" [ref=f21e745]
+            - listitem [ref=f21e750]:
+              - button [ref=f21e752] [cursor=pointer]:
+                - group "Pin card" [ref=f21e755]:
+                  - generic [ref=f21e757]:
+                    - link "The 100 most valuable cars for sale at Monterey Car Week pin page" [ref=f21e759]:
+                      - /url: /pin/366691594651070916/
+                      - 'img "This may contain: an old black car is shown on a white background" [ref=f21e769]'
+                    - generic "More actions" [ref=f21e777]:
+                      - button "More actions" [ref=f21e778]
+            - listitem [ref=f21e783]:
+              - button [ref=f21e785] [cursor=pointer]:
+                - group "Pin card" [ref=f21e788]:
+                  - generic [ref=f21e790]:
+                    - link "an overhead view of a car in the dark with speakers on it&#39;s hood pin page" [ref=f21e792]:
+                      - /url: /pin/6473993205640157/
+                      - 'img "This may contain: an overhead view of a car in the dark with speakers on it''s hood" [ref=f21e802]'
+                    - generic "More actions" [ref=f21e810]:
+                      - button "More actions" [ref=f21e811]
+            - listitem [ref=f21e816]:
+              - button [ref=f21e818] [cursor=pointer]:
+                - group "Pin card" [ref=f21e821]:
+                  - generic [ref=f21e823]:
+                    - link "Mercedes-Benz 300SL Gullwing 1955 pin page" [ref=f21e825]:
+                      - /url: /pin/293156257013103781/
+                      - 'img "This may contain: an overhead view of a red sports car" [ref=f21e835]'
+                    - generic "More actions" [ref=f21e843]:
+                      - button "More actions" [ref=f21e844]
+            - listitem [ref=f21e849]:
+              - button [ref=f21e851] [cursor=pointer]:
+                - group "Pin card" [ref=f21e854]:
+                  - generic [ref=f21e856]:
+                    - link "1955 Mercedes-Benz 300 SL pin page" [ref=f21e858]:
+                      - /url: /pin/299700550221036148/
+                      - 'img "This may contain: an old mercedes sports car with its hood open" [ref=f21e868]'
+                    - generic "More actions" [ref=f21e876]:
+                      - button "More actions" [ref=f21e877]
+            - listitem [ref=f21e882]:
+              - button [ref=f21e884] [cursor=pointer]:
+                - group "Pin card" [ref=f21e887]:
+                  - generic [ref=f21e889]:
+                    - link "Mercedes Benz 300SL Gullwing pin page" [ref=f21e891]:
+                      - /url: /pin/478296422923694079/
+                      - 'img "This may contain: an old mercedes benz sports car with the door open and its seat folded back on a white background" [ref=f21e901]'
+                    - generic "More actions" [ref=f21e909]:
+                      - button "More actions" [ref=f21e910]
+            - listitem [ref=f21e915]:
+              - button [ref=f21e917] [cursor=pointer]:
+                - group "Pin card" [ref=f21e920]:
+                  - generic [ref=f21e922]:
+                    - link "an old mercedes sports car with its hood open and the sun setting in the background pin page" [ref=f21e924]:
+                      - /url: /pin/5840674512461289/
+                      - 'img "This may contain: an old mercedes sports car with its hood open and the sun setting in the background" [ref=f21e934]'
+                    - generic "More actions" [ref=f21e942]:
+                      - button "More actions" [ref=f21e943]
+            - listitem [ref=f21e948]:
+              - button [ref=f21e950] [cursor=pointer]:
+                - group "Pin card" [ref=f21e953]:
+                  - generic [ref=f21e955]:
+                    - link "1957-1963 Mercedes-Benz 300SL “Gullwing.” 3.0l straight 6, 179kw, 0-100kph = 7.4s. At the time the fastest production car in the world, certainly a stunning car to look at, and still attracts attention in 2019. Mercedes have paid homage to it with the SLR McLaren and SLS since. pin page" [ref=f21e957]:
+                      - /url: /pin/172684966949661941/
+                      - 'img "This may contain: an old silver mercedes sports car parked in a studio" [ref=f21e967]'
+                    - generic "More actions" [ref=f21e975]:
+                      - button "More actions" [ref=f21e976]
+            - listitem [ref=f21e981]:
+              - button [ref=f21e983] [cursor=pointer]:
+                - group "Pin card" [ref=f21e986]:
+                  - generic [ref=f21e988]:
+                    - link "1957 Mercedes-Benz 300 SL Gullwing pin page" [ref=f21e990]:
+                      - /url: /pin/47217496091614883/
+                      - 'img "This may contain: an old mercedes sports car with its doors open and the hood up in silhouette against a white background" [ref=f21e1000]'
+                    - generic "More actions" [ref=f21e1008]:
+                      - button "More actions" [ref=f21e1009]
+            - listitem [ref=f21e1014]:
+              - button [ref=f21e1016] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1019]:
+                  - generic [ref=f21e1021]:
+                    - link "1955 Mercedes-Benz 300SL Gullwing Coupe pin page" [ref=f21e1023]:
+                      - /url: /pin/5840674512288484/
+                      - 'img "This may contain: an old silver sports car with its doors open" [ref=f21e1033]'
+                    - generic "More actions" [ref=f21e1041]:
+                      - button "More actions" [ref=f21e1042]
+            - listitem [ref=f21e1047]:
+              - button [ref=f21e1049] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1052]:
+                  - generic [ref=f21e1054]:
+                    - link "Mercedes-Benz 300 SL &#39;Gullwing&#39; Coupe 1955 pin page" [ref=f21e1056]:
+                      - /url: /pin/293156256993302683/
+                      - 'img "This may contain: an old fashioned sports car with the hood open" [ref=f21e1066]'
+                    - generic "More actions" [ref=f21e1074]:
+                      - button "More actions" [ref=f21e1075]
+            - listitem [ref=f21e1080]:
+              - button [ref=f21e1082] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1085]:
+                  - generic [ref=f21e1087]:
+                    - link "Mercedes-Benz 300 SL (1954 - 1963) for sale pin page" [ref=f21e1089]:
+                      - /url: /pin/527413806343273779/
+                      - 'img "This may contain: an old fashioned black car is shown in the dark room with no one around it" [ref=f21e1099]'
+                    - generic "More actions" [ref=f21e1107]:
+                      - button "More actions" [ref=f21e1108]
+            - listitem [ref=f21e1113]:
+              - button [ref=f21e1115] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1118]:
+                  - generic [ref=f21e1120]:
+                    - link "Mercedes-Benz 300SL Gullwing 1955 pin page" [ref=f21e1122]:
+                      - /url: /pin/109423465942502050/
+                      - 'img "This may contain: an old green car parked next to a white wall" [ref=f21e1132]'
+                    - generic "More actions" [ref=f21e1140]:
+                      - button "More actions" [ref=f21e1141]
+            - listitem [ref=f21e1146]:
+              - button [ref=f21e1148] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1151]:
+                  - generic [ref=f21e1153]:
+                    - link "1955 Mercedes-Benz 300SL Gullwing pin page" [ref=f21e1155]:
+                      - /url: /pin/10062799164252356/
+                      - 'img "This may contain: an old car is parked on the side of the road" [ref=f21e1165]'
+                    - generic "More actions" [ref=f21e1173]:
+                      - button "More actions" [ref=f21e1174]
+            - listitem [ref=f21e1179]:
+              - button [ref=f21e1181] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1184]:
+                  - generic [ref=f21e1186]:
+                    - link "Mercedes-Benz 300SL Gullwing - Rudolf van der Ven pin page" [ref=f21e1188]:
+                      - /url: /pin/627196685614503501/
+                      - 'img "This may contain: an old red sports car in the dark" [ref=f21e1198]'
+                    - generic "More actions" [ref=f21e1206]:
+                      - button "More actions" [ref=f21e1207]
+            - listitem [ref=f21e1212]:
+              - button [ref=f21e1214] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1217]:
+                  - generic [ref=f21e1219]:
+                    - link "Mercedes-Benz 300SL Gullwing 1955 pin page" [ref=f21e1221]:
+                      - /url: /pin/293156256970756285/
+                      - 'img "This may contain: an old car is shown in the dark" [ref=f21e1231]'
+                    - generic "More actions" [ref=f21e1239]:
+                      - button "More actions" [ref=f21e1240]
+            - listitem [ref=f21e1245]:
+              - button [ref=f21e1247] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1250]:
+                  - generic [ref=f21e1252]:
+                    - link "an old silver car is shown in this image pin page" [ref=f21e1254]:
+                      - /url: /pin/730779477081224654/
+                      - 'img "This may contain: an old silver car is shown in this image" [ref=f21e1264]'
+                    - generic "More actions" [ref=f21e1272]:
+                      - button "More actions" [ref=f21e1273]
+            - listitem [ref=f21e1278]:
+              - button [ref=f21e1280] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1283]:
+                  - generic [ref=f21e1285]:
+                    - link "1957 Mercedes 300SL Gullwing • 4K Wallpaper | Dark Wet Studio pin page" [ref=f21e1287]:
+                      - /url: /pin/112871534413784153/
+                      - 'img "This contains: Silver 1957 Mercedes-Benz 300SL with both gullwing doors fully raised blasting down wet studio floor, extraordinary winged silhouette against darkness, rim light electrifying door edges" [ref=f21e1297]'
+                    - generic "More actions" [ref=f21e1305]:
+                      - button "More actions" [ref=f21e1306]
+            - listitem [ref=f21e1311]:
+              - button [ref=f21e1313] [cursor=pointer]:
+                - group "Pin card" [ref=f21e1316]:
+                  - generic [ref=f21e1318]:
+                    - link "Mercedes-Benz 300 SL Gullwing (1955) - Silver Grey Metallic - 1:8 scale pin page" [ref=f21e1320]:
+                      - /url: /pin/4604015912452116224/
+                      - 'img "This may contain: an old silver car with its doors open on a white surface and the door opened" [ref=f21e1330]'
+                    - generic "More actions" [ref=f21e1338]:
+                      - button "More actions" [ref=f21e1339]
+    - generic:
+      - contentinfo "Footer"
+  - generic:
+    - generic:
+      - region "Toast notification"

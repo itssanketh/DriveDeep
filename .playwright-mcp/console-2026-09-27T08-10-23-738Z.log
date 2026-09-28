@@ -1,0 +1,11 @@
+[  104139ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://res.cloudinary.com/dxu3pprq1/image/upload/v1639925697/designers/marcellogandini.png:0
+[  107498ms] [LOG] 
+
+%cDesign & Code by
+%cKings of Mambo
+%chttps://kingsofmambo.com%c
+
+ font-size: 20px; font-size: 40px; <a href="https://kingsofmambo.com" target="_blank" style="font-size: 20px"> </a> @ webpack-internal:///./src/js/main.js:74
+[  107499ms] [LOG] v.1.7.7 Hispano Suiza Cars @ webpack-internal:///./src/js/main.js:75
+[  107876ms] [LOG] ConsentModeV2 {ads_data_redaction: false, defaultConsentMarketing: denied, defaultConsentStatistics: denied, defaultConsentPreferences: denied, gtmOnSuccess: } @ https://www.googletagmanager.com/gtm.js?id=GTM-KTCF88Z:1030
+[  108832ms] [LOG] other consent type, no cookie warning @ https://www.hispanosuizacars.com/assets/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1769680482:0

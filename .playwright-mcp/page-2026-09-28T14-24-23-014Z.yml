@@ -1,0 +1,231 @@
+- generic [ref=f10e4]:
+  - banner:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f10e14]:
+      - generic [ref=f10e16]:
+        - generic [ref=f10e17]:
+          - combobox "Search" [ref=f10e19]: lamborghini countach side profile studio
+          - generic [ref=f10e20]:
+            - button "Remove search input" [ref=f10e23] [cursor=pointer]
+            - generic "Upload image" [ref=f10e30]:
+              - button "Lens" [ref=f10e31] [cursor=pointer]
+            - generic [ref=f10e36]:
+              - status [ref=f10e37]
+              - generic "Search by voice" [ref=f10e39]:
+                - button "Voice search" [ref=f10e40] [cursor=pointer]
+        - button "All Pins Dropdown" [ref=f10e47] [cursor=pointer]:
+          - generic [ref=f10e49]:
+            - generic [ref=f10e50]: All Pins
+            - img "Dropdown" [ref=f10e52]
+      - link "Your profile" [ref=f10e58] [cursor=pointer]:
+        - /url: /sankeths908/
+      - button "Accounts" [ref=f10e70] [cursor=pointer]
+  - navigation [ref=f10e75]:
+    - generic [ref=f10e77]:
+      - generic [ref=f10e78]:
+        - generic "Home" [ref=f10e82]:
+          - link "Home" [ref=f10e83] [cursor=pointer]:
+            - /url: /
+        - generic "Home" [ref=f10e90]:
+          - link "Home" [ref=f10e91] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f10e95]:
+          - generic "Explore" [ref=f10e98]:
+            - link "Explore" [ref=f10e99] [cursor=pointer]:
+              - /url: /ideas
+          - generic:
+            - status "Notifications"
+        - generic "Your boards" [ref=f10e106]:
+          - link "Your boards" [ref=f10e107] [cursor=pointer]:
+            - /url: /sankeths908/
+        - generic "Create" [ref=f10e114]:
+          - button "Create" [ref=f10e115] [cursor=pointer]
+        - generic "Updates" [ref=f10e124]:
+          - button "Updates" [ref=f10e125] [cursor=pointer]
+        - generic "Messages" [ref=f10e134]:
+          - button "Messages" [ref=f10e135] [cursor=pointer]
+      - generic "Settings & Support" [ref=f10e144]:
+        - button "Settings & Support" [ref=f10e145] [cursor=pointer]
+  - generic:
+    - complementary "Footer floating buttons"
+  - main [ref=f10e150]:
+    - generic [ref=f10e152]:
+      - heading "Search Results Page" [level=1] [ref=f10e154]
+      - region "Search filters and refinements" [ref=f10e158]:
+        - generic [ref=f10e161]:
+          - button "Show filters" [ref=f10e167] [cursor=pointer]
+          - button "Less AI" [ref=f10e178] [cursor=pointer]
+      - generic [ref=f10e189]:
+        - generic [ref=f10e190]: Loading more search results for lamborghini countach side profile studio
+        - list [ref=f10e195]:
+          - listitem [ref=f10e196]:
+            - button [ref=f10e198] [cursor=pointer]:
+              - group "Pin card" [ref=f10e201]:
+                - generic [ref=f10e203]:
+                  - link "Lamborghini Countach 25th Anniversary 1989 pin page" [ref=f10e205]:
+                    - /url: /pin/293156257005780449/
+                    - 'img "This may contain: a red sports car on a white background" [ref=f10e215]'
+                  - generic "More actions" [ref=f10e223]:
+                    - button "More actions" [ref=f10e224]
+          - listitem [ref=f10e229]:
+            - button [ref=f10e231] [cursor=pointer]:
+              - group "Pin card" [ref=f10e234]:
+                - generic [ref=f10e236]:
+                  - link "Countach pin page" [ref=f10e238]:
+                    - /url: /pin/127086020708995418/
+                    - 'img "This may contain: a black sports car parked in the dark" [ref=f10e248]'
+                  - generic "More actions" [ref=f10e256]:
+                    - button "More actions" [ref=f10e257]
+          - listitem [ref=f10e262]:
+            - button [ref=f10e264] [cursor=pointer]:
+              - group "Pin card" [ref=f10e267]:
+                - generic [ref=f10e269]:
+                  - link "Lamborghini Countach 25th Anniversary1989 pin page" [ref=f10e271]:
+                    - /url: /pin/293156257011015871/
+                    - 'img "This may contain: the back end of a bus hanging on a wall with wheels and tires attached to it" [ref=f10e281]'
+                  - generic "More actions" [ref=f10e289]:
+                    - button "More actions" [ref=f10e290]
+          - listitem [ref=f10e295]:
+            - button [ref=f10e297] [cursor=pointer]:
+              - group "Pin card" [ref=f10e300]:
+                - generic [ref=f10e302]:
+                  - link "Lamborghini Countach 5000 QV 1987 pin page" [ref=f10e304]:
+                    - /url: /pin/146718900357229199/
+                    - 'img "This may contain: a white truck mounted to the side of a wall with wheels on it''s sides" [ref=f10e314]'
+                  - generic "More actions" [ref=f10e322]:
+                    - button "More actions" [ref=f10e323]
+          - listitem [ref=f10e328]:
+            - button [ref=f10e330] [cursor=pointer]:
+              - group "Pin card" [ref=f10e333]:
+                - generic [ref=f10e335]:
+                  - link "Lamborghini Countach LPI 800-4 2022 pin page" [ref=f10e337]:
+                    - /url: /pin/293156257014156379/
+                    - 'img "This may contain: the rear end of a red sports car on a white background with an empty space for text" [ref=f10e347]'
+                  - generic "More actions" [ref=f10e355]:
+                    - button "More actions" [ref=f10e356]
+          - listitem [ref=f10e361]:
+            - button [ref=f10e363] [cursor=pointer]:
+              - group "Pin card" [ref=f10e366]:
+                - generic [ref=f10e368]:
+                  - link "Lamborghini Countach LPI 800-4 2022 pin page" [ref=f10e370]:
+                    - /url: /pin/985231165752945/
+                    - 'img "This may contain: a red sports car on a white background" [ref=f10e380]'
+                  - generic "More actions" [ref=f10e388]:
+                    - button "More actions" [ref=f10e389]
+          - listitem [ref=f10e394]:
+            - button [ref=f10e396] [cursor=pointer]:
+              - group "Pin card" [ref=f10e399]:
+                - generic [ref=f10e401]:
+                  - link "a white sports car with black wheels on a gray background in front of the camera pin page" [ref=f10e403]:
+                    - /url: /pin/367817494540883096/
+                    - 'img "This may contain: a white sports car with black wheels on a gray background in front of the camera" [ref=f10e413]'
+                  - generic "More actions" [ref=f10e421]:
+                    - button "More actions" [ref=f10e422]
+          - listitem [ref=f10e427]:
+            - button [ref=f10e429] [cursor=pointer]:
+              - group "Pin card" [ref=f10e432]:
+                - generic [ref=f10e434]:
+                  - link "1984 Lamborghini Countach pin page" [ref=f10e436]:
+                    - /url: /pin/307581849559539764/
+                    - 'img "This may contain: a white sports car parked on top of a gray floor" [ref=f10e446]'
+                  - generic "More actions" [ref=f10e454]:
+                    - button "More actions" [ref=f10e455]
+          - listitem [ref=f10e460]:
+            - button [ref=f10e462] [cursor=pointer]:
+              - group "Pin card" [ref=f10e465]:
+                - generic [ref=f10e467]:
+                  - link "a black sports car is parked in a room with white walls and flooring on the side pin page" [ref=f10e469]:
+                    - /url: /pin/414401603239275894/
+                    - 'img "This may contain: a black sports car is parked in a room with white walls and flooring on the side" [ref=f10e479]'
+                  - generic "More actions" [ref=f10e487]:
+                    - button "More actions" [ref=f10e488]
+          - listitem [ref=f10e493]:
+            - button [ref=f10e495] [cursor=pointer]:
+              - group "Pin card" [ref=f10e498]:
+                - generic [ref=f10e500]:
+                  - link "Cars &amp; more pin page" [ref=f10e502]:
+                    - /url: /pin/317222367526344003/
+                    - 'img "This may contain: a white sports car parked on top of a white floor" [ref=f10e512]'
+                  - generic "More actions" [ref=f10e520]:
+                    - button "More actions" [ref=f10e521]
+          - listitem [ref=f10e526]:
+            - button [ref=f10e528] [cursor=pointer]:
+              - group "Pin card" [ref=f10e531]:
+                - generic [ref=f10e533]:
+                  - link "Lamborghini Countach LP5000 QV &#39;Downdraft&#39; Specification 1985 pin page" [ref=f10e535]:
+                    - /url: /pin/87257311539787394/
+                    - 'img "This may contain: a black sports car parked in front of a white background" [ref=f10e545]'
+                  - generic "More actions" [ref=f10e553]:
+                    - button "More actions" [ref=f10e554]
+          - listitem [ref=f10e559]:
+            - button [ref=f10e561] [cursor=pointer]:
+              - group "Pin card" [ref=f10e564]:
+                - generic [ref=f10e566]:
+                  - link "Classic Lamborghini Countach Review pin page" [ref=f10e568]:
+                    - /url: /pin/330733166408106023/
+                    - 'img "This may contain: a red sports car parked on top of a cement floor" [ref=f10e578]'
+                  - generic "More actions" [ref=f10e586]:
+                    - button "More actions" [ref=f10e587]
+          - listitem [ref=f10e592]:
+            - button [ref=f10e594] [cursor=pointer]:
+              - group "Pin card" [ref=f10e597]:
+                - generic [ref=f10e599]:
+                  - link "Lamborghini Countach LP5000 QV &#39;Downdraft&#39; Specification 1985 pin page" [ref=f10e601]:
+                    - /url: /pin/65513369576641280/
+                    - 'img "This may contain: the rear end of a black sports car" [ref=f10e611]'
+                  - generic "More actions" [ref=f10e619]:
+                    - button "More actions" [ref=f10e620]
+          - listitem [ref=f10e625]:
+            - button [ref=f10e627] [cursor=pointer]:
+              - group "Pin card" [ref=f10e630]:
+                - generic [ref=f10e632]:
+                  - link "the rear end of a black sports car on a white surface with no people around it pin page" [ref=f10e634]:
+                    - /url: /pin/288441551158683871/
+                    - 'img "This may contain: the rear end of a black sports car on a white surface with no people around it" [ref=f10e644]'
+                  - generic "More actions" [ref=f10e652]:
+                    - button "More actions" [ref=f10e653]
+          - listitem [ref=f10e658]:
+            - button [ref=f10e660] [cursor=pointer]:
+              - group "Pin card" [ref=f10e663]:
+                - generic [ref=f10e665]:
+                  - link "a white sports car on a gray background pin page" [ref=f10e667]:
+                    - /url: /pin/472244710956068514/
+                    - 'img "This may contain: a white sports car on a gray background" [ref=f10e677]'
+                  - generic "More actions" [ref=f10e685]:
+                    - button "More actions" [ref=f10e686]
+          - listitem [ref=f10e691]:
+            - button [ref=f10e693] [cursor=pointer]:
+              - group "Pin card" [ref=f10e696]:
+                - generic [ref=f10e698]:
+                  - link "a white sports car parked on top of a white floor pin page" [ref=f10e700]:
+                    - /url: /pin/143622675613184591/
+                    - 'img "This may contain: a white sports car parked on top of a white floor" [ref=f10e710]'
+                  - generic "More actions" [ref=f10e718]:
+                    - button "More actions" [ref=f10e719]
+          - listitem [ref=f10e724]:
+            - button [ref=f10e726] [cursor=pointer]:
+              - group "Pin card" [ref=f10e729]:
+                - generic [ref=f10e731]:
+                  - link "Lamborghini Countach LP5000 QV &#39;Downdraft&#39; Specification 1985 pin page" [ref=f10e733]:
+                    - /url: /pin/83105555619813915/
+                    - 'img "This may contain: a black bus with yellow wheels hanging from the side" [ref=f10e743]'
+                  - generic "More actions" [ref=f10e751]:
+                    - button "More actions" [ref=f10e752]
+          - listitem [ref=f10e757]:
+            - button [ref=f10e759] [cursor=pointer]:
+              - group "Pin card" [ref=f10e762]:
+                - generic [ref=f10e764]:
+                  - link "Lamborghini Countach LP5000 QV &#39;Downdraft&#39; Specification 1985 pin page" [ref=f10e766]:
+                    - /url: /pin/31525266138116089/
+                    - 'img "This may contain: a black car with yellow wheels is shown from above" [ref=f10e776]'
+                  - generic "More actions" [ref=f10e784]:
+                    - button "More actions" [ref=f10e785]
+          - listitem [ref=f10e790]
+          - listitem [ref=f10e794]
+          - listitem [ref=f10e798]
+          - listitem [ref=f10e802]
+          - listitem [ref=f10e806]
+          - listitem [ref=f10e810]
+  - generic:
+    - contentinfo "Footer"

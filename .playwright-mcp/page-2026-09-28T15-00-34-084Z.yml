@@ -1,0 +1,108 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f3e10]:
+      - generic [ref=f3e11]:
+        - link "Pinterest home" [ref=f3e13] [cursor=pointer]:
+          - /url: /
+        - link "Explore" [ref=f3e32] [cursor=pointer]:
+          - /url: /ideas
+      - generic [ref=f3e37]:
+        - combobox "Search" [ref=f3e39]: lamborghini countach 5000 quattrovalvole studio front three quarter
+        - button "Remove search input" [ref=f3e43] [cursor=pointer]
+      - generic [ref=f3e48]:
+        - button "Log in" [ref=f3e50] [cursor=pointer]
+        - button "Sign up" [ref=f3e54] [cursor=pointer]
+        - button "Setting" [ref=f3e59] [cursor=pointer]
+  - main [ref=f3e65]:
+    - generic [ref=f3e67]:
+      - generic [ref=f3e70]:
+        - heading "Search" [level=1] [ref=f3e72]
+        - region "Search filters and refinements" [ref=f3e74]:
+          - button "Show filters" [ref=f3e83] [cursor=pointer]
+      - list [ref=f3e138]:
+        - listitem [ref=f3e139]
+        - listitem [ref=f3e143]
+        - listitem [ref=f3e147]
+        - listitem [ref=f3e151]
+        - listitem [ref=f3e155]
+        - listitem [ref=f3e159]
+        - listitem [ref=f3e163]
+        - listitem [ref=f3e167]
+        - listitem [ref=f3e171]
+        - listitem [ref=f3e175]
+        - listitem [ref=f3e179]
+        - listitem [ref=f3e183]
+        - listitem [ref=f3e187]
+        - listitem [ref=f3e191]
+        - listitem [ref=f3e195]
+        - listitem [ref=f3e199]
+        - listitem [ref=f3e203]
+        - listitem [ref=f3e207]
+        - listitem [ref=f3e211]
+  - generic:
+    - dialog "Hybrid banner gift wrap":
+      - generic [ref=f3e215]:
+        - button "Close Bottom Right Upsell" [ref=f3e217] [cursor=pointer]
+        - generic [ref=f3e223]:
+          - heading "You are signed out" [level=2] [ref=f3e225]
+          - generic [ref=f3e226]: Sign in to get the best experience
+        - generic [ref=f3e227]:
+          - button "Continue with email" [ref=f3e229] [cursor=pointer]
+          - generic [ref=f3e233]:
+            - iframe [ref=f3e236]:
+              - button "Continue with Google. Opens in new tab" [ref=f6e3] [cursor=pointer]:
+                - generic [ref=f6e5]: Continue with Google
+            - generic:
+              - generic [aria-hidden]:
+                - button:
+                  - generic: Continue with Google
+          - img "Loading" [ref=f3e240]
+  - dialog "modal" [ref=f3e243]:
+    - generic [ref=f3e244]:
+      - img "Loading" [ref=f3e248]
+      - generic [ref=f3e252]:
+        - generic [ref=f3e253]:
+          - img "Pinterest" [ref=f3e256]
+          - heading "Welcome to Pinterest" [level=1] [ref=f3e258]
+          - generic [ref=f3e259]: Log in to discover more ideas just for you
+        - generic [ref=f3e263]:
+          - form "login form" [ref=f3e264]:
+            - generic [ref=f3e265]:
+              - generic [ref=f3e269]:
+                - generic [ref=f3e270]: Email
+                - textbox "Email" [active] [ref=f3e272]
+              - generic [ref=f3e274]:
+                - generic [ref=f3e277]:
+                  - generic [ref=f3e278]: Password
+                  - textbox "Password" [ref=f3e280]
+                  - generic "Show password" [ref=f3e283]:
+                    - switch "Show password" [ref=f3e284] [cursor=pointer]
+                - link "Forgot password?" [ref=f3e290] [cursor=pointer]:
+                  - /url: /password/reset/
+              - button "Log in" [ref=f3e293] [cursor=pointer]
+          - generic [ref=f3e296]: OR
+          - generic [ref=f3e300]:
+            - iframe [ref=f3e303]:
+              - button "Continue with Google. Opens in new tab" [ref=f7e3] [cursor=pointer]:
+                - generic [ref=f7e5]: Continue with Google
+            - generic:
+              - generic [aria-hidden]:
+                - button:
+                  - generic: Continue with Google
+          - button "QR code login button" [ref=f3e304] [cursor=pointer]:
+            - generic [ref=f3e305]: Continue with QR code
+        - generic [ref=f3e312]:
+          - text: New to Pinterest?
+          - link "Join for free" [ref=f3e313] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f3e315]:
+          - link "Terms of Service" [ref=f3e316] [cursor=pointer]:
+            - /url: /_/_/policy/terms-of-service/
+          - text: ·
+          - link "Privacy Policy" [ref=f3e317] [cursor=pointer]:
+            - /url: https://www.pinterest.com/_/_/policy/privacy-policy/
+          - text: ·
+          - link "Notice at Collection" [ref=f3e318] [cursor=pointer]:
+            - /url: https://policy.pinterest.com/notice-at-collection

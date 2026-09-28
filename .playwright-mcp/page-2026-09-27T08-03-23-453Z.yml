@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the lineup" [ref=e2] [cursor=pointer]:
+    - /url: "#lineup"
+  - generic [aria-hidden]:
+    - paragraph: "1886"
+  - banner [ref=e3]:
+    - link "Bodylines" [ref=e4] [cursor=pointer]:
+      - /url: "#hero"
+    - link "References" [ref=e5] [cursor=pointer]:
+      - /url: "#references"
+  - navigation "Eras" [ref=e6]:
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "1886" [ref=e10] [cursor=pointer]:
+          - /url: "#era-1886"
+      - listitem [ref=e11]:
+        - link "1908" [ref=e12] [cursor=pointer]:
+          - /url: "#era-1908"
+      - listitem [ref=e13]:
+        - link "1934" [ref=e14] [cursor=pointer]:
+          - /url: "#era-1934"
+      - listitem [ref=e15]:
+        - link "1954" [ref=e16] [cursor=pointer]:
+          - /url: "#era-1954"
+      - listitem [ref=e17]:
+        - link "1974" [ref=e18] [cursor=pointer]:
+          - /url: "#era-1974"
+      - listitem [ref=e19]:
+        - link "1992" [ref=e20] [cursor=pointer]:
+          - /url: "#era-1992"
+      - listitem [ref=e21]:
+        - link "Now" [ref=e22] [cursor=pointer]:
+          - /url: "#era-Now"
+  - paragraph [ref=e23]: 1 of 7
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - heading "The car, redrawn." [level=1] [ref=e27]
+      - paragraph [ref=e28]: Seven cars from 1886 to today. Scroll, and one body reshapes itself through 140 years of design.
+    - generic [ref=e29]:
+      - region [ref=e30]:
+        - generic [ref=e32]:
+          - paragraph [ref=e33]:
+            - generic [ref=e34]: "1886"
+            - text: The carriage that pulls itself
+          - heading "Benz Patent-Motorwagen" [level=2] [ref=e35]
+          - paragraph [ref=e36]: Karl Benz patented it in January 1886. Three wire wheels, a single-cylinder engine behind the seat and a tiller instead of a steering wheel. It is a buggy that lost its horse.
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - term [ref=e39]: Engine
+              - definition [ref=e40]: 954 cc, one cylinder
+            - generic [ref=e41]:
+              - term [ref=e42]: Power
+              - definition [ref=e43]: 0.75 hp
+            - generic [ref=e44]:
+              - term [ref=e45]: Top speed
+              - definition [ref=e46]: 16 km/h
+      - region [ref=e47]:
+        - generic [ref=e49]:
+          - paragraph [ref=e50]:
+            - generic [ref=e51]: "1908"
+            - text: A car for everyone
+          - heading "Ford Model T" [level=2] [ref=e52]
+          - paragraph [ref=e53]: Tall, upright and built for dirt roads. From 1913 a moving assembly line built it, and the price kept falling. By 1927 more than 15 million had been made.
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - term [ref=e56]: Engine
+              - definition [ref=e57]: 2.9 L four-cylinder
+            - generic [ref=e58]:
+              - term [ref=e59]: Power
+              - definition [ref=e60]: 20 hp
+            - generic [ref=e61]:
+              - term [ref=e62]: Built
+              - definition [ref=e63]: 1908 to 1927
+      - region [ref=e64]:
+        - generic [ref=e66]:
+          - paragraph [ref=e67]:
+            - generic [ref=e68]: "1934"
+            - text: Shaped by the wind
+          - heading "Chrysler Airflow" [level=2] [ref=e69]
+          - paragraph [ref=e70]: Engineers tested scale models in a wind tunnel and rounded off the upright box. The engine moved forward over the front axle, so passengers sat between the wheels. Buyers stayed away, but the streamlined shape stuck.
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - term [ref=e73]: Engine
+              - definition [ref=e74]: Straight-eight
+            - generic [ref=e75]:
+              - term [ref=e76]: Shaped in
+              - definition [ref=e77]: A wind tunnel
+            - generic [ref=e78]:
+              - term [ref=e79]: Seating
+              - definition [ref=e80]: Between the axles
+      - region [ref=e81]:
+        - generic [ref=e83]:
+          - paragraph [ref=e84]:
+            - generic [ref=e85]: "1954"
+            - text: The engineered sports car
+          - heading "Mercedes-Benz 300 SL" [level=2] [ref=e86]
+          - paragraph [ref=e87]: Its tube-frame chassis ran so high along the sides that normal doors would not fit, so the doors opened upward. It was also the first four-stroke production car with fuel injected directly into the cylinders.
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - term [ref=e90]: Engine
+              - definition [ref=e91]: 3.0 L straight-six
+            - generic [ref=e92]:
+              - term [ref=e93]: Fuel
+              - definition [ref=e94]: Direct injection
+            - generic [ref=e95]:
+              - term [ref=e96]: Doors
+              - definition [ref=e97]: Gullwing
+      - region [ref=e98]:
+        - generic [ref=e100]:
+          - paragraph [ref=e101]:
+            - generic [ref=e102]: "1974"
+            - text: The wedge
+          - heading "Lamborghini Countach" [level=2] [ref=e103]
+          - paragraph [ref=e104]: Marcello Gandini at Bertone drew it as a low, flat wedge with the V12 mounted behind the driver. The doors swung up instead of out, and the whole car stood barely higher than a person’s waist.
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - term [ref=e107]: Engine
+              - definition [ref=e108]: 3.9 L V12
+            - generic [ref=e109]:
+              - term [ref=e110]: Layout
+              - definition [ref=e111]: Mid-engine
+            - generic [ref=e112]:
+              - term [ref=e113]: Designer
+              - definition [ref=e114]: Marcello Gandini
+      - region [ref=e115]:
+        - generic [ref=e117]:
+          - paragraph [ref=e118]:
+            - generic [ref=e119]: "1992"
+            - text: Carbon, and a seat in the middle
+          - heading "McLaren F1" [level=2] [ref=e120]
+          - paragraph [ref=e121]: Gordon Murray put the driver in the centre with a passenger on each side. It was the first road car built around a carbon-fibre monocoque, and in 1998 it reached 386 km/h.
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - term [ref=e124]: Engine
+              - definition [ref=e125]: 6.1 L BMW V12
+            - generic [ref=e126]:
+              - term [ref=e127]: Chassis
+              - definition [ref=e128]: Carbon-fibre tub
+            - generic [ref=e129]:
+              - term [ref=e130]: Seats
+              - definition [ref=e131]: Three, driver centred
+      - region [ref=e132]:
+        - generic [ref=e134]:
+          - paragraph [ref=e135]:
+            - generic [ref=e136]: Now
+            - text: Electric, and low
+          - heading "Hispano Suiza Carmen Boulogne" [level=2] [ref=e137]
+          - paragraph [ref=e138]: With no engine up front, the body can sit as low and long as the designers like. Hispano Suiza named it after the races the brand won at Boulogne in the 1920s.
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - term [ref=e141]: Battery
+              - definition [ref=e142]: 80 kWh
+            - generic [ref=e143]:
+              - term [ref=e144]: 0 to 100 km/h
+              - definition [ref=e145]: 2.6 s
+            - generic [ref=e146]:
+              - term [ref=e147]: Length
+              - definition [ref=e148]: 4,733 mm
+    - region [ref=e149]:
+      - generic [ref=e150]:
+        - heading "Seven bodies, one ground line" [level=2] [ref=e151]
+        - paragraph [ref=e152]: Every profile from this page, drawn to the same scale. Pick a year to trace it.
+        - img "Side profiles of all seven cars overlaid on one ground line" [ref=e153]
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - button "1886 Benz Patent-Motorwagen" [ref=e191] [cursor=pointer]:
+              - generic [ref=e192]: "1886"
+              - text: Benz Patent-Motorwagen
+          - listitem [ref=e193]:
+            - button "1908 Ford Model T" [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]: "1908"
+              - text: Ford Model T
+          - listitem [ref=e196]:
+            - button "1934 Chrysler Airflow" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]: "1934"
+              - text: Chrysler Airflow
+          - listitem [ref=e199]:
+            - button "1954 Mercedes-Benz 300 SL" [ref=e200] [cursor=pointer]:
+              - generic [ref=e201]: "1954"
+              - text: Mercedes-Benz 300 SL
+          - listitem [ref=e202]:
+            - button "1974 Lamborghini Countach" [ref=e203] [cursor=pointer]:
+              - generic [ref=e204]: "1974"
+              - text: Lamborghini Countach
+          - listitem [ref=e205]:
+            - button "1992 McLaren F1" [ref=e206] [cursor=pointer]:
+              - generic [ref=e207]: "1992"
+              - text: McLaren F1
+          - listitem [ref=e208]:
+            - button "Now Hispano Suiza Carmen Boulogne" [ref=e209] [cursor=pointer]:
+              - generic [ref=e210]: Now
+              - text: Hispano Suiza Carmen Boulogne
+        - generic [ref=e211]:
+          - heading "References" [level=3] [ref=e212]
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - link "Car Design History" [ref=e215] [cursor=pointer]:
+                - /url: https://www.cardesignhistory.com/
+              - text: ", a timeline of the Italian design studios"
+            - listitem [ref=e216]:
+              - link "Hispano Suiza Carmen Boulogne" [ref=e217] [cursor=pointer]:
+                - /url: https://www.hispanosuizacars.com/carmen-boulogne/
+              - text: ", manufacturer specifications"
+          - paragraph [ref=e218]: 3D bodies are simplified studies built from each car's proportions, not scanned models.

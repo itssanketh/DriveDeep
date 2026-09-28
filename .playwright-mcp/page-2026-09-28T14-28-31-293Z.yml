@@ -1,0 +1,233 @@
+- generic [ref=f31e4]:
+  - banner:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f31e14]:
+      - generic [ref=f31e16]:
+        - generic [ref=f31e17]:
+          - combobox "Search" [ref=f31e19]: mclaren f1 1992 side profile studio
+          - generic [ref=f31e20]:
+            - button "Remove search input" [ref=f31e23] [cursor=pointer]
+            - generic "Upload image" [ref=f31e30]:
+              - button "Lens" [ref=f31e31] [cursor=pointer]
+            - generic [ref=f31e36]:
+              - status [ref=f31e37]
+              - generic "Search by voice" [ref=f31e39]:
+                - button "Voice search" [ref=f31e40] [cursor=pointer]
+        - button "All Pins Dropdown" [ref=f31e47] [cursor=pointer]:
+          - generic [ref=f31e49]:
+            - generic [ref=f31e50]: All Pins
+            - img "Dropdown" [ref=f31e52]
+      - link "Your profile" [ref=f31e58] [cursor=pointer]:
+        - /url: /sankeths908/
+      - button "Accounts" [ref=f31e70] [cursor=pointer]
+  - navigation [ref=f31e75]:
+    - generic [ref=f31e77]:
+      - generic [ref=f31e78]:
+        - generic "Home" [ref=f31e82]:
+          - link "Home" [ref=f31e83] [cursor=pointer]:
+            - /url: /
+        - generic "Home" [ref=f31e90]:
+          - link "Home" [ref=f31e91] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f31e95]:
+          - generic "Explore" [ref=f31e98]:
+            - link "Explore" [ref=f31e99] [cursor=pointer]:
+              - /url: /ideas
+          - generic:
+            - status "Notifications"
+        - generic "Your boards" [ref=f31e106]:
+          - link "Your boards" [ref=f31e107] [cursor=pointer]:
+            - /url: /sankeths908/
+        - generic "Create" [ref=f31e114]:
+          - button "Create" [ref=f31e115] [cursor=pointer]
+        - generic "Updates" [ref=f31e124]:
+          - button "Updates" [ref=f31e125] [cursor=pointer]
+        - generic "Messages" [ref=f31e134]:
+          - button "Messages" [ref=f31e135] [cursor=pointer]
+      - generic "Settings & Support" [ref=f31e144]:
+        - button "Settings & Support" [ref=f31e145] [cursor=pointer]
+  - generic:
+    - complementary "Footer floating buttons"
+  - main [ref=f31e150]:
+    - generic [ref=f31e152]:
+      - heading "Search Results Page" [level=1] [ref=f31e154]
+      - region "Search filters and refinements" [ref=f31e158]:
+        - button "Show filters" [ref=f31e167] [cursor=pointer]
+      - generic [ref=f31e178]:
+        - generic [ref=f31e179]: Loading more search results for mclaren f1 1992 side profile studio
+        - list [ref=f31e184]:
+          - listitem [ref=f31e185]:
+            - button [ref=f31e187] [cursor=pointer]:
+              - group "Pin card" [ref=f31e190]:
+                - generic [ref=f31e192]:
+                  - link "McLaren F1 1992 pin page" [ref=f31e194]:
+                    - /url: /pin/716494622013937342/
+                    - 'img "This may contain: a silver sports car on a white background" [ref=f31e204]'
+                  - generic "More actions" [ref=f31e212]:
+                    - button "More actions" [ref=f31e213]
+          - listitem [ref=f31e218]:
+            - button [ref=f31e220] [cursor=pointer]:
+              - group "Pin card" [ref=f31e223]:
+                - generic [ref=f31e225]:
+                  - link "a red sports car parked in a dark room pin page" [ref=f31e227]:
+                    - /url: /pin/12173861473444336/
+                    - 'img "This may contain: a red sports car parked in a dark room" [ref=f31e237]'
+                  - generic "More actions" [ref=f31e245]:
+                    - button "More actions" [ref=f31e246]
+          - listitem [ref=f31e251]:
+            - button [ref=f31e253] [cursor=pointer]:
+              - group "Pin card" [ref=f31e256]:
+                - generic [ref=f31e258]:
+                  - link "a black sports car on a white background pin page" [ref=f31e260]:
+                    - /url: /pin/865817097137721578/
+                    - 'img "This may contain: a black sports car on a white background" [ref=f31e270]'
+                  - generic "More actions" [ref=f31e278]:
+                    - button "More actions" [ref=f31e279]
+          - listitem [ref=f31e284]:
+            - button [ref=f31e286] [cursor=pointer]:
+              - group "Pin card" [ref=f31e289]:
+                - generic [ref=f31e291]:
+                  - link "Beautiful pin page" [ref=f31e293]:
+                    - /url: /pin/84020349281327714/
+                    - 'img "This may contain: a white sports car parked in a room with no one around it on the floor" [ref=f31e303]'
+                  - generic "More actions" [ref=f31e311]:
+                    - button "More actions" [ref=f31e312]
+          - listitem [ref=f31e317]:
+            - button [ref=f31e319] [cursor=pointer]:
+              - group "Pin card" [ref=f31e322]:
+                - generic [ref=f31e324]:
+                  - link "Mclaren F1 pin page" [ref=f31e326]:
+                    - /url: /pin/412009065893511291/
+                    - 'img "This may contain: an orange sports car parked in front of a mountain" [ref=f31e336]'
+                  - generic "More actions" [ref=f31e344]:
+                    - button "More actions" [ref=f31e345]
+          - listitem [ref=f31e350]:
+            - button [ref=f31e352] [cursor=pointer]:
+              - group "Pin card" [ref=f31e355]:
+                - generic [ref=f31e357]:
+                  - link "a red and white race car is shown from above, on a gray background with no people around it pin page" [ref=f31e359]:
+                    - /url: /pin/1477812373559428/
+                    - 'img "This may contain: a red and white race car is shown from above, on a gray background with no people around it" [ref=f31e369]'
+                  - generic "More actions" [ref=f31e377]:
+                    - button "More actions" [ref=f31e378]
+          - listitem [ref=f31e383]:
+            - button [ref=f31e385] [cursor=pointer]:
+              - group "Pin card" [ref=f31e388]:
+                - generic [ref=f31e390]:
+                  - link "an orange sports car is shown in this graphic art printable version, with the hood down pin page" [ref=f31e392]:
+                    - /url: /pin/418131146677369640/
+                    - 'img "This may contain: an orange sports car is shown in this graphic art printable version, with the hood down" [ref=f31e402]'
+                  - generic "More actions" [ref=f31e410]:
+                    - button "More actions" [ref=f31e411]
+          - listitem [ref=f31e416]:
+            - button [ref=f31e418] [cursor=pointer]:
+              - group "Pin card" [ref=f31e421]:
+                - generic [ref=f31e423]:
+                  - link "This is what a true automotive icon looks like!!🏆 _________________________________________________ --? pin page" [ref=f31e425]:
+                    - /url: /pin/190347521738521938/
+                    - 'img "This may contain: a yellow sports car is shown in the dark" [ref=f31e435]'
+                  - generic "More actions" [ref=f31e443]:
+                    - button "More actions" [ref=f31e444]
+          - listitem [ref=f31e449]:
+            - button [ref=f31e451] [cursor=pointer]:
+              - group "Pin card" [ref=f31e454]:
+                - generic [ref=f31e456]:
+                  - link "1992 McLaren Mp4/7 pin page" [ref=f31e458]:
+                    - /url: /pin/5488830782252235/
+                    - 'img "This may contain: an image of a race car cut out" [ref=f31e468]'
+                  - generic "More actions" [ref=f31e476]:
+                    - button "More actions" [ref=f31e477]
+          - listitem [ref=f31e482]:
+            - button [ref=f31e484] [cursor=pointer]:
+              - group "Pin card" [ref=f31e487]:
+                - generic [ref=f31e489]:
+                  - link "Legendary F1 🌎🏁 on Twitter pin page" [ref=f31e491]:
+                    - /url: /pin/213358101088896848/
+                    - 'img "This may contain: a red and white race car is shown in this studio photo, with the front wheels facing forward" [ref=f31e501]'
+                  - generic "More actions" [ref=f31e509]:
+                    - button "More actions" [ref=f31e510]
+          - listitem [ref=f31e515]:
+            - button [ref=f31e517] [cursor=pointer]:
+              - group "Pin card" [ref=f31e520]:
+                - generic [ref=f31e522]:
+                  - link "Mclaren F1 pin page" [ref=f31e524]:
+                    - /url: /pin/264305071854246081/
+                    - 'img "This may contain: a silver sports car sitting on top of a white floor" [ref=f31e534]'
+                  - generic "More actions" [ref=f31e542]:
+                    - button "More actions" [ref=f31e543]
+          - listitem [ref=f31e548]:
+            - button [ref=f31e550] [cursor=pointer]:
+              - group "Pin card" [ref=f31e553]:
+                - generic [ref=f31e555]:
+                  - link "two white sports cars side by side on a black background pin page" [ref=f31e557]:
+                    - /url: /pin/33214116015408642/
+                    - 'img "This may contain: two white sports cars side by side on a black background" [ref=f31e567]'
+                  - generic "More actions" [ref=f31e575]:
+                    - button "More actions" [ref=f31e576]
+          - listitem [ref=f31e581]:
+            - button [ref=f31e583] [cursor=pointer]:
+              - group "Pin card" [ref=f31e586]:
+                - generic [ref=f31e588]:
+                  - link "an orange sports car on a white background with no one in it&#39;s image pin page" [ref=f31e590]:
+                    - /url: /pin/103582860175261693/
+                    - 'img "This may contain: an orange sports car on a white background with no one in it''s image" [ref=f31e600]'
+                  - generic "More actions" [ref=f31e608]:
+                    - button "More actions" [ref=f31e609]
+          - listitem [ref=f31e614]:
+            - button [ref=f31e616] [cursor=pointer]:
+              - group "Pin card" [ref=f31e619]:
+                - generic [ref=f31e621]:
+                  - link "a white and red race car on a gray background pin page" [ref=f31e623]:
+                    - /url: /pin/301248662578959475/
+                    - 'img "This may contain: a white and red race car on a gray background" [ref=f31e633]'
+                  - generic "More actions" [ref=f31e641]:
+                    - button "More actions" [ref=f31e642]
+          - listitem [ref=f31e647]:
+            - button [ref=f31e649] [cursor=pointer]:
+              - group "Pin card" [ref=f31e652]:
+                - generic [ref=f31e654]:
+                  - link "the front and side view of a race car pin page" [ref=f31e656]:
+                    - /url: /pin/AdRL1XqMF_YAMkxxrmXNt60jhu6wTEZ5B9qSHMKXCfcN9AZCxruS2U0/
+                    - 'img "This may contain: the front and side view of a race car" [ref=f31e666]'
+                  - generic "More actions" [ref=f31e674]:
+                    - button "More actions" [ref=f31e675]
+          - listitem [ref=f31e680]:
+            - button [ref=f31e682] [cursor=pointer]:
+              - group "Pin card" [ref=f31e685]:
+                - generic [ref=f31e687]:
+                  - link "McLaren F1 pin page" [ref=f31e689]:
+                    - /url: /pin/47076758603929113/
+                    - 'img "This may contain: a blueprint drawing of the different types of cars and their size, from top to bottom" [ref=f31e699]'
+                  - generic "More actions" [ref=f31e707]:
+                    - button "More actions" [ref=f31e708]
+          - listitem [ref=f31e713]:
+            - button [ref=f31e715] [cursor=pointer]:
+              - group "Pin card" [ref=f31e718]:
+                - generic [ref=f31e720]:
+                  - link "One of Formula 1’s most storied machines, Senna’s... pin page" [ref=f31e722]:
+                    - /url: /pin/1102044971371117457/
+                    - 'img "This may contain: a white and red race car on a black background" [ref=f31e732]'
+                  - generic "More actions" [ref=f31e740]:
+                    - button "More actions" [ref=f31e741]
+          - listitem [ref=f31e746]:
+            - button [ref=f31e748] [cursor=pointer]:
+              - group "Pin card" [ref=f31e751]:
+                - generic [ref=f31e753]:
+                  - 'link "McLaren F1 Dark Silver Side: V12 Icon Rules pin page" [ref=f31e755]':
+                    - /url: /pin/445786063138017882/
+                    - 'img "This contains: Side view of the 1994 McLaren F1 in Dark Silver in horizontal format, highlighting its aerodynamic silhouette, iconic dihedral doors, and sleek proportions for dramatic supercar aesthetics." [ref=f31e765]'
+                  - generic "More actions" [ref=f31e773]:
+                    - button "More actions" [ref=f31e774]
+          - listitem [ref=f31e779]
+          - listitem [ref=f31e783]
+          - listitem [ref=f31e787]
+          - listitem [ref=f31e791]
+          - listitem [ref=f31e795]
+          - listitem [ref=f31e799]
+          - listitem [ref=f31e803]
+          - listitem [ref=f31e807]
+          - listitem [ref=f31e811]
+          - listitem [ref=f31e815]
+  - generic:
+    - contentinfo "Footer"

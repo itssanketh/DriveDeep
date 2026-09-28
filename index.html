@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bodylines</title>
+  <meta name="description" content="Seven Fords from 1896 to 2017, in one scroll through the history of the automobile.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "motion": "https://cdn.jsdelivr.net/npm/motion@12.23.12/+esm",
+        "lenis": "https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.mjs",
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#finale">Skip to the line-up</a>
+
+  <div id="bg" class="bg" aria-hidden="true"></div>
+
+  <header class="top">
+    <nav aria-label="Eras">
+      <a class="wordmark" href="#hero">Bodylines</a>
+      <ol id="rail"></ol>
+    </nav>
+    <div class="bar" aria-hidden="true"><div id="bar"></div></div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero" aria-labelledby="hero-h">
+      <div class="hero-stick">
+        <div class="intro">
+          <h1 id="hero-h">From carriage<br>to <em>supercar.</em></h1>
+          <p class="label">Scroll to explore</p>
+        </div>
+        <div class="arc-copy">
+          <p class="label"><span class="n">&bull;</span> 1896 to 2017</p>
+          <h2>121 years of <em>bodylines.</em></h2>
+          <p class="lede">Seven Fords. Hover a card to turn it, click to meet the car.</p>
+        </div>
+        <div class="deck"></div>
+      </div>
+    </section>
+
+    <section id="show" class="show" aria-label="The cars">
+      <div class="stage">
+        <div id="scenes" class="scenes" aria-hidden="true"></div>
+        <div id="years" class="years" aria-hidden="true"></div>
+        <div id="cars" class="cars"></div>
+        <div id="infos"></div>
+        <p class="count label" aria-hidden="true"><span id="count-n">01</span> / 07</p>
+      </div>
+      <div id="steps"></div>
+    </section>
+
+    <section id="finale" class="finale" aria-labelledby="finale-h">
+      <div class="fin-stick">
+        <div id="track" class="track">
+          <div class="fin-intro">
+            <p class="label"><span class="n">08</span> The line-up</p>
+            <h2 id="finale-h">121 years, <em>in one row.</em></h2>
+          </div>
+          <ol id="lineup" class="lineup">
+            <li class="rail" aria-hidden="true"><i id="rail-fill"></i></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot" aria-labelledby="foot-h">
+    <div class="foot-top">
+      <p id="foot-h" class="foot-line">From carriage<br>to <em>supercar.</em></p>
+      <a class="foot-up label" href="#hero">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </div>
+    <nav aria-label="All cars"><ol id="foot-index" class="foot-index"></ol></nav>
+    <div class="foot-base">
+      <p class="small">A non-commercial showcase. Photos collected from Pinterest.</p>
+      <p class="small">1896 &ndash; 2017</p>
+    </div>
+    <p id="foot-mark" class="foot-mark" aria-hidden="true">Bodylines</p>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

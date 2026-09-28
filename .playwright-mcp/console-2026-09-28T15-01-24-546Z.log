@@ -1,0 +1,4 @@
+[     673ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client?hl=en:86
+[     679ms] [ERROR] Not signed in with the identity provider. @ https://www.pinterest.com/search/pins/?q=mclaren%20f1%20front%20three%20quarter%20studio:0
+[     945ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.pinterest.com/secure/unauth_user_data/:0
+[    2848ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client?hl=en:87

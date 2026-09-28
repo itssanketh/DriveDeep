@@ -1,0 +1,2 @@
+[       3ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-regular.woff2 @ chrome://new-tab-page/:30
+[     273ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: chrome://resources/roboto/roboto-medium.woff2 @ chrome://new-tab-page/new_tab_page.js:406

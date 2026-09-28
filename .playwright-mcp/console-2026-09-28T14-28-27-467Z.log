@@ -1,0 +1,3 @@
+[    4060ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://rt.marphezis.com/sync?dpid=rubicon&puid=MUKM20Q3-6-L7R4&init=:0
+[    4438ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://rt.marphezis.com/sync?dpid=rubicon_getmedia&puid=MUKM20Q3-6-L7R4:0
+[    4847ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://tags.bluekai.com/site/2964?id=YML1poGI1Xbcli5:0

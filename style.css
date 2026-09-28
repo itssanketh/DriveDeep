@@ -1,0 +1,273 @@
+:root {
+  --bg: #0a0a0a;
+  --ink: #ededed;
+  --mute: rgba(237, 237, 237, .62);
+  --faint: rgba(237, 237, 237, .38);
+  --line: rgba(237, 237, 237, .14);
+  --accent: #ff5a47;
+  --serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --sans: 'Jost', system-ui, sans-serif;
+  --gutter: clamp(16px, 4vw, 56px);
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { overflow-x: clip; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 300 1.0625rem/1.65 var(--sans); -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+button { font: inherit; color: inherit; }
+em { font-style: italic; font-weight: 300; }
+:focus-visible { outline: 1.5px solid var(--accent); outline-offset: 4px; }
+.skip { position: absolute; left: -999px; top: 0; z-index: 60; background: var(--ink); color: var(--bg); padding: .6rem 1rem; }
+.skip:focus { left: 1rem; top: 1rem; }
+
+/* Small tracked caps, used for every label on the page. */
+.label, #rail a, .specs dt, .ln-year {
+  font: 400 .72rem/1 var(--sans); letter-spacing: .22em; text-transform: uppercase; font-variant-numeric: tabular-nums;
+}
+.label { margin: 0 0 1.4rem; color: var(--mute); }
+.label .n { color: var(--accent); margin-right: .9em; }
+
+/* ---------- shader background ---------- */
+.bg { position: fixed; inset: 0; z-index: -2; background: #000; }
+.bg canvas { display: block; width: 100% !important; height: 100% !important; }
+/* Vignette: keeps the rings bright in the middle and the edges quiet enough for text. */
+.bg::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 75% 70% at 50% 50%, transparent 30%, rgba(0, 0, 0, .75)); }
+
+/* ---------- letter roll (ported animated-menu) ---------- */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.roll-word { --pad: .14em; display: inline-block; position: relative; overflow: hidden; vertical-align: top; padding: var(--pad) 0; margin: calc(-1 * var(--pad)) 0; }
+.roll-a, .roll-b { display: block; white-space: pre; }
+.roll-b { position: absolute; left: 0; top: var(--pad); }
+.roll-word > span > span { display: inline-block; transition: transform .38s cubic-bezier(.45, 0, .55, 1) var(--d); }
+.roll-b > span { transform: translateY(135%); }
+a:hover .roll-a > span, a:focus-visible .roll-a > span { transform: translateY(-135%); }
+a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0); }
+.roll-in .roll-a > span { transform: translateY(135%); transition-duration: .5s; transition-timing-function: var(--ease); transition-delay: 0s; }
+.on .roll-in .roll-a > span { transform: none; transition-duration: 1s; transition-delay: calc(var(--d) + .15s); }
+
+/* ---------- header ---------- */
+.top { position: fixed; inset: 0 0 auto; z-index: 40; padding: clamp(18px, 3.4vh, 36px) var(--gutter) 0; pointer-events: none; }
+.top nav { display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
+.top nav > * { pointer-events: auto; }
+.wordmark { font: 400 .8rem/1 var(--sans); letter-spacing: .4em; text-transform: uppercase; white-space: nowrap; }
+#rail { display: flex; gap: clamp(.9rem, 2vw, 2.2rem); list-style: none; margin: 0; padding: 0; }
+#rail a { display: block; padding: .5rem 0; color: var(--faint); transition: color .3s, transform .5s var(--ease); }
+#rail a:hover, #rail a[aria-current] { color: var(--ink); }
+.bar { position: fixed; inset: 0 0 auto; height: 1px; z-index: 41; }
+#bar { height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(var(--p, 0)); }
+@media (max-width: 720px) { #rail { display: none; } }
+
+/* ---------- hero: scroll-morph cards ---------- */
+.hero { height: 400vh; }
+.hero-stick { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; perspective: 1000px; }
+.deck { position: absolute; left: 50%; top: 50%; }
+.card {
+  --w: 115px; --h: 162px; /* 64x90 at rest, x1.8 in the arch (hero.js BIG) */
+  position: absolute; left: calc(var(--w) / -2); top: calc(var(--h) / -2); width: var(--w); height: var(--h);
+  padding: 0; border: 0; background: none; cursor: pointer; opacity: 0;
+  transform-style: preserve-3d; perspective: 1000px; will-change: transform, opacity;
+}
+.card-in { position: relative; display: block; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .7s cubic-bezier(.34, 1.4, .64, 1); }
+.card:hover .card-in, .card:focus-visible .card-in { transform: rotateY(180deg); }
+.face {
+  position: absolute; inset: 0; overflow: hidden; border-radius: 16px; backface-visibility: hidden;
+  background: #1a1a1a; box-shadow: 0 10px 30px -8px rgba(0, 0, 0, .7), 0 0 0 1px rgba(255, 255, 255, .08);
+}
+.face img { width: 100%; height: 100%; object-fit: cover; }
+.face::after { content: ''; position: absolute; inset: 0; background: rgba(0, 0, 0, .12); transition: background .3s; }
+.card:hover .face::after { background: transparent; }
+.back {
+  transform: rotateY(180deg); display: grid; place-items: center;
+  background: #0d0d0d; box-shadow: 0 0 0 1px rgba(255, 255, 255, .18);
+  font: 300 1.9rem/1 var(--serif); letter-spacing: .02em;
+}
+.back::after { display: none; }
+
+.intro, .arc-copy { position: absolute; left: 0; right: 0; z-index: 2; text-align: center; pointer-events: none; padding: 0 var(--gutter); }
+.intro { top: 50%; translate: 0 -50%; opacity: 0; transition: opacity .8s; }
+.intro h1 { margin: 0 0 1.4rem; font: 300 clamp(1.6rem, 4.2vw, 3.6rem)/1 var(--serif); letter-spacing: -.01em; filter: blur(10px); translate: 0 20px; transition: filter 1s, translate 1s var(--ease); }
+.intro.on h1 { filter: none; translate: 0 0; }
+.intro .label { margin: 0; color: var(--faint); }
+.arc-copy { top: clamp(6rem, 13vh, 9rem); opacity: 0; }
+.arc-copy h2 { margin: 0; font: 300 clamp(2.6rem, 5.6vw, 5.6rem)/1 var(--serif); letter-spacing: -.015em; }
+.lede { margin: 1.2rem auto 0; color: var(--mute); max-width: 36ch; }
+
+/* ---------- showroom: one stage, the cars drive through ---------- */
+.show { position: relative; }
+.show { height: 740vh; } /* (7 cars + HOLD in main.js) screens */
+.stage { position: sticky; top: 0; height: 100vh; overflow: hidden; }
+/* Anchors for the rail: car i is centred when step i reaches the top. */
+#steps { position: absolute; inset: 0; pointer-events: none; }
+.step { height: 100vh; }
+
+.years span {
+  position: absolute; left: 0; right: 0; top: 40%; translate: -17vw -50%; text-align: center; pointer-events: none; will-change: transform, opacity;
+  /* Solid, barely there: the car in front overlaps it like a magazine spread. */
+  font: 400 clamp(10rem, 34vw, 36rem)/.8 var(--serif); letter-spacing: -.03em; color: rgba(237, 237, 237, .05);
+}
+
+/* Per-car light pool (look.js `light`), on the side the photo is lit from; optional era tone. */
+.scenes, .scene { position: absolute; inset: 0; pointer-events: none; }
+.scene {
+  background: radial-gradient(ellipse 42% 46% at var(--lx) var(--ly), color-mix(in srgb, color-mix(in srgb, var(--tint) 25%, #fff3e2) 11%, transparent), transparent 72%);
+  will-change: opacity;
+}
+.toned .scene {
+  background:
+    radial-gradient(ellipse 42% 46% at var(--lx) var(--ly), color-mix(in srgb, color-mix(in srgb, var(--tint) 25%, #fff3e2) 11%, transparent), transparent 72%),
+    radial-gradient(ellipse 90% 80% at 50% 55%, color-mix(in srgb, var(--tone) 88%, transparent), color-mix(in srgb, var(--tone) 96%, #000));
+}
+
+.cars { position: absolute; inset: 0; perspective: 1600px; perspective-origin: 50% 45%; }
+/* Bigger (look.js `scale`) and a little right of centre (`x`); the tyres sit on the floor line. */
+.car {
+  position: absolute; left: 0; right: 0; bottom: 27%; height: calc(44vh * var(--scale, 1)); margin: 0; translate: var(--x, 0) 0;
+  display: flex; align-items: flex-end; justify-content: center; pointer-events: none; will-change: transform, filter, opacity;
+}
+.body { position: relative; display: block; height: 100%; }
+.car img {
+  position: relative; display: block; width: auto; height: 100%; max-width: min(calc(62vw * var(--scale, 1)), 72vw, 1500px);
+  object-fit: contain; object-position: bottom;
+  /* Studio light brought down to the room (look.js `filter`), plus a thin dark rim over any leftover halo. */
+  filter: var(--f, none) drop-shadow(0 0 1px rgba(0, 0, 0, .85)) drop-shadow(0 0 2px rgba(0, 0, 0, .4));
+}
+/* Contact shadow, scaled to the car's width: a tight dark core under the tyres and a wide soft
+   falloff around it, so the car rests on the floor. */
+.body::before, .body::after { content: ''; position: absolute; pointer-events: none; z-index: -1; }
+.body::before { left: -8%; right: -8%; bottom: -7%; height: 16%; background: radial-gradient(closest-side, rgba(0, 0, 0, .45), rgba(0, 0, 0, .2) 55%, transparent); }
+.body::after { left: 5%; right: 5%; bottom: -2.2%; height: 6%; background: radial-gradient(closest-side, rgba(0, 0, 0, .7), rgba(0, 0, 0, .35) 50%, transparent); }
+/* Falloff away from the light (front-left): the far side of the car sinks into the dark. */
+.shade {
+  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply;
+  -webkit-mask: var(--src) center bottom / contain no-repeat; mask: var(--src) center bottom / contain no-repeat;
+  background: radial-gradient(ellipse 85% 110% at 25% 20%, transparent 40%, rgba(0, 0, 0, var(--falloff, .4)));
+}
+/* A band of light clipped to the car's silhouette; --sweep (0..1) carries it across left to right. */
+.sheen {
+  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen;
+  -webkit-mask: var(--src) center bottom / contain no-repeat; mask: var(--src) center bottom / contain no-repeat;
+  background: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, .55) 50%, transparent 70%) no-repeat;
+  background-size: 60% 100%; background-position: calc(-60% + var(--sweep, 0) * 260%) 0;
+  opacity: calc(sin(var(--sweep, 0) * 3.1416));
+}
+
+/* Text for the centred car; lines stagger in (--k) and fade out together. */
+.info { position: absolute; inset: 0; pointer-events: none; text-shadow: 0 1px 24px rgba(0, 0, 0, .7); }
+.info.on { pointer-events: auto; }
+.copy { position: absolute; left: var(--gutter); bottom: clamp(3rem, 8vh, 5.5rem); max-width: min(34rem, 44vw); }
+.info h2 { margin: 0; font: 300 clamp(2.2rem, 3.6vw, 3.8rem)/1 var(--serif); letter-spacing: -.01em; text-wrap: balance; }
+.text { margin: 1rem 0 0; color: var(--mute); max-width: 40ch; }
+.specs {
+  position: absolute; right: var(--gutter); bottom: clamp(3rem, 8vh, 5.5rem); margin: 0; width: min(36rem, 42vw);
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem;
+}
+.specs div { border-top: 1px solid var(--line); padding-top: 1rem; }
+.specs dt { color: var(--faint); }
+.specs dd { margin: .7rem 0 0; font: 300 1.35rem/1.15 var(--serif); font-variant-numeric: tabular-nums; }
+/* --a (0..1) is scrubbed by scroll; each line (--k) lags a little behind the one before. */
+.info .label, .info h2, .info .text, .specs div {
+  --l: clamp(0, var(--a, 0) * 1.5 - var(--k) * .1, 1);
+  opacity: var(--l); translate: 0 calc((1 - var(--l)) * 28px * var(--dir, 1)); filter: blur(calc((1 - var(--l)) * 6px));
+}
+.count { position: absolute; right: var(--gutter); top: clamp(4.5rem, 11vh, 7rem); margin: 0; color: var(--faint); }
+#count-n { color: var(--ink); }
+
+/* ---------- finale: pinned sideways timeline (after 21st.dev Product Timeline) ---------- */
+.finale { position: relative; background: linear-gradient(transparent, rgba(0, 0, 0, .6) 20vh); }
+.fin-stick { position: sticky; top: 0; height: 100vh; overflow: hidden; }
+.track { display: flex; align-items: center; height: 100%; width: max-content; padding: 0 var(--gutter); will-change: transform; }
+.fin-intro { flex: none; width: min(34rem, 80vw); margin-right: 8vw; }
+.finale h2 { margin: 0; font: 300 clamp(2.8rem, 5.6vw, 6.4rem)/.98 var(--serif); letter-spacing: -.015em; }
+.small { margin: 2.2rem 0 0; color: var(--faint); font-size: .85rem; }
+
+.lineup { position: relative; display: flex; height: 100%; list-style: none; margin: 0; padding: 0 12vw 0 0; }
+/* The rail, and the accent that fills it as you scroll. */
+.rail { position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--line); }
+#rail-fill { position: absolute; inset: 0; background: var(--accent); transform-origin: left; transform: scaleX(0); }
+
+.ms { --r: 0; --stem: 9vh; position: relative; flex: none; width: clamp(15rem, 24vw, 26rem); height: 100%; }
+.dot {
+  position: absolute; left: 0; top: 50%; width: 9px; height: 9px; margin: -4px 0 0 -4px; border-radius: 50%; background: var(--accent);
+  transform: scale(var(--r)); box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+.stem { position: absolute; left: 0; width: 1px; height: var(--stem); background: color-mix(in srgb, var(--accent) 70%, transparent); transform: scaleY(var(--r)); }
+.up .stem { bottom: 50%; transform-origin: bottom; }
+.down .stem { top: 50%; transform-origin: top; }
+
+/* Year and name sit at the end of the stem; the car sits beyond them. Each rises in a beat later. */
+.ms a { position: absolute; left: 0; width: clamp(18rem, 32vw, 34rem); display: flex; }
+.up a { bottom: calc(50% + var(--stem)); flex-direction: column-reverse; padding-bottom: 1rem; }
+.down a { top: calc(50% + var(--stem)); flex-direction: column; padding-top: 1rem; }
+.ln-year, .ln-name, .ms img {
+  --l: clamp(0, var(--r) * 1.6 - .35, 1);
+  opacity: var(--l); translate: 0 calc((1 - var(--l)) * 24px * var(--d, 1)); filter: blur(calc((1 - var(--l)) * 6px));
+}
+.up .ln-year, .up .ln-name, .up img { --d: -1; }
+.ln-year { color: var(--accent); padding-left: 1.1rem; }
+.ln-name { padding-left: 1.1rem; margin: .5rem 0; font: 300 clamp(1.3rem, 1.8vw, 1.9rem)/1.1 var(--serif); transition: color .3s; }
+.ms img {
+  --l: clamp(0, var(--r) * 1.6 - .6, 1);
+  height: clamp(8rem, 20vh, 13rem); width: 100%; object-fit: contain; object-position: left bottom; margin: .6rem 0;
+  filter: drop-shadow(0 16px 14px rgba(0, 0, 0, .65)) blur(calc((1 - var(--l)) * 6px));
+  transition: scale .9s var(--ease);
+}
+.ms a:hover img, .ms a:focus-visible img { scale: 1.06; }
+.ms a:hover .ln-name { color: var(--accent); }
+
+/* ---------- footer ---------- */
+.foot { position: relative; overflow: hidden; background: #050505; border-top: 1px solid var(--line); padding: clamp(5rem, 12vh, 9rem) var(--gutter) 0; }
+.foot-top { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; }
+.foot-line { margin: 0; font: 300 clamp(2.4rem, 4.6vw, 5rem)/1 var(--serif); letter-spacing: -.01em; }
+.foot-up { margin: 0; color: var(--mute); transition: color .3s; white-space: nowrap; }
+.foot-up span { display: inline-block; margin-left: .6em; transition: transform .5s var(--ease); }
+.foot-up:hover { color: var(--ink); }
+.foot-up:hover span { transform: translateY(-4px); }
+
+/* Index of the seven cars: hairline rows, two columns. */
+.foot-index { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(4, auto); grid-auto-flow: column; column-gap: clamp(2rem, 6vw, 7rem); list-style: none; margin: clamp(3.5rem, 8vh, 6rem) 0 0; padding: 0; }
+.foot-index a { display: flex; align-items: baseline; gap: 1.6rem; padding: 1.1rem 0; border-bottom: 1px solid var(--line); }
+.foot-index .label { margin: 0; width: 3.4rem; color: var(--faint); transition: color .3s; }
+.fi-name { flex: 1; font: 300 clamp(1.2rem, 1.6vw, 1.6rem)/1.2 var(--serif); transition: transform .6s var(--ease); }
+.fi-arrow { color: var(--accent); opacity: 0; transform: translateX(-10px); transition: opacity .3s, transform .6s var(--ease); }
+.foot-index a:hover .label, .foot-index a:focus-visible .label { color: var(--accent); }
+.foot-index a:hover .fi-name, .foot-index a:focus-visible .fi-name { transform: translateX(6px); }
+.foot-index a:hover .fi-arrow, .foot-index a:focus-visible .fi-arrow { opacity: 1; transform: none; }
+
+.foot-base { display: flex; justify-content: space-between; gap: 2rem; margin-top: 3rem; }
+.foot-base .small { margin: 0; }
+
+/* Giant wordmark, cropped by the bottom of the page; letters rise in once. */
+.foot-mark {
+  margin: clamp(2rem, 6vh, 4rem) 0 -0.22em; text-align: center; white-space: nowrap; line-height: .8; pointer-events: none;
+  font: 300 21vw/.8 var(--serif); letter-spacing: -.035em; color: rgba(237, 237, 237, .07);
+}
+.foot-mark span { display: inline-block; translate: 0 60%; opacity: 0; transition: translate 1.4s var(--ease), opacity 1s; transition-delay: calc(var(--k) * 60ms); }
+.foot.is-in .foot-mark span { translate: 0 0; opacity: 1; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 900px) {
+  .car { bottom: 38%; height: 32vh; translate: 0 0; }
+  .car img { max-width: 94vw; }
+  .years span { translate: 0 -50%; font-size: 44vw; }
+  .copy { top: 6rem; bottom: auto; right: var(--gutter); max-width: none; }
+  .specs { left: var(--gutter); width: auto; bottom: 2.5rem; gap: 1rem; }
+  .specs dd { font-size: 1.05rem; }
+  .count { display: none; }
+  .ms { width: 62vw; --stem: 6vh; }
+  .foot-top { flex-direction: column; align-items: flex-start; }
+  .foot-index { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }
+  .foot-base { flex-direction: column; gap: .6rem; }
+  .ms a { width: 78vw; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation: none !important; }
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bodylines: The Evolution of the Automotive Form — 1954</title>
+<!-- Tailwind CSS CDN with forms and container-queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Inter & Playfair Display for museum editorial tone -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&amp;family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            studio: {
+              light: '#f5f5f7',
+              base: '#ebecee',
+              dark: '#dfe1e5'
+            },
+            accent: {
+              vermilion: '#D8431B'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+            display: ['Cinzel', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Typography Styles -->
+<style data-purpose="typography">
+    .watermark-outline {
+      -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.055);
+      color: transparent;
+      user-select: none;
+      line-height: 0.85;
+    }
+    
+    .kicker-spacing {
+      letter-spacing: 0.22em;
+    }
+
+    .spec-label-spacing {
+      letter-spacing: 0.16em;
+    }
+  </style>
+<!-- END: Custom Typography Styles -->
+<!-- BEGIN: Ambient Background Styles -->
+<style data-purpose="studio-lighting">
+    .studio-gradient {
+      background: radial-gradient(circle at 65% 20%, #f7f8f9 0%, #ebecee 50%, #e2e4e8 100%);
+    }
+
+    /* Soft transition blending for the studio car render */
+    .car-ambient-mask {
+      mask-image: radial-gradient(ellipse 95% 85% at 55% 55%, black 65%, transparent 100%);
+      -webkit-mask-image: radial-gradient(ellipse 95% 85% at 55% 55%, black 65%, transparent 100%);
+    }
+  </style>
+<!-- END: Ambient Background Styles -->
+</head>
+<body class="h-screen w-screen overflow-hidden studio-gradient text-zinc-900 font-sans antialiased selection:bg-zinc-900 selection:text-white select-none">
+<!-- BEGIN: TopBar -->
+<header class="fixed top-0 inset-x-0 h-20 px-8 sm:px-12 lg:px-16 flex items-center justify-between z-40" data-purpose="site-navigation">
+<!-- Brand Wordmark -->
+<div class="flex items-baseline space-x-2">
+<span class="text-lg lg:text-xl font-semibold tracking-tighter text-zinc-950">Bodylines</span>
+<span class="w-1.5 h-1.5 rounded-full bg-accent-vermilion inline-block"></span>
+</div>
+<!-- Editorial Meta / Source Action -->
+<nav class="flex items-center">
+<a class="text-xs lg:text-sm font-medium tracking-wider text-zinc-500 hover:text-zinc-950 transition-colors duration-200" data-purpose="sources-trigger" href="#sources">
+        Sources
+      </a>
+</nav>
+</header>
+<!-- END: TopBar -->
+<!-- BEGIN: ExhibitionStage -->
+<main class="relative w-full h-full flex items-center justify-between overflow-hidden" data-purpose="main-exhibition">
+<!-- BEGIN: WatermarkBackground -->
+<!-- Massive structural era typography positioned under the car render -->
+<div aria-hidden="true" class="absolute right-[-2vw] bottom-[-2vw] pointer-events-none z-10">
+<span class="font-display font-bold text-[24vw] watermark-outline tracking-tighter opacity-80 block select-none">
+        1954
+      </span>
+</div>
+<!-- END: WatermarkBackground -->
+<!-- BEGIN: VehicleShowcaseMedia -->
+<!-- Mercedes-Benz 300 SL Gullwing positioned center-right -->
+<div class="absolute right-0 top-1/2 -translate-y-[45%] w-[68vw] max-w-[1240px] pointer-events-none z-20" data-purpose="hero-artwork">
+<div class="relative w-full aspect-[1376/768] flex items-center justify-end">
+<img alt="Studio photograph of a 1954 Mercedes-Benz 300 SL Gullwing coupe in metallic silver, three-quarter front angle, parked on an ultra-clean minimalist pale fog-grey concrete studio floor with soft ambient daylight top lighting, soft realistic contact ground shadow underneath, isolated studio composition with empty left third for typography, automotive museum exhibition quality, highly detailed reflections and curvature, neutral bright studio environment." class="w-full h-full object-contain car-ambient-mask drop-shadow-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcx-VkOT7HCbWh5uEbtv1SORj89-f2yo8XknfSf2Hc4xi7Cy2CmfIj5krLqL5UJNgZLvJGQXIrKS2ghyMYTy5RuW8Lxpyzj-yn1NCOWwQmErvhINeQx7h1J6fRBbL0tvK9dv3lugXsd30KoXb-1trNNwsTnDWGVXpPN9NMDoYBwS7RrxXY1ypHydbk4G0pG--Hos_x15NOyaAZGUq1WEoY3rrsFb9HhLNk5XJhfVsU80rswfB1xxt1pGkAc8NFcz3B-sjOXanuaIA2"/>
+</div>
+</div>
+<!-- END: VehicleShowcaseMedia -->
+<!-- BEGIN: EditorialContentColumn -->
+<!-- Left-third editorial typography positioned directly on the fog-grey environment -->
+<section class="relative z-30 w-full max-w-xl pl-8 sm:pl-12 lg:pl-20 xl:pl-24 pr-4 select-text" data-purpose="chapter-editorial">
+<!-- Era Kicker -->
+<div class="mb-4 flex items-center space-x-2.5">
+<span class="text-[11px] lg:text-xs font-mono font-medium uppercase text-zinc-500 kicker-spacing">
+          1954 · The engineered sports car
+        </span>
+</div>
+<!-- Chapter Title -->
+<h1 class="text-4xl sm:text-5xl lg:text-[3.5rem] font-serif font-normal text-zinc-950 tracking-tight leading-[1.08] mb-6">
+        Mercedes-Benz <br/>
+<span class="italic font-normal">300 SL</span>
+</h1>
+<!-- Curatorial Narrative Paragraph (strict 38 words) -->
+<p class="text-zinc-600 text-base lg:text-[1.08rem] font-light leading-relaxed max-w-md mb-10">
+        A tube-frame chassis ran so high along the sides that normal doors would not fit, so the doors opened upward. It was also the first four-stroke production car with fuel injected directly into the cylinders.
+      </p>
+<!-- Technical Specifications Bar -->
+<div class="pt-8 border-t border-zinc-300/60 max-w-md grid grid-cols-3 gap-6" data-purpose="specifications-row">
+<!-- Spec 1: Engine -->
+<div>
+<span class="block text-[10px] font-mono uppercase text-zinc-400 font-medium spec-label-spacing mb-1.5">ENGINE</span>
+<span class="text-sm lg:text-[15px] font-medium text-zinc-900 tracking-tight">3.0 L straight-six</span>
+</div>
+<!-- Spec 2: Fuel System -->
+<div>
+<span class="block text-[10px] font-mono uppercase text-zinc-400 font-medium spec-label-spacing mb-1.5">FUEL</span>
+<span class="text-sm lg:text-[15px] font-medium text-zinc-900 tracking-tight">Direct injection</span>
+</div>
+<!-- Spec 3: Door Geometry -->
+<div>
+<span class="block text-[10px] font-mono uppercase text-zinc-400 font-medium spec-label-spacing mb-1.5">DOORS</span>
+<span class="text-sm lg:text-[15px] font-medium text-zinc-900 tracking-tight">Gullwing</span>
+</div>
+</div>
+</section>
+<!-- END: EditorialContentColumn -->
+</main>
+<!-- END: ExhibitionStage -->
+<!-- BEGIN: TimelineNavigation -->
+<!-- Fixed right rail with interactive historical milestones -->
+<aside class="fixed right-6 sm:right-10 lg:right-14 inset-y-0 flex flex-col justify-center items-end z-40 pointer-events-auto" data-purpose="chronology-timeline">
+<div class="relative py-4 pr-1">
+<!-- Continuous Background Track Line -->
+<div aria-hidden="true" class="absolute right-[5px] top-3 bottom-3 w-[1.5px] bg-zinc-300/70"></div>
+<!-- Active Progress Bar (Anchored from top point through 1954) -->
+<div aria-hidden="true" class="absolute right-[5px] top-3 h-[50%] w-[1.5px] bg-zinc-800"></div>
+<!-- Milestones List -->
+<ol class="relative flex flex-col space-y-7 text-right">
+<!-- 1886 -->
+<li>
+<a class="group flex items-center justify-end space-x-3 transition-opacity" href="#1886">
+<span class="text-xs font-mono tracking-wider text-zinc-400 group-hover:text-zinc-700 transition-colors">1886</span>
+<span class="w-[11px] h-[11px] rounded-full bg-zinc-300 ring-4 ring-studio-base group-hover:scale-125 transition-transform"></span>
+</a>
+</li>
+<!-- 1908 -->
+<li>
+<a class="group flex items-center justify-end space-x-3 transition-opacity" href="#1908">
+<span class="text-xs font-mono tracking-wider text-zinc-400 group-hover:text-zinc-700 transition-colors">1908</span>
+<span class="w-[11px] h-[11px] rounded-full bg-zinc-300 ring-4 ring-studio-base group-hover:scale-125 transition-transform"></span>
+</a>
+</li>
+<!-- 1934 -->
+<li>
+<a class="group flex items-center justify-end space-x-3 transition-opacity" href="#1934">
+<span class="text-xs font-mono tracking-wider text-zinc-400 group-hover:text-zinc-700 transition-colors">1934</span>
+<span class="w-[11px] h-[11px] rounded-full bg-zinc-300 ring-4 ring-studio-base group-hover:scale-125 transition-transform"></span>
+</a>
+</li>
+<!-- 1954: ACTIVE CHAPTER -->
+<li>
+<a aria-current="step" class="group flex items-center justify-end space-x-3.5 focus:outline-none" href="#1954">
+<span class="text-xs font-mono font-semibold tracking-wider text-zinc-950 scale-105">1954</span>
+<div class="relative flex items-center justify-center">
+<span class="absolute w-4 h-4 rounded-full bg-accent-vermilion/20 animate-ping"></span>
+<span class="relative w-[11px] h-[11px] rounded-full bg-accent-vermilion ring-4 ring-studio-base"></span>
+</div>
+</a>
+</li>
+<!-- 1974 -->
+<li>
+<a class="group flex items-center justify-end space-x-3 transition-opacity" href="#1974">
+<span class="text-xs font-mono tracking-wider text-zinc-400 group-hover:text-zinc-700 transition-colors">1974</span>
+<span class="w-[11px] h-[11px] rounded-full bg-zinc-300 ring-4 ring-studio-base group-hover:scale-125 transition-transform"></span>
+</a>
+</li>
+<!-- 1992 -->
+<li>
+<a class="group flex items-center justify-end space-x-3 transition-opacity" href="#1992">
+<span class="text-xs font-mono tracking-wider text-zinc-400 group-hover:text-zinc-700 transition-colors">1992</span>
+<span class="w-[11px] h-[11px] rounded-full bg-zinc-300 ring-4 ring-studio-base group-hover:scale-125 transition-transform"></span>
+</a>
+</li>
+<!-- 2020s -->
+<li>
+<a class="group flex items-center justify-end space-x-3 transition-opacity" href="#2020s">
+<span class="text-xs font-mono tracking-wider text-zinc-400 group-hover:text-zinc-700 transition-colors">2020s</span>
+<span class="w-[11px] h-[11px] rounded-full bg-zinc-300 ring-4 ring-studio-base group-hover:scale-125 transition-transform"></span>
+</a>
+</li>
+</ol>
+</div>
+</aside>
+<!-- END: TimelineNavigation -->
+<!-- BEGIN: FooterStatus -->
+<!-- Bottom-left chapter index and discreet wheel indicator -->
+<footer class="fixed bottom-8 left-8 sm:left-12 lg:left-16 flex items-center space-x-6 z-40 pointer-events-none" data-purpose="museum-status-bar">
+<div class="flex items-center space-x-3">
+<span class="text-xs font-mono tracking-widest text-zinc-500 font-medium">04 / 07</span>
+<span class="w-6 h-[1px] bg-zinc-300"></span>
+<span class="text-[11px] font-mono uppercase tracking-wider text-zinc-400">Chapter IV</span>
+</div>
+</footer>
+<!-- END: FooterStatus -->
+<!-- BEGIN: Interactive Milestone Script -->
+<script data-purpose="timeline-interactions">
+    // Add lightweight hover feedback and keyboard navigational context
+    document.addEventListener('DOMContentLoaded', () => {
+      const links = document.querySelectorAll('aside ol li a');
+      links.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+          link.querySelector('span:first-child').classList.add('translate-x-[-2px]');
+        });
+        link.addEventListener('mouseleave', () => {
+          link.querySelector('span:first-child').classList.remove('translate-x-[-2px]');
+        });
+      });
+    });
+  </script>
+<!-- END: Interactive Milestone Script -->
+</body></html>

@@ -1,0 +1,242 @@
+- generic [active] [ref=f6e1]:
+  - generic [aria-hidden]:
+    - generic: XPULSE
+  - img "3D model of the Hero XPulse 200 4V that separates into its parts as you scroll" [ref=f6e8]
+  - generic "Parts":
+    - button "Front wheel, part 04":
+      - generic: "04"
+      - generic: Front wheel
+    - button "Front fork, part 02":
+      - generic: "02"
+      - generic: Front fork
+    - button "Cockpit, part 07":
+      - generic: "07"
+      - generic: Cockpit
+    - button "Headlamp & visor, part 06":
+      - generic: "06"
+      - generic: Headlamp & visor
+    - button "High fender, part 08":
+      - generic: "08"
+      - generic: High fender
+    - button "Tank & shrouds, part 09":
+      - generic: "09"
+      - generic: Tank & shrouds
+    - button "Engine, part 01":
+      - generic: "01"
+      - generic: Engine
+    - button "Frame, part 11":
+      - generic: "11"
+      - generic: Frame
+    - button "Swingarm & shock, part 03":
+      - generic: "03"
+      - generic: Swingarm & shock
+    - button "Exhaust, part 13":
+      - generic: "13"
+      - generic: Exhaust
+    - button "Seat, part 10":
+      - generic: "10"
+      - generic: Seat
+    - button "Tail & rack, part 12":
+      - generic: "12"
+      - generic: Tail & rack
+    - button "Rear wheel, part 05":
+      - generic: "05"
+      - generic: Rear wheel
+  - banner [ref=f6e9]:
+    - link "XPulse 200 4V" [ref=f6e10] [cursor=pointer]:
+      - /url: "#top"
+      - text: XPulse
+      - generic [ref=f6e11]: 200 4V
+    - navigation "Main" [ref=f6e12]:
+      - link "Parts" [ref=f6e13] [cursor=pointer]:
+        - /url: "#parts"
+      - link "Specifications" [ref=f6e14] [cursor=pointer]:
+        - /url: "#specs"
+      - link "Book a ride" [ref=f6e15] [cursor=pointer]:
+        - /url: "#ride"
+        - text: Book a ride
+        - generic [aria-hidden] [ref=f6e16]: →
+  - generic [aria-hidden] [ref=f6e17]:
+    - generic [ref=f6e18]: "00"
+    - generic [ref=f6e20]: Intro
+  - generic [aria-hidden] [ref=f6e21]: Drag to rotate 360° · Scroll to disassemble
+  - generic "Colour" [ref=f6e22]:
+    - generic [ref=f6e23]: Pearl Fadeless White
+    - radiogroup "Choose a colour" [ref=f6e24]:
+      - radio "Pearl Fadeless White" [checked] [ref=f6e25] [cursor=pointer]
+      - radio "Black Sports Red" [ref=f6e27] [cursor=pointer]
+      - radio "Met Nexus Blue White" [ref=f6e29] [cursor=pointer]
+      - radio "Techno Blue Met Black" [ref=f6e31] [cursor=pointer]
+      - radio "Black Industrial Grey" [ref=f6e33] [cursor=pointer]
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - generic: ●
+          - generic: Hero XPulse 200 4V
+        - heading "Built for the road that ends." [level=1]:
+          - text: Built for the road
+          - emphasis: that ends.
+        - paragraph: An adventure motorcycle, taken apart one assembly at a time. Drag it around, pick a colour, then scroll.
+      - complementary: 199.6 cc · 4 valves21″ / 18″ spoked220 mm clearance
+    - generic:
+      - generic:
+        - generic:
+          - generic: "01"
+          - generic: Anatomy
+        - heading "Thirteen assemblies. One purpose." [level=2]:
+          - text: Thirteen assemblies.
+          - emphasis: One purpose.
+        - paragraph: Every part here is there to take the bike further off the road. Select any part to read about it.
+    - generic:
+      - generic:
+        - generic:
+          - generic: "02"
+          - generic: Engine
+        - heading "Four valves, oil‑cooled." [level=2]:
+          - text: Four valves,
+          - emphasis: oil‑cooled.
+        - paragraph: A fuel-injected single tuned for torque low in the revs, so it pulls cleanly out of loose corners and up broken climbs.
+        - generic:
+          - generic:
+            - term: Displacement
+            - definition: 199.6 cc
+          - generic:
+            - term: Power
+            - definition: 19.1 PS @ 8,500
+          - generic:
+            - term: Torque
+            - definition: 17.35 Nm @ 6,500
+    - generic:
+      - generic:
+        - generic:
+          - generic: "03"
+          - generic: Suspension
+        - heading "Travel you can lean on." [level=2]:
+          - text: Travel you can
+          - emphasis: lean on.
+        - paragraph: A long telescopic fork and a preload-adjustable monoshock. Ruts and rocks get absorbed before they reach your hands.
+        - generic:
+          - generic:
+            - term: Front
+            - definition: Telescopic · 190 mm
+          - generic:
+            - term: Rear
+            - definition: Monoshock · 170 mm
+          - generic:
+            - term: Preload
+            - definition: 10-step
+    - generic:
+      - generic:
+        - generic:
+          - generic: "04"
+          - generic: Wheels & brakes
+        - heading "Twenty‑one inches up front." [level=2]:
+          - text: Twenty‑one inches
+          - emphasis: up front.
+        - paragraph: A tall front wheel rolls over what a smaller one would drop into. Wire spokes take hard hits, and discs at both ends stop you.
+        - generic:
+          - generic:
+            - term: Front
+            - definition: 21″ · 276 mm disc
+          - generic:
+            - term: Rear
+            - definition: 18″ · 220 mm disc
+          - generic:
+            - term: ABS
+            - definition: Single-channel
+    - generic:
+      - generic:
+        - generic:
+          - generic: "05"
+          - generic: Cockpit
+        - heading "Everything in reach." [level=2]:
+          - text: Everything in
+          - emphasis: reach.
+        - paragraph: An LED headlamp under a rally visor, knuckle guards, and a digital console with turn-by-turn navigation. The fender sits high so mud can't pack the wheel.
+    - generic:
+      - generic:
+        - generic:
+          - generic: "06"
+          - generic: Frame & body
+        - heading "Slim where you stand." [level=2]:
+          - text: Slim where
+          - emphasis: you stand.
+        - paragraph: A steel frame, a narrow 13-litre tank and one long flat seat, so you can move around the bike when the ground changes.
+        - generic:
+          - generic:
+            - term: Fuel tank
+            - definition: 13 L
+          - generic:
+            - term: Seat height
+            - definition: 825 mm
+    - generic:
+      - generic:
+        - generic:
+          - generic: "07"
+          - generic: Exhaust
+        - heading "Tucked high." [level=2]:
+          - text: Tucked
+          - emphasis: high.
+        - paragraph: The upswept silencer stays clear of rocks and river crossings, and a slotted shield keeps the heat off your leg.
+    - generic:
+      - generic:
+        - generic:
+          - generic: "08"
+          - generic: Specifications
+        - heading "Put back together." [level=2]:
+          - text: Put back
+          - emphasis: together.
+        - generic:
+          - generic:
+            - generic: 199.6cc
+            - text: Displacement
+          - generic:
+            - generic: 19.1PS
+            - text: Max power
+          - generic:
+            - generic: 17.35Nm
+            - text: Max torque
+          - generic:
+            - generic: 5speed
+            - text: Gearbox
+          - generic:
+            - generic: 220mm
+            - text: Ground clearance
+          - generic:
+            - generic: 825mm
+            - text: Seat height
+          - generic:
+            - generic: 13L
+            - text: Fuel tank
+          - generic:
+            - generic: 159kg
+            - text: Kerb weight
+    - generic:
+      - generic:
+        - generic: "09"
+        - generic: Ride
+      - heading "Go where the map runs out." [level=2]:
+        - text: Go where the
+        - emphasis: map runs out.
+      - link "Book a test ride" [ref=f6e35] [cursor=pointer]:
+        - /url: "#top"
+        - text: Book a test ride
+        - generic [aria-hidden] [ref=f6e36]: →
+  - contentinfo [ref=f6e37]:
+    - generic [ref=f6e38]: XPulse 200 4V — Unofficial fan concept, not affiliated with Hero MotoCorp
+    - generic [ref=f6e39]:
+      - text: "3D model:"
+      - link "Hero Xpulse" [ref=f6e40] [cursor=pointer]:
+        - /url: https://sketchfab.com/3d-models/hero-xpulse-434cdbdfad924bcd80c1f79858d887ae
+      - text: by Bhavik Suthar · 360° photography © Hero MotoCorp
+    - generic [ref=f6e41]:
+      - text: Figures approximate ·
+      - link "Privacy" [ref=f6e42] [cursor=pointer]:
+        - /url: legal.html#privacy
+      - text: ·
+      - link "Terms" [ref=f6e43] [cursor=pointer]:
+        - /url: legal.html#terms
+      - text: ·
+      - link "Legal" [ref=f6e44] [cursor=pointer]:
+        - /url: legal.html

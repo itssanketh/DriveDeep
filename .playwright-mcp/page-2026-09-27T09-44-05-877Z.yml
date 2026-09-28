@@ -1,0 +1,582 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to credits" [ref=f2e2] [cursor=pointer]:
+    - /url: "#credits"
+  - generic [aria-hidden]:
+    - generic:
+      - generic:
+        - generic:
+          - generic: "0"
+          - generic: "1"
+          - generic: "2"
+          - generic: "3"
+          - generic: "4"
+          - generic: "5"
+          - generic: "6"
+          - generic: "7"
+          - generic: "8"
+          - generic: "9"
+          - generic: "0"
+      - generic:
+        - generic:
+          - generic: "0"
+          - generic: "1"
+          - generic: "2"
+          - generic: "3"
+          - generic: "4"
+          - generic: "5"
+          - generic: "6"
+          - generic: "7"
+          - generic: "8"
+          - generic: "9"
+          - generic: "0"
+      - generic:
+        - generic:
+          - generic: "0"
+          - generic: "1"
+          - generic: "2"
+          - generic: "3"
+          - generic: "4"
+          - generic: "5"
+          - generic: "6"
+          - generic: "7"
+          - generic: "8"
+          - generic: "9"
+          - generic: "0"
+      - generic:
+        - generic:
+          - generic: "0"
+          - generic: "1"
+          - generic: "2"
+          - generic: "3"
+          - generic: "4"
+          - generic: "5"
+          - generic: "6"
+          - generic: "7"
+          - generic: "8"
+          - generic: "9"
+          - generic: "0"
+  - paragraph [ref=f2e5]: "1886"
+  - status [ref=f2e6]:
+    - paragraph [ref=f2e11]: Rolling the cars out 0 of 7
+  - banner [ref=f2e12]:
+    - link "Bodylines" [ref=f2e13] [cursor=pointer]:
+      - /url: "#hero"
+      - generic [ref=f2e16]:
+        - generic [ref=f2e17]:
+          - generic [ref=f2e18]: B
+          - generic [ref=f2e19]: o
+          - generic [ref=f2e20]: d
+          - generic [ref=f2e21]: "y"
+          - generic [ref=f2e22]: l
+          - generic [ref=f2e23]: i
+          - generic [ref=f2e24]: "n"
+          - generic [ref=f2e25]: e
+          - generic [ref=f2e26]: s
+        - generic [ref=f2e27]:
+          - generic [ref=f2e28]: B
+          - generic [ref=f2e29]: o
+          - generic [ref=f2e30]: d
+          - generic [ref=f2e31]: "y"
+          - generic [ref=f2e32]: l
+          - generic [ref=f2e33]: i
+          - generic [ref=f2e34]: "n"
+          - generic [ref=f2e35]: e
+          - generic [ref=f2e36]: s
+    - link "Credits" [ref=f2e37] [cursor=pointer]:
+      - /url: "#credits"
+      - generic [ref=f2e40]:
+        - generic [ref=f2e41]:
+          - generic [ref=f2e42]: C
+          - generic [ref=f2e43]: r
+          - generic [ref=f2e44]: e
+          - generic [ref=f2e45]: d
+          - generic [ref=f2e46]: i
+          - generic [ref=f2e47]: t
+          - generic [ref=f2e48]: s
+        - generic [ref=f2e49]:
+          - generic [ref=f2e50]: C
+          - generic [ref=f2e51]: r
+          - generic [ref=f2e52]: e
+          - generic [ref=f2e53]: d
+          - generic [ref=f2e54]: i
+          - generic [ref=f2e55]: t
+          - generic [ref=f2e56]: s
+  - navigation "Eras" [ref=f2e57]:
+    - list [ref=f2e58]:
+      - listitem [ref=f2e59]:
+        - link "1886" [ref=f2e60] [cursor=pointer]:
+          - /url: "#era-1886"
+          - generic [ref=f2e63]:
+            - generic [ref=f2e64]:
+              - generic [ref=f2e65]: "1"
+              - generic [ref=f2e66]: "8"
+              - generic [ref=f2e67]: "8"
+              - generic [ref=f2e68]: "6"
+            - generic [ref=f2e69]:
+              - generic [ref=f2e70]: "1"
+              - generic [ref=f2e71]: "8"
+              - generic [ref=f2e72]: "8"
+              - generic [ref=f2e73]: "6"
+      - listitem [ref=f2e74]:
+        - link "1908" [ref=f2e75] [cursor=pointer]:
+          - /url: "#era-1908"
+          - generic [ref=f2e78]:
+            - generic [ref=f2e79]:
+              - generic [ref=f2e80]: "1"
+              - generic [ref=f2e81]: "9"
+              - generic [ref=f2e82]: "0"
+              - generic [ref=f2e83]: "8"
+            - generic [ref=f2e84]:
+              - generic [ref=f2e85]: "1"
+              - generic [ref=f2e86]: "9"
+              - generic [ref=f2e87]: "0"
+              - generic [ref=f2e88]: "8"
+      - listitem [ref=f2e89]:
+        - link "1934" [ref=f2e90] [cursor=pointer]:
+          - /url: "#era-1934"
+          - generic [ref=f2e93]:
+            - generic [ref=f2e94]:
+              - generic [ref=f2e95]: "1"
+              - generic [ref=f2e96]: "9"
+              - generic [ref=f2e97]: "3"
+              - generic [ref=f2e98]: "4"
+            - generic [ref=f2e99]:
+              - generic [ref=f2e100]: "1"
+              - generic [ref=f2e101]: "9"
+              - generic [ref=f2e102]: "3"
+              - generic [ref=f2e103]: "4"
+      - listitem [ref=f2e104]:
+        - link "1954" [ref=f2e105] [cursor=pointer]:
+          - /url: "#era-1954"
+          - generic [ref=f2e108]:
+            - generic [ref=f2e109]:
+              - generic [ref=f2e110]: "1"
+              - generic [ref=f2e111]: "9"
+              - generic [ref=f2e112]: "5"
+              - generic [ref=f2e113]: "4"
+            - generic [ref=f2e114]:
+              - generic [ref=f2e115]: "1"
+              - generic [ref=f2e116]: "9"
+              - generic [ref=f2e117]: "5"
+              - generic [ref=f2e118]: "4"
+      - listitem [ref=f2e119]:
+        - link "1985" [ref=f2e120] [cursor=pointer]:
+          - /url: "#era-1985"
+          - generic [ref=f2e123]:
+            - generic [ref=f2e124]:
+              - generic [ref=f2e125]: "1"
+              - generic [ref=f2e126]: "9"
+              - generic [ref=f2e127]: "8"
+              - generic [ref=f2e128]: "5"
+            - generic [ref=f2e129]:
+              - generic [ref=f2e130]: "1"
+              - generic [ref=f2e131]: "9"
+              - generic [ref=f2e132]: "8"
+              - generic [ref=f2e133]: "5"
+      - listitem [ref=f2e134]:
+        - link "1992" [ref=f2e135] [cursor=pointer]:
+          - /url: "#era-1992"
+          - generic [ref=f2e138]:
+            - generic [ref=f2e139]:
+              - generic [ref=f2e140]: "1"
+              - generic [ref=f2e141]: "9"
+              - generic [ref=f2e142]: "9"
+              - generic [ref=f2e143]: "2"
+            - generic [ref=f2e144]:
+              - generic [ref=f2e145]: "1"
+              - generic [ref=f2e146]: "9"
+              - generic [ref=f2e147]: "9"
+              - generic [ref=f2e148]: "2"
+      - listitem [ref=f2e149]:
+        - link "2021" [ref=f2e150] [cursor=pointer]:
+          - /url: "#era-2021"
+          - generic [ref=f2e153]:
+            - generic [ref=f2e154]:
+              - generic [ref=f2e155]: "2"
+              - generic [ref=f2e156]: "0"
+              - generic [ref=f2e157]: "2"
+              - generic [ref=f2e158]: "1"
+            - generic [ref=f2e159]:
+              - generic [ref=f2e160]: "2"
+              - generic [ref=f2e161]: "0"
+              - generic [ref=f2e162]: "2"
+              - generic [ref=f2e163]: "1"
+  - main [ref=f2e169]:
+    - generic [ref=f2e171]:
+      - heading "From carriage to hypercar." [level=1] [ref=f2e172]:
+        - generic [aria-hidden] [ref=f2e174]:
+          - generic [ref=f2e176]:
+            - generic [ref=f2e177]: F
+            - generic [ref=f2e178]: r
+            - generic [ref=f2e179]: o
+            - generic [ref=f2e180]: m
+          - generic [ref=f2e182]:
+            - generic [ref=f2e183]: c
+            - generic [ref=f2e184]: a
+            - generic [ref=f2e185]: r
+            - generic [ref=f2e186]: r
+            - generic [ref=f2e187]: i
+            - generic [ref=f2e188]: a
+            - generic [ref=f2e189]: g
+            - generic [ref=f2e190]: e
+          - generic [ref=f2e192]:
+            - generic [ref=f2e193]: t
+            - generic [ref=f2e194]: o
+          - generic [ref=f2e196]:
+            - generic [ref=f2e197]: h
+            - generic [ref=f2e198]: "y"
+            - generic [ref=f2e199]: p
+            - generic [ref=f2e200]: e
+            - generic [ref=f2e201]: r
+            - generic [ref=f2e202]: c
+            - generic [ref=f2e203]: a
+            - generic [ref=f2e204]: r
+            - generic [ref=f2e205]: .
+      - paragraph [ref=f2e206]: Seven real cars, 1886 to 2021. Scroll to drive through the history of the automobile.
+    - generic [ref=f2e207]:
+      - region [ref=f2e208]:
+        - generic [ref=f2e210]:
+          - paragraph [ref=f2e211]:
+            - generic [ref=f2e212]: "1886"
+            - text: The carriage that pulls itself
+          - heading "Benz Patent-Motorwagen" [level=2] [ref=f2e213]:
+            - generic [aria-hidden] [ref=f2e215]:
+              - generic [ref=f2e217]:
+                - generic [ref=f2e218]: B
+                - generic [ref=f2e219]: e
+                - generic [ref=f2e220]: "n"
+                - generic [ref=f2e221]: z
+              - generic [ref=f2e223]:
+                - generic [ref=f2e224]: P
+                - generic [ref=f2e225]: a
+                - generic [ref=f2e226]: t
+                - generic [ref=f2e227]: e
+                - generic [ref=f2e228]: "n"
+                - generic [ref=f2e229]: t
+                - generic [ref=f2e230]: "-"
+              - generic [ref=f2e232]:
+                - generic [ref=f2e233]: M
+                - generic [ref=f2e234]: o
+                - generic [ref=f2e235]: t
+                - generic [ref=f2e236]: o
+                - generic [ref=f2e237]: r
+                - generic [ref=f2e238]: w
+                - generic [ref=f2e239]: a
+                - generic [ref=f2e240]: g
+                - generic [ref=f2e241]: e
+                - generic [ref=f2e242]: "n"
+          - paragraph [ref=f2e243]: Karl Benz patented it in January 1886. Three wire wheels, a single-cylinder engine behind the seat and a tiller instead of a steering wheel. It is a buggy that lost its horse.
+          - generic [ref=f2e244]:
+            - generic [ref=f2e245]:
+              - term [ref=f2e246]: Engine
+              - definition [ref=f2e247]: 954 cc, one cylinder
+            - generic [ref=f2e248]:
+              - term [ref=f2e249]: Power
+              - definition [ref=f2e250]: 0.75 hp
+            - generic [ref=f2e251]:
+              - term [ref=f2e252]: Top speed
+              - definition [ref=f2e253]: 16 km/h
+      - region [ref=f2e254]:
+        - generic [ref=f2e256]:
+          - paragraph [ref=f2e257]:
+            - generic [ref=f2e258]: "1908"
+            - text: A car for everyone
+          - heading "Ford Model T" [level=2] [ref=f2e259]:
+            - generic [aria-hidden] [ref=f2e261]:
+              - generic [ref=f2e263]:
+                - generic [ref=f2e264]: F
+                - generic [ref=f2e265]: o
+                - generic [ref=f2e266]: r
+                - generic [ref=f2e267]: d
+              - generic [ref=f2e269]:
+                - generic [ref=f2e270]: M
+                - generic [ref=f2e271]: o
+                - generic [ref=f2e272]: d
+                - generic [ref=f2e273]: e
+                - generic [ref=f2e274]: l
+              - generic [ref=f2e275]: T
+          - paragraph [ref=f2e278]: Tall, upright and built for dirt roads. From 1913 a moving assembly line built it, and the price kept falling. By 1927 more than 15 million had been made.
+          - generic [ref=f2e279]:
+            - generic [ref=f2e280]:
+              - term [ref=f2e281]: Engine
+              - definition [ref=f2e282]: 2.9 L four-cylinder
+            - generic [ref=f2e283]:
+              - term [ref=f2e284]: Power
+              - definition [ref=f2e285]: 20 hp
+            - generic [ref=f2e286]:
+              - term [ref=f2e287]: Built
+              - definition [ref=f2e288]: 1908 to 1927
+      - region [ref=f2e289]:
+        - generic [ref=f2e291]:
+          - paragraph [ref=f2e292]:
+            - generic [ref=f2e293]: "1934"
+            - text: Shaped by the wind
+          - heading "Chrysler Airflow" [level=2] [ref=f2e294]:
+            - generic [aria-hidden] [ref=f2e296]:
+              - generic [ref=f2e298]:
+                - generic [ref=f2e299]: C
+                - generic [ref=f2e300]: h
+                - generic [ref=f2e301]: r
+                - generic [ref=f2e302]: "y"
+                - generic [ref=f2e303]: s
+                - generic [ref=f2e304]: l
+                - generic [ref=f2e305]: e
+                - generic [ref=f2e306]: r
+              - generic [ref=f2e308]:
+                - generic [ref=f2e309]: A
+                - generic [ref=f2e310]: i
+                - generic [ref=f2e311]: r
+                - generic [ref=f2e312]: f
+                - generic [ref=f2e313]: l
+                - generic [ref=f2e314]: o
+                - generic [ref=f2e315]: w
+          - paragraph [ref=f2e316]: Engineers tested scale models in a wind tunnel and rounded off the upright box. The engine moved forward over the front axle, so passengers sat between the wheels. Buyers stayed away, but the streamlined shape stuck.
+          - generic [ref=f2e317]:
+            - generic [ref=f2e318]:
+              - term [ref=f2e319]: Engine
+              - definition [ref=f2e320]: Straight-eight
+            - generic [ref=f2e321]:
+              - term [ref=f2e322]: Shaped in
+              - definition [ref=f2e323]: A wind tunnel
+            - generic [ref=f2e324]:
+              - term [ref=f2e325]: Seating
+              - definition [ref=f2e326]: Between the axles
+          - paragraph [ref=f2e327]: "Model shown: a 1930s sedan built after the Airflow."
+      - region [ref=f2e328]:
+        - generic [ref=f2e330]:
+          - paragraph [ref=f2e331]:
+            - generic [ref=f2e332]: "1954"
+            - text: The engineered sports car
+          - heading "Mercedes-Benz 300 SL" [level=2] [ref=f2e333]:
+            - generic [aria-hidden] [ref=f2e335]:
+              - generic [ref=f2e337]:
+                - generic [ref=f2e338]: M
+                - generic [ref=f2e339]: e
+                - generic [ref=f2e340]: r
+                - generic [ref=f2e341]: c
+                - generic [ref=f2e342]: e
+                - generic [ref=f2e343]: d
+                - generic [ref=f2e344]: e
+                - generic [ref=f2e345]: s
+                - generic [ref=f2e346]: "-"
+              - generic [ref=f2e348]:
+                - generic [ref=f2e349]: B
+                - generic [ref=f2e350]: e
+                - generic [ref=f2e351]: "n"
+                - generic [ref=f2e352]: z
+              - generic [ref=f2e354]:
+                - generic [ref=f2e355]: "3"
+                - generic [ref=f2e356]: "0"
+                - generic [ref=f2e357]: "0"
+              - generic [ref=f2e359]:
+                - generic [ref=f2e360]: S
+                - generic [ref=f2e361]: L
+          - paragraph [ref=f2e362]: Its tube-frame chassis ran so high along the sides that normal doors would not fit, so the doors opened upward. It was also the first four-stroke production car with fuel injected directly into the cylinders.
+          - generic [ref=f2e363]:
+            - generic [ref=f2e364]:
+              - term [ref=f2e365]: Engine
+              - definition [ref=f2e366]: 3.0 L straight-six
+            - generic [ref=f2e367]:
+              - term [ref=f2e368]: Fuel
+              - definition [ref=f2e369]: Direct injection
+            - generic [ref=f2e370]:
+              - term [ref=f2e371]: Doors
+              - definition [ref=f2e372]: Gullwing
+      - region [ref=f2e373]:
+        - generic [ref=f2e375]:
+          - paragraph [ref=f2e376]:
+            - generic [ref=f2e377]: "1985"
+            - text: The wedge
+          - heading "Lamborghini Countach 5000 QV" [level=2] [ref=f2e378]:
+            - generic [aria-hidden] [ref=f2e380]:
+              - generic [ref=f2e382]:
+                - generic [ref=f2e383]: L
+                - generic [ref=f2e384]: a
+                - generic [ref=f2e385]: m
+                - generic [ref=f2e386]: b
+                - generic [ref=f2e387]: o
+                - generic [ref=f2e388]: r
+                - generic [ref=f2e389]: g
+                - generic [ref=f2e390]: h
+                - generic [ref=f2e391]: i
+                - generic [ref=f2e392]: "n"
+                - generic [ref=f2e393]: i
+              - generic [ref=f2e395]:
+                - generic [ref=f2e396]: C
+                - generic [ref=f2e397]: o
+                - generic [ref=f2e398]: u
+                - generic [ref=f2e399]: "n"
+                - generic [ref=f2e400]: t
+                - generic [ref=f2e401]: a
+                - generic [ref=f2e402]: c
+                - generic [ref=f2e403]: h
+              - generic [ref=f2e405]:
+                - generic [ref=f2e406]: "5"
+                - generic [ref=f2e407]: "0"
+                - generic [ref=f2e408]: "0"
+                - generic [ref=f2e409]: "0"
+              - generic [ref=f2e411]:
+                - generic [ref=f2e412]: Q
+                - generic [ref=f2e413]: V
+          - paragraph [ref=f2e414]: Marcello Gandini drew the first Countach in 1971 as a low, flat wedge with the V12 behind the driver. By the 5000 QV the arches had grown wide, and the doors still swung up instead of out.
+          - generic [ref=f2e415]:
+            - generic [ref=f2e416]:
+              - term [ref=f2e417]: Engine
+              - definition [ref=f2e418]: 5.2 L V12
+            - generic [ref=f2e419]:
+              - term [ref=f2e420]: Valves
+              - definition [ref=f2e421]: Four per cylinder
+            - generic [ref=f2e422]:
+              - term [ref=f2e423]: Designer
+              - definition [ref=f2e424]: Marcello Gandini
+      - region [ref=f2e425]:
+        - generic [ref=f2e427]:
+          - paragraph [ref=f2e428]:
+            - generic [ref=f2e429]: "1992"
+            - text: Carbon, and a seat in the middle
+          - heading "McLaren F1" [level=2] [ref=f2e430]:
+            - generic [aria-hidden] [ref=f2e432]:
+              - generic [ref=f2e434]:
+                - generic [ref=f2e435]: M
+                - generic [ref=f2e436]: c
+                - generic [ref=f2e437]: L
+                - generic [ref=f2e438]: a
+                - generic [ref=f2e439]: r
+                - generic [ref=f2e440]: e
+                - generic [ref=f2e441]: "n"
+              - generic [ref=f2e443]:
+                - generic [ref=f2e444]: F
+                - generic [ref=f2e445]: "1"
+          - paragraph [ref=f2e446]: Gordon Murray put the driver in the centre with a passenger on each side. It was the first road car built around a carbon-fibre monocoque, and in 1998 it reached 386 km/h.
+          - generic [ref=f2e447]:
+            - generic [ref=f2e448]:
+              - term [ref=f2e449]: Engine
+              - definition [ref=f2e450]: 6.1 L BMW V12
+            - generic [ref=f2e451]:
+              - term [ref=f2e452]: Chassis
+              - definition [ref=f2e453]: Carbon-fibre tub
+            - generic [ref=f2e454]:
+              - term [ref=f2e455]: Seats
+              - definition [ref=f2e456]: Three, driver centred
+      - region [ref=f2e457]:
+        - generic [ref=f2e459]:
+          - paragraph [ref=f2e460]:
+            - generic [ref=f2e461]: "2021"
+            - text: Four motors, no engine
+          - heading "Rimac Nevera" [level=2] [ref=f2e462]:
+            - generic [aria-hidden] [ref=f2e464]:
+              - generic [ref=f2e466]:
+                - generic [ref=f2e467]: R
+                - generic [ref=f2e468]: i
+                - generic [ref=f2e469]: m
+                - generic [ref=f2e470]: a
+                - generic [ref=f2e471]: c
+              - generic [ref=f2e473]:
+                - generic [ref=f2e474]: "N"
+                - generic [ref=f2e475]: e
+                - generic [ref=f2e476]: v
+                - generic [ref=f2e477]: e
+                - generic [ref=f2e478]: r
+                - generic [ref=f2e479]: a
+          - paragraph [ref=f2e480]: An electric motor drives each wheel, and the battery is built into the carbon-fibre tub. With no engine to package, the body is shaped around airflow and cooling.
+          - generic [ref=f2e481]:
+            - generic [ref=f2e482]:
+              - term [ref=f2e483]: Power
+              - definition [ref=f2e484]: 1,914 hp
+            - generic [ref=f2e485]:
+              - term [ref=f2e486]: Battery
+              - definition [ref=f2e487]: 120 kWh
+            - generic [ref=f2e488]:
+              - term [ref=f2e489]: Top speed
+              - definition [ref=f2e490]: 412 km/h
+    - region [ref=f2e491]:
+      - generic [ref=f2e493]:
+        - heading "135 years, parked in one row." [level=2] [ref=f2e494]:
+          - generic [aria-hidden] [ref=f2e496]:
+            - generic [ref=f2e498]:
+              - generic [ref=f2e499]: "1"
+              - generic [ref=f2e500]: "3"
+              - generic [ref=f2e501]: "5"
+            - generic [ref=f2e503]:
+              - generic [ref=f2e504]: "y"
+              - generic [ref=f2e505]: e
+              - generic [ref=f2e506]: a
+              - generic [ref=f2e507]: r
+              - generic [ref=f2e508]: s
+              - generic [ref=f2e509]: ","
+            - generic [ref=f2e511]:
+              - generic [ref=f2e512]: p
+              - generic [ref=f2e513]: a
+              - generic [ref=f2e514]: r
+              - generic [ref=f2e515]: k
+              - generic [ref=f2e516]: e
+              - generic [ref=f2e517]: d
+            - generic [ref=f2e519]:
+              - generic [ref=f2e520]: i
+              - generic [ref=f2e521]: "n"
+            - generic [ref=f2e523]:
+              - generic [ref=f2e524]: o
+              - generic [ref=f2e525]: "n"
+              - generic [ref=f2e526]: e
+            - generic [ref=f2e528]:
+              - generic [ref=f2e529]: r
+              - generic [ref=f2e530]: o
+              - generic [ref=f2e531]: w
+              - generic [ref=f2e532]: .
+        - paragraph [ref=f2e533]: Oldest in front, newest at the back. Scroll up to drive through them again.
+    - region [ref=f2e534]:
+      - generic [ref=f2e535]:
+        - heading "Credits" [level=2] [ref=f2e536]
+        - paragraph [ref=f2e537]: 3D models from Sketchfab, used under their Creative Commons licences. Paint colours on three of them were changed for this page.
+        - list [ref=f2e538]:
+          - listitem [ref=f2e539]:
+            - link "Erster Dreirad-Motorwagen von Carl Benz" [ref=f2e540] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/erster-dreirad-motorwagen-von-carl-benz-47df0cb894a34d33a09361f3cb182070
+            - text: by Deutsches Museum | Digital,
+            - link "CC BY-SA 4.0" [ref=f2e541] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-sa/4.0/
+          - listitem [ref=f2e542]:
+            - link "Ford Model T v2" [ref=f2e543] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/ford-model-t-v2-downloadable-028ff3c03a284216801eb05623c5b2a3
+            - text: by Libau Media,
+            - link "CC BY 4.0" [ref=f2e544] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+          - listitem [ref=f2e545]:
+            - link "Chrysler Airflow inspired 1930s Sedan" [ref=f2e546] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/chrysler-airflow-inspired-1930s-sedan-570e5f9d0c9749f8833685c7d7cfc881
+            - text: by Libau Media,
+            - link "CC BY 4.0" [ref=f2e547] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+          - listitem [ref=f2e548]:
+            - link "Mercedes-Benz 300 SL Gullwing" [ref=f2e549] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/mercedes-benz-300-sl-gullwing-505241c829c540a4921533000736904e
+            - text: by Lexyc16,
+            - link "CC BY 4.0" [ref=f2e550] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+          - listitem [ref=f2e551]:
+            - link "Lamborghini Countach 5000QV" [ref=f2e552] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/lamborghini-countach-5000qv-wwwvecarzcom-309d92b27c1041a3ab79b8919e7d92b5
+            - text: by vecarz,
+            - link "CC BY 4.0" [ref=f2e553] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0/
+          - listitem [ref=f2e554]:
+            - link "McLaren F1 1993" [ref=f2e555] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/mclaren-f1-1993-by-alexka-294df724d96241cdbe0e0f3c91ad7fce
+            - text: by Alex.Ka.,
+            - link "CC BY-NC 4.0" [ref=f2e556] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-nc/4.0/
+          - listitem [ref=f2e557]:
+            - link "2022 Rimac Nevera" [ref=f2e558] [cursor=pointer]:
+              - /url: https://sketchfab.com/3d-models/2022-rimac-nevera-d3700fc37a2c4a61adb33ac3ffedd787
+            - text: by Ddiaz Design,
+            - link "CC BY-NC-SA 4.0" [ref=f2e559] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        - paragraph [ref=f2e560]:
+          - text: "Design references:"
+          - link "Car Design History" [ref=f2e561] [cursor=pointer]:
+            - /url: https://www.cardesignhistory.com/
+          - text: and
+          - link "Hispano Suiza" [ref=f2e562] [cursor=pointer]:
+            - /url: https://www.hispanosuizacars.com/carmen-boulogne/
+          - text: . Letter-roll type adapted from an animated menu component.
+        - paragraph [ref=f2e563]: A non-commercial showcase. Nothing here is for sale.

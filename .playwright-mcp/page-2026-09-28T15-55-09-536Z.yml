@@ -1,0 +1,294 @@
+- generic [active] [ref=f9e1]:
+  - link "Skip to the line-up" [ref=f9e2] [cursor=pointer]:
+    - /url: "#finale"
+  - banner:
+    - navigation "Eras":
+      - link "Bodylines" [ref=f9e5] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=f9e8]:
+          - generic [ref=f9e9]:
+            - generic [ref=f9e10]: B
+            - generic [ref=f9e11]: o
+            - generic [ref=f9e12]: d
+            - generic [ref=f9e13]: "y"
+            - generic [ref=f9e14]: l
+            - generic [ref=f9e15]: i
+            - generic [ref=f9e16]: "n"
+            - generic [ref=f9e17]: e
+            - generic [ref=f9e18]: s
+          - generic [ref=f9e19]:
+            - generic [ref=f9e20]: B
+            - generic [ref=f9e21]: o
+            - generic [ref=f9e22]: d
+            - generic [ref=f9e23]: "y"
+            - generic [ref=f9e24]: l
+            - generic [ref=f9e25]: i
+            - generic [ref=f9e26]: "n"
+            - generic [ref=f9e27]: e
+            - generic [ref=f9e28]: s
+      - list [ref=f9e29]:
+        - listitem [ref=f9e30]:
+          - link "1886" [ref=f9e31] [cursor=pointer]:
+            - /url: "#motorwagen"
+            - generic [ref=f9e34]:
+              - generic [ref=f9e35]:
+                - generic [ref=f9e36]: "1"
+                - generic [ref=f9e37]: "8"
+                - generic [ref=f9e38]: "8"
+                - generic [ref=f9e39]: "6"
+              - generic [ref=f9e40]:
+                - generic [ref=f9e41]: "1"
+                - generic [ref=f9e42]: "8"
+                - generic [ref=f9e43]: "8"
+                - generic [ref=f9e44]: "6"
+        - listitem [ref=f9e45]:
+          - link "1908" [ref=f9e46] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=f9e49]:
+              - generic [ref=f9e50]:
+                - generic [ref=f9e51]: "1"
+                - generic [ref=f9e52]: "9"
+                - generic [ref=f9e53]: "0"
+                - generic [ref=f9e54]: "8"
+              - generic [ref=f9e55]:
+                - generic [ref=f9e56]: "1"
+                - generic [ref=f9e57]: "9"
+                - generic [ref=f9e58]: "0"
+                - generic [ref=f9e59]: "8"
+        - listitem [ref=f9e60]:
+          - link "1934" [ref=f9e61] [cursor=pointer]:
+            - /url: "#airflow"
+            - generic [ref=f9e64]:
+              - generic [ref=f9e65]:
+                - generic [ref=f9e66]: "1"
+                - generic [ref=f9e67]: "9"
+                - generic [ref=f9e68]: "3"
+                - generic [ref=f9e69]: "4"
+              - generic [ref=f9e70]:
+                - generic [ref=f9e71]: "1"
+                - generic [ref=f9e72]: "9"
+                - generic [ref=f9e73]: "3"
+                - generic [ref=f9e74]: "4"
+        - listitem [ref=f9e75]:
+          - link "1954" [ref=f9e76] [cursor=pointer]:
+            - /url: "#sl300"
+            - generic [ref=f9e79]:
+              - generic [ref=f9e80]:
+                - generic [ref=f9e81]: "1"
+                - generic [ref=f9e82]: "9"
+                - generic [ref=f9e83]: "5"
+                - generic [ref=f9e84]: "4"
+              - generic [ref=f9e85]:
+                - generic [ref=f9e86]: "1"
+                - generic [ref=f9e87]: "9"
+                - generic [ref=f9e88]: "5"
+                - generic [ref=f9e89]: "4"
+        - listitem [ref=f9e90]:
+          - link "1985" [ref=f9e91] [cursor=pointer]:
+            - /url: "#countach"
+            - generic [ref=f9e94]:
+              - generic [ref=f9e95]:
+                - generic [ref=f9e96]: "1"
+                - generic [ref=f9e97]: "9"
+                - generic [ref=f9e98]: "8"
+                - generic [ref=f9e99]: "5"
+              - generic [ref=f9e100]:
+                - generic [ref=f9e101]: "1"
+                - generic [ref=f9e102]: "9"
+                - generic [ref=f9e103]: "8"
+                - generic [ref=f9e104]: "5"
+        - listitem [ref=f9e105]:
+          - link "1992" [ref=f9e106] [cursor=pointer]:
+            - /url: "#f1"
+            - generic [ref=f9e109]:
+              - generic [ref=f9e110]:
+                - generic [ref=f9e111]: "1"
+                - generic [ref=f9e112]: "9"
+                - generic [ref=f9e113]: "9"
+                - generic [ref=f9e114]: "2"
+              - generic [ref=f9e115]:
+                - generic [ref=f9e116]: "1"
+                - generic [ref=f9e117]: "9"
+                - generic [ref=f9e118]: "9"
+                - generic [ref=f9e119]: "2"
+        - listitem [ref=f9e120]:
+          - link "2021" [ref=f9e121] [cursor=pointer]:
+            - /url: "#nevera"
+            - generic [ref=f9e124]:
+              - generic [ref=f9e125]:
+                - generic [ref=f9e126]: "2"
+                - generic [ref=f9e127]: "0"
+                - generic [ref=f9e128]: "2"
+                - generic [ref=f9e129]: "1"
+              - generic [ref=f9e130]:
+                - generic [ref=f9e131]: "2"
+                - generic [ref=f9e132]: "0"
+                - generic [ref=f9e133]: "2"
+                - generic [ref=f9e134]: "1"
+  - main [ref=f9e135]:
+    - region "From carriage to hypercar." [ref=f9e136]:
+      - generic [ref=f9e137]:
+        - generic:
+          - heading "From carriage to hypercar." [level=1]:
+            - text: From carriageto
+            - emphasis: hypercar.
+          - paragraph: Scroll to explore
+        - generic:
+          - paragraph: • 1886 to 2021
+          - heading "135 years of bodylines." [level=2]:
+            - text: 135 years of
+            - emphasis: bodylines.
+          - paragraph: Seven real cars. Hover a card to turn it, click to meet the car.
+        - generic:
+          - button "1886, Benz Patent-Motorwagen" [ref=f9e138] [cursor=pointer]:
+            - generic [ref=f9e139]: "1886"
+          - button "1886, Benz Patent-Motorwagen" [ref=f9e143] [cursor=pointer]:
+            - generic [ref=f9e144]: "1886"
+          - button "1886, Benz Patent-Motorwagen" [ref=f9e148] [cursor=pointer]:
+            - generic [ref=f9e149]: "1886"
+          - button "1908, Ford Model T" [ref=f9e153] [cursor=pointer]:
+            - generic [ref=f9e154]: "1908"
+          - button "1908, Ford Model T" [ref=f9e158] [cursor=pointer]:
+            - generic [ref=f9e159]: "1908"
+          - button "1908, Ford Model T" [ref=f9e163] [cursor=pointer]:
+            - generic [ref=f9e164]: "1908"
+          - button "1934, Chrysler Airflow" [ref=f9e168] [cursor=pointer]:
+            - generic [ref=f9e169]: "1934"
+          - button "1934, Chrysler Airflow" [ref=f9e173] [cursor=pointer]:
+            - generic [ref=f9e174]: "1934"
+          - button "1934, Chrysler Airflow" [ref=f9e178] [cursor=pointer]:
+            - generic [ref=f9e179]: "1934"
+          - button "1954, Mercedes-Benz 300 SL" [ref=f9e183] [cursor=pointer]:
+            - generic [ref=f9e184]: "1954"
+          - button "1954, Mercedes-Benz 300 SL" [ref=f9e188] [cursor=pointer]:
+            - generic [ref=f9e189]: "1954"
+          - button "1954, Mercedes-Benz 300 SL" [ref=f9e193] [cursor=pointer]:
+            - generic [ref=f9e194]: "1954"
+          - button "1985, Lamborghini Countach 5000 QV" [ref=f9e198] [cursor=pointer]:
+            - generic [ref=f9e199]: "1985"
+          - button "1985, Lamborghini Countach 5000 QV" [ref=f9e203] [cursor=pointer]:
+            - generic [ref=f9e204]: "1985"
+          - button "1985, Lamborghini Countach 5000 QV" [ref=f9e208] [cursor=pointer]:
+            - generic [ref=f9e209]: "1985"
+          - button "1992, McLaren F1" [ref=f9e213] [cursor=pointer]:
+            - generic [ref=f9e214]: "1992"
+          - button "1992, McLaren F1" [ref=f9e218] [cursor=pointer]:
+            - generic [ref=f9e219]: "1992"
+          - button "1992, McLaren F1" [ref=f9e223] [cursor=pointer]:
+            - generic [ref=f9e224]: "1992"
+          - button "2021, Rimac Nevera" [ref=f9e228] [cursor=pointer]:
+            - generic [ref=f9e229]: "2021"
+          - button "2021, Rimac Nevera" [ref=f9e233] [cursor=pointer]:
+            - generic [ref=f9e234]: "2021"
+    - region "The cars" [ref=f9e238]:
+      - paragraph [aria-hidden] [ref=f9e241]: 01 / 07
+    - region [ref=f9e242]:
+      - generic [ref=f9e244]:
+        - generic [ref=f9e245]:
+          - paragraph [ref=f9e246]: 08 The line-up
+          - heading [level=2] [ref=f9e247]:
+            - text: 135 years,
+            - emphasis [ref=f9e248]: in one row.
+        - list [ref=f9e249]:
+          - listitem [aria-hidden] [ref=f9e250]
+          - listitem [ref=f9e251]:
+            - link "1886 Benz Patent-Motorwagen" [ref=f9e252] [cursor=pointer]:
+              - /url: "#motorwagen"
+              - generic [ref=f9e253]: "1886"
+              - generic [ref=f9e254]: Benz Patent-Motorwagen
+          - listitem [ref=f9e255]:
+            - link "1908 Ford Model T" [ref=f9e256] [cursor=pointer]:
+              - /url: "#modelt"
+              - generic [ref=f9e257]: "1908"
+              - generic [ref=f9e258]: Ford Model T
+          - listitem [ref=f9e259]:
+            - link "1934 Chrysler Airflow" [ref=f9e260] [cursor=pointer]:
+              - /url: "#airflow"
+              - generic [ref=f9e261]: "1934"
+              - generic [ref=f9e262]: Chrysler Airflow
+          - listitem [ref=f9e263]:
+            - link "1954 Mercedes-Benz 300 SL" [ref=f9e264] [cursor=pointer]:
+              - /url: "#sl300"
+              - generic [ref=f9e265]: "1954"
+              - generic [ref=f9e266]: Mercedes-Benz 300 SL
+          - listitem [ref=f9e267]:
+            - link "1985 Lamborghini Countach 5000 QV" [ref=f9e268] [cursor=pointer]:
+              - /url: "#countach"
+              - generic [ref=f9e269]: "1985"
+              - generic [ref=f9e270]: Lamborghini Countach 5000 QV
+          - listitem [ref=f9e271]:
+            - link "1992 McLaren F1" [ref=f9e272] [cursor=pointer]:
+              - /url: "#f1"
+              - generic [ref=f9e273]: "1992"
+              - generic [ref=f9e274]: McLaren F1
+          - listitem [ref=f9e275]:
+            - link "2021 Rimac Nevera" [ref=f9e276] [cursor=pointer]:
+              - /url: "#nevera"
+              - generic [ref=f9e277]: "2021"
+              - generic [ref=f9e278]: Rimac Nevera
+  - contentinfo [ref=f9e279]:
+    - generic [ref=f9e280]:
+      - paragraph [ref=f9e281]:
+        - text: From carriageto
+        - emphasis [ref=f9e282]: hypercar.
+      - link "Back to top" [ref=f9e283] [cursor=pointer]:
+        - /url: "#hero"
+        - text: Back to top
+        - generic [aria-hidden] [ref=f9e284]: ↑
+    - navigation "All cars" [ref=f9e285]:
+      - list [ref=f9e286]:
+        - listitem [ref=f9e287]:
+          - link "1886 Benz Patent-Motorwagen" [ref=f9e288] [cursor=pointer]:
+            - /url: "#motorwagen"
+            - generic [ref=f9e289]: "1886"
+            - generic [ref=f9e290]: Benz Patent-Motorwagen
+            - generic [aria-hidden] [ref=f9e291]: →
+        - listitem [ref=f9e292]:
+          - link "1908 Ford Model T" [ref=f9e293] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=f9e294]: "1908"
+            - generic [ref=f9e295]: Ford Model T
+            - generic [aria-hidden] [ref=f9e296]: →
+        - listitem [ref=f9e297]:
+          - link "1934 Chrysler Airflow" [ref=f9e298] [cursor=pointer]:
+            - /url: "#airflow"
+            - generic [ref=f9e299]: "1934"
+            - generic [ref=f9e300]: Chrysler Airflow
+            - generic [aria-hidden] [ref=f9e301]: →
+        - listitem [ref=f9e302]:
+          - link "1954 Mercedes-Benz 300 SL" [ref=f9e303] [cursor=pointer]:
+            - /url: "#sl300"
+            - generic [ref=f9e304]: "1954"
+            - generic [ref=f9e305]: Mercedes-Benz 300 SL
+            - generic [aria-hidden] [ref=f9e306]: →
+        - listitem [ref=f9e307]:
+          - link "1985 Lamborghini Countach 5000 QV" [ref=f9e308] [cursor=pointer]:
+            - /url: "#countach"
+            - generic [ref=f9e309]: "1985"
+            - generic [ref=f9e310]: Lamborghini Countach 5000 QV
+            - generic [aria-hidden] [ref=f9e311]: →
+        - listitem [ref=f9e312]:
+          - link "1992 McLaren F1" [ref=f9e313] [cursor=pointer]:
+            - /url: "#f1"
+            - generic [ref=f9e314]: "1992"
+            - generic [ref=f9e315]: McLaren F1
+            - generic [aria-hidden] [ref=f9e316]: →
+        - listitem [ref=f9e317]:
+          - link "2021 Rimac Nevera" [ref=f9e318] [cursor=pointer]:
+            - /url: "#nevera"
+            - generic [ref=f9e319]: "2021"
+            - generic [ref=f9e320]: Rimac Nevera
+            - generic [aria-hidden] [ref=f9e321]: →
+    - generic [ref=f9e322]:
+      - paragraph [ref=f9e323]: A non-commercial showcase. Photos collected from Pinterest.
+      - paragraph [ref=f9e324]: 1886 – 2021
+    - paragraph [aria-hidden]:
+      - generic: B
+      - generic: o
+      - generic: d
+      - generic: "y"
+      - generic: l
+      - generic: i
+      - generic: "n"
+      - generic: e
+      - generic: s

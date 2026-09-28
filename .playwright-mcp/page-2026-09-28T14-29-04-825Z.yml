@@ -1,0 +1,353 @@
+- generic [active] [ref=f80e1]:
+  - generic [ref=f80e4]:
+    - banner:
+      - link "Skip to content":
+        - /url: "#"
+      - generic [ref=f80e14]:
+        - generic [ref=f80e16]:
+          - generic [ref=f80e17]:
+            - combobox "Search" [ref=f80e19]: benz patent motorwagen side view
+            - generic [ref=f80e20]:
+              - button "Remove search input" [ref=f80e23] [cursor=pointer]
+              - generic "Upload image" [ref=f80e30]:
+                - button "Lens" [ref=f80e31] [cursor=pointer]
+              - generic [ref=f80e36]:
+                - status [ref=f80e37]
+                - generic "Search by voice" [ref=f80e39]:
+                  - button "Voice search" [ref=f80e40] [cursor=pointer]
+          - button "All Pins Dropdown" [ref=f80e47] [cursor=pointer]:
+            - generic [ref=f80e49]:
+              - generic [ref=f80e50]: All Pins
+              - img "Dropdown" [ref=f80e52]
+        - link "Your profile" [ref=f80e58] [cursor=pointer]:
+          - /url: /sankeths908/
+        - button "Accounts" [ref=f80e70] [cursor=pointer]
+    - navigation [ref=f80e75]:
+      - generic [ref=f80e77]:
+        - generic [ref=f80e78]:
+          - generic "Home" [ref=f80e82]:
+            - link "Home" [ref=f80e83] [cursor=pointer]:
+              - /url: /
+          - generic "Home" [ref=f80e90]:
+            - link "Home" [ref=f80e91] [cursor=pointer]:
+              - /url: /
+          - generic [ref=f80e95]:
+            - generic "Explore" [ref=f80e98]:
+              - link "Explore" [ref=f80e99] [cursor=pointer]:
+                - /url: /ideas
+            - generic:
+              - status "Notifications"
+          - generic "Your boards" [ref=f80e106]:
+            - link "Your boards" [ref=f80e107] [cursor=pointer]:
+              - /url: /sankeths908/
+          - generic "Create" [ref=f80e114]:
+            - button "Create" [ref=f80e115] [cursor=pointer]
+          - generic "Updates" [ref=f80e124]:
+            - button "Updates" [ref=f80e125] [cursor=pointer]
+          - generic "Messages" [ref=f80e134]:
+            - button "Messages" [ref=f80e135] [cursor=pointer]
+        - generic "Settings & Support" [ref=f80e144]:
+          - button "Settings & Support" [ref=f80e145] [cursor=pointer]
+    - generic:
+      - complementary "Footer floating buttons"
+    - main [ref=f80e150]:
+      - generic [ref=f80e152]:
+        - heading "Search Results Page" [level=1] [ref=f80e154]
+        - region "Search filters and refinements" [ref=f80e158]:
+          - button "Show filters" [ref=f80e167] [cursor=pointer]
+        - generic [ref=f80e178]:
+          - generic [ref=f80e179]: Loading more search results for benz patent motorwagen side view
+          - list [ref=f80e184]:
+            - listitem [ref=f80e185]:
+              - button [ref=f80e187] [cursor=pointer]:
+                - group "Pin card" [ref=f80e190]:
+                  - generic [ref=f80e192]:
+                    - link "Benz patent motor car | marsClassic pin page" [ref=f80e194]:
+                      - /url: /pin/35325178324443185/
+                      - 'img "This may contain: an old fashioned car is shown in black and white, with the wheels still attached" [ref=f80e204]'
+                    - generic "More actions" [ref=f80e212]:
+                      - button "More actions" [ref=f80e213]
+            - listitem [ref=f80e218]:
+              - button [ref=f80e220] [cursor=pointer]:
+                - group "Pin card" [ref=f80e223]:
+                  - generic [ref=f80e225]:
+                    - link "1886 Benz patent -Motorwagen pin page" [ref=f80e227]:
+                      - /url: /pin/196258496255488759/
+                      - 'img "This may contain: an old fashioned car is shown on a white background" [ref=f80e237]'
+                    - generic "More actions" [ref=f80e245]:
+                      - button "More actions" [ref=f80e246]
+            - listitem [ref=f80e251]:
+              - button [ref=f80e253] [cursor=pointer]:
+                - group "Pin card" [ref=f80e256]:
+                  - generic [ref=f80e258]:
+                    - link "Motrowagen 1886 pin page" [ref=f80e260]:
+                      - /url: /pin/262334747040084865/
+                      - 'img "This may contain: an old fashioned car sitting on top of a white floor" [ref=f80e270]'
+                    - generic "More actions" [ref=f80e278]:
+                      - button "More actions" [ref=f80e279]
+            - listitem [ref=f80e284]:
+              - button [ref=f80e286] [cursor=pointer]:
+                - group "Pin card" [ref=f80e289]:
+                  - generic [ref=f80e291]:
+                    - link "an old fashioned wooden car with wheels and spokes on the front, is shown pin page" [ref=f80e293]:
+                      - /url: /pin/645703665332544966/
+                      - 'img "This may contain: an old fashioned wooden car with wheels and spokes on the front, is shown" [ref=f80e303]'
+                    - generic "More actions" [ref=f80e311]:
+                      - button "More actions" [ref=f80e312]
+            - listitem [ref=f80e317]:
+              - button [ref=f80e319] [cursor=pointer]:
+                - group "Pin card" [ref=f80e322]:
+                  - generic [ref=f80e324]:
+                    - link "Mercedes Benz Patent-Motorwagen inspiration pin page" [ref=f80e326]:
+                      - /url: /pin/23995810509990972/
+                      - 'img "This may contain: an old fashioned car is shown in this hand - drawn drawing, with detailed details surrounding it" [ref=f80e336]'
+                    - generic "More actions" [ref=f80e344]:
+                      - button "More actions" [ref=f80e345]
+            - listitem [ref=f80e350]:
+              - button [ref=f80e352] [cursor=pointer]:
+                - group "Pin card" [ref=f80e355]:
+                  - generic [ref=f80e357]:
+                    - link "an old fashioned bicycle is shown in black and white, against a gray sky background pin page" [ref=f80e359]:
+                      - /url: /pin/260505159692167170/
+                      - 'img "This may contain: an old fashioned bicycle is shown in black and white, against a gray sky background" [ref=f80e369]'
+                    - generic "More actions" [ref=f80e377]:
+                      - button "More actions" [ref=f80e378]
+            - listitem [ref=f80e383]:
+              - button [ref=f80e385] [cursor=pointer]:
+                - group "Pin card" [ref=f80e388]:
+                  - generic [ref=f80e390]:
+                    - link "Benz (1885) pin page" [ref=f80e392]:
+                      - /url: /pin/273101164902395520/
+                      - 'img "This may contain: an old fashioned wooden car is shown on a white background" [ref=f80e402]'
+                    - generic "More actions" [ref=f80e410]:
+                      - button "More actions" [ref=f80e411]
+            - listitem [ref=f80e416]:
+              - button [ref=f80e418] [cursor=pointer]:
+                - group "Pin card" [ref=f80e421]:
+                  - generic [ref=f80e423]:
+                    - 'link "Jan. 29, 1886 Credit: @mercedesbenzmuseum pin page" [ref=f80e425]':
+                      - /url: /pin/329255422768413988/
+                      - 'img "This may contain: an old drawing of a machine from the early 1900''s" [ref=f80e435]'
+                    - generic "More actions" [ref=f80e443]:
+                      - button "More actions" [ref=f80e444]
+            - listitem [ref=f80e449]:
+              - button [ref=f80e451] [cursor=pointer]:
+                - group "Pin card" [ref=f80e454]:
+                  - generic [ref=f80e456]:
+                    - link "an old fashioned bicycle with wheels and spokes on the front is shown in black ink pin page" [ref=f80e458]:
+                      - /url: /pin/146648531612127939/
+                      - 'img "This may contain: an old fashioned bicycle with wheels and spokes on the front is shown in black ink" [ref=f80e468]'
+                    - generic "More actions" [ref=f80e476]:
+                      - button "More actions" [ref=f80e477]
+            - listitem [ref=f80e482]:
+              - button [ref=f80e484] [cursor=pointer]:
+                - group "Pin card" [ref=f80e487]:
+                  - generic [ref=f80e489]:
+                    - link "an old fashioned car sitting on top of a white floor next to a blue wall pin page" [ref=f80e491]:
+                      - /url: /pin/260505159684928660/
+                      - 'img "This may contain: an old fashioned car sitting on top of a white floor next to a blue wall" [ref=f80e501]'
+                    - generic "More actions" [ref=f80e509]:
+                      - button "More actions" [ref=f80e510]
+            - listitem [ref=f80e515]:
+              - button [ref=f80e517] [cursor=pointer]:
+                - group "Pin card" [ref=f80e520]:
+                  - generic [ref=f80e522]:
+                    - link "The First Automobile – A Benz Patent-Motorwagen... pin page" [ref=f80e524]:
+                      - /url: /pin/920141767637949538/
+                      - 'img "This may contain: an old fashioned car is parked on the side of the road with trees in the background" [ref=f80e534]'
+                    - generic "More actions" [ref=f80e542]:
+                      - button "More actions" [ref=f80e543]
+            - listitem [ref=f80e548]:
+              - button [ref=f80e550] [cursor=pointer]:
+                - group "Pin card" [ref=f80e553]:
+                  - generic [ref=f80e555]:
+                    - link "an old fashioned car is shown on a white background with the wheels and seat folded down pin page" [ref=f80e557]:
+                      - /url: /pin/260505159685037718/
+                      - 'img "This may contain: an old fashioned car is shown on a white background with the wheels and seat folded down" [ref=f80e567]'
+                    - generic "More actions" [ref=f80e575]:
+                      - button "More actions" [ref=f80e576]
+            - listitem [ref=f80e581]:
+              - button [ref=f80e583] [cursor=pointer]:
+                - group "Pin card" [ref=f80e586]:
+                  - generic [ref=f80e588]:
+                    - link "1886 Benz Patent Motor Car pin page" [ref=f80e590]:
+                      - /url: /pin/39054721756089533/
+                      - 'img "This may contain: an old fashioned car is shown on a white background" [ref=f80e600]'
+                    - generic "More actions" [ref=f80e608]:
+                      - button "More actions" [ref=f80e609]
+            - listitem [ref=f80e614]:
+              - button [ref=f80e616] [cursor=pointer]:
+                - group "Pin card" [ref=f80e619]:
+                  - generic [ref=f80e621]:
+                    - 'link "Benz Patent Motor Car: The first automobile (1885–1886) | Mercedes-Benz Group pin page" [ref=f80e623]':
+                      - /url: /pin/8655424280514377/
+                      - 'img "This contains an image of: Benz Patent Motor Car: The first automobile (1885–1886) | Mercedes-Benz Group" [ref=f80e633]'
+                    - generic "More actions" [ref=f80e641]:
+                      - button "More actions" [ref=f80e642]
+            - listitem [ref=f80e647]:
+              - button [ref=f80e649] [cursor=pointer]:
+                - group "Pin card" [ref=f80e652]:
+                  - generic [ref=f80e654]:
+                    - 'link "Benz Patent Motorwagen : une réplique de la première voiture de l&#39;histoire à vendre pin page" [ref=f80e656]':
+                      - /url: /pin/335658978474740830/
+                      - 'img "This may contain: an old fashioned car with wooden wheels on the front and side, parked against a white wall" [ref=f80e666]'
+                    - generic "More actions" [ref=f80e674]:
+                      - button "More actions" [ref=f80e675]
+            - listitem [ref=f80e680]:
+              - button [ref=f80e682] [cursor=pointer]:
+                - group "Pin card" [ref=f80e685]:
+                  - generic [ref=f80e687]:
+                    - link "an old fashioned car with wood and metal trims on the front, sitting against a white background pin page" [ref=f80e689]:
+                      - /url: /pin/260505159684928665/
+                      - 'img "This may contain: an old fashioned car with wood and metal trims on the front, sitting against a white background" [ref=f80e699]'
+                    - generic "More actions" [ref=f80e707]:
+                      - button "More actions" [ref=f80e708]
+            - listitem [ref=f80e713]:
+              - button [ref=f80e715] [cursor=pointer]:
+                - group "Pin card" [ref=f80e718]:
+                  - generic [ref=f80e720]:
+                    - 'link "Mercedes-Benz on Instagram: &quot;Exactly 140 years ago, on January 29, 1886, patent DRP 37435 changed the world: the first vehicle powered by a gas engine. That moment marked the beginning of the automobile and 140 years of relentless innovation at Mercedes-Benz, where engineering meets beauty and progress never stops. Or as Carl Benz once said: “The love of inventing never ends.” #MercedesBenz #MBClassic #140years&quot; pin page" [ref=f80e722]':
+                      - /url: /pin/70016969204354160/
+                      - 'img "This may contain: an old fashioned car is shown on a gray background, with the wheels still attached to it" [ref=f80e732]'
+                    - generic "More actions" [ref=f80e740]:
+                      - button "More actions" [ref=f80e741]
+            - listitem [ref=f80e746]:
+              - button [ref=f80e748] [cursor=pointer]:
+                - group "Pin card" [ref=f80e751]:
+                  - generic [ref=f80e753]:
+                    - link "an old fashioned wooden carriage with black leather seats pin page" [ref=f80e755]:
+                      - /url: /pin/14214555067932313/
+                      - 'img "This may contain: an old fashioned wooden carriage with black leather seats" [ref=f80e765]'
+                    - generic "More actions" [ref=f80e773]:
+                      - button "More actions" [ref=f80e774]
+            - listitem [ref=f80e779]:
+              - button [ref=f80e781] [cursor=pointer]:
+                - group "Pin card" [ref=f80e784]:
+                  - generic [ref=f80e786]:
+                    - link "3D model of Benz Patent-Motorwagen 1885 pin page" [ref=f80e788]:
+                      - /url: /pin/269441990191546830/
+                      - 'img "This contains an image of: 3D model of Benz Patent-Motorwagen 1885" [ref=f80e798]'
+                    - generic "More actions" [ref=f80e806]:
+                      - button "More actions" [ref=f80e807]
+            - listitem [ref=f80e812]:
+              - button [ref=f80e814] [cursor=pointer]:
+                - group "Pin card" [ref=f80e817]:
+                  - generic [ref=f80e819]:
+                    - 'link "Freeze Frame: The drawings that showed us the world’s first car | Hagerty UK pin page" [ref=f80e821]':
+                      - /url: /pin/226094843784160405/
+                      - 'img "This may contain: an old fashioned buggy is shown in this drawing from the early 1900''s" [ref=f80e831]'
+                    - generic "More actions" [ref=f80e839]:
+                      - button "More actions" [ref=f80e840]
+            - listitem [ref=f80e845]:
+              - button [ref=f80e847] [cursor=pointer]:
+                - group "Pin card" [ref=f80e850]:
+                  - generic [ref=f80e852]:
+                    - link "1886 Benz Patent Motorwagen Recreation | Palm Beach 2020 | RM Sotheby&#39;s pin page" [ref=f80e854]:
+                      - /url: /pin/645703665332523385/
+                      - 'img "This may contain: an old fashioned wooden car is parked on the pavement in front of a wire fence" [ref=f80e864]'
+                    - generic "More actions" [ref=f80e872]:
+                      - button "More actions" [ref=f80e873]
+            - listitem [ref=f80e878]:
+              - button [ref=f80e880] [cursor=pointer]:
+                - group "Pin card" [ref=f80e883]:
+                  - generic [ref=f80e885]:
+                    - link "1885 Benz Model I. Patent-Motorwagen pin page" [ref=f80e887]:
+                      - /url: /pin/673358581827718173/
+                      - 'img "This may contain: an old model car with wheels and spokes on it''s sides, in front of a black background" [ref=f80e897]'
+                    - generic "More actions" [ref=f80e905]:
+                      - button "More actions" [ref=f80e906]
+            - listitem [ref=f80e911]:
+              - button [ref=f80e913] [cursor=pointer]:
+                - group "Pin card" [ref=f80e916]:
+                  - generic [ref=f80e918]:
+                    - link "an old fashioned car is shown on a gray background with the wheels still attached to it pin page" [ref=f80e920]:
+                      - /url: /pin/188447565654006263/
+                      - 'img "This may contain: an old fashioned car is shown on a gray background with the wheels still attached to it" [ref=f80e930]'
+                    - generic "More actions" [ref=f80e938]:
+                      - button "More actions" [ref=f80e939]
+            - listitem [ref=f80e944]:
+              - button [ref=f80e946] [cursor=pointer]:
+                - group "Pin card" [ref=f80e949]:
+                  - generic [ref=f80e951]:
+                    - link "the silhouette of an old - fashioned bicycle is shown against a gray background with no wheels pin page" [ref=f80e953]:
+                      - /url: /pin/260505159692167168/
+                      - 'img "This may contain: the silhouette of an old - fashioned bicycle is shown against a gray background with no wheels" [ref=f80e963]'
+                    - generic "More actions" [ref=f80e971]:
+                      - button "More actions" [ref=f80e972]
+            - listitem [ref=f80e977]:
+              - button [ref=f80e979] [cursor=pointer]:
+                - group "Pin card" [ref=f80e982]:
+                  - generic [ref=f80e984]:
+                    - link "1886 Benz Patent Motorwagen Sparked a Revolution pin page" [ref=f80e986]:
+                      - /url: /pin/525021269082467228/
+                      - 'img "This may contain: an old steam engine sitting on top of a grass covered field next to the ocean" [ref=f80e996]'
+                    - generic "More actions" [ref=f80e1004]:
+                      - button "More actions" [ref=f80e1005]
+            - listitem [ref=f80e1010]:
+              - button [ref=f80e1012] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1015]:
+                  - generic [ref=f80e1017]:
+                    - link "Built in 1886, Benz Patent-Motorwagen is the... pin page" [ref=f80e1019]:
+                      - /url: /pin/4604860373296063744/
+                      - 'img "This may contain: an old fashioned car is shown in this black and white photo from the early 1900''s" [ref=f80e1029]'
+                    - generic "More actions" [ref=f80e1037]:
+                      - button "More actions" [ref=f80e1038]
+            - listitem [ref=f80e1043]:
+              - button [ref=f80e1045] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1048]:
+                  - generic [ref=f80e1050]:
+                    - link "Benz Patent-Motorwagen The whole story. Replica pin page" [ref=f80e1052]:
+                      - /url: /pin/4605845536389907328/
+                      - 'img "This may contain: an old fashioned car is parked on the floor in front of a white wall," [ref=f80e1062]'
+                    - generic "More actions" [ref=f80e1070]:
+                      - button "More actions" [ref=f80e1071]
+            - listitem [ref=f80e1076]:
+              - button [ref=f80e1078] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1081]:
+                  - generic [ref=f80e1083]:
+                    - link "Benz Motorwagen - 1886 pin page" [ref=f80e1085]:
+                      - /url: /pin/407998047485404197/
+                      - 'img "This may contain: an old fashioned car is shown on a white background with the caption below it" [ref=f80e1095]'
+                    - generic "More actions" [ref=f80e1103]:
+                      - button "More actions" [ref=f80e1104]
+            - listitem [ref=f80e1109]:
+              - button [ref=f80e1111] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1114]:
+                  - generic [ref=f80e1116]:
+                    - link "1888 Benz Patent Motorwagen TYP III pin page" [ref=f80e1118]:
+                      - /url: /pin/354236326963597561/
+                      - 'img "This may contain: an old fashioned green and black carriage parked in front of a brick building with windows" [ref=f80e1128]'
+                    - generic "More actions" [ref=f80e1136]:
+                      - button "More actions" [ref=f80e1137]
+            - listitem [ref=f80e1142]:
+              - button [ref=f80e1144] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1147]:
+                  - generic [ref=f80e1149]:
+                    - link "an old fashioned car with wooden seats and spokes, on white background - stock image pin page" [ref=f80e1151]:
+                      - /url: /pin/126945283241968223/
+                      - 'img "This may contain: an old fashioned car with wooden seats and spokes, on white background - stock image" [ref=f80e1161]'
+                    - generic "More actions" [ref=f80e1169]:
+                      - button "More actions" [ref=f80e1170]
+            - listitem [ref=f80e1175]:
+              - button [ref=f80e1177] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1180]:
+                  - generic [ref=f80e1182]:
+                    - link "&lt;b&gt;1886 Benz Patent Motorwagen Replica&lt;/b&gt;&lt;br /&gt;Chassis no. MBCC 052 pin page" [ref=f80e1184]:
+                      - /url: /pin/645703665332363135/
+                      - 'img "This may contain: an old - fashioned car is parked in front of a building with a wall behind it" [ref=f80e1194]'
+                    - generic "More actions" [ref=f80e1202]:
+                      - button "More actions" [ref=f80e1203]
+            - listitem [ref=f80e1208]:
+              - button [ref=f80e1210] [cursor=pointer]:
+                - group "Pin card" [ref=f80e1213]:
+                  - generic [ref=f80e1215]:
+                    - link "1886 Benz Patent Wagon pin page" [ref=f80e1217]:
+                      - /url: /pin/657666351876361674/
+                      - 'img "This may contain: an old fashioned car is on display against a white background with no one in it" [ref=f80e1227]'
+                    - generic "More actions" [ref=f80e1235]:
+                      - button "More actions" [ref=f80e1236]
+    - generic:
+      - contentinfo "Footer"
+  - generic:
+    - generic:
+      - region "Toast notification"
