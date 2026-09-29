@@ -1,0 +1,263 @@
+- generic [active] [ref=f6e1]:
+  - status "Loading" [ref=f6e2]:
+    - paragraph [ref=f6e3]: Bodylines
+  - link "Skip to the line-up" [ref=f6e6] [cursor=pointer]:
+    - /url: "#finale"
+  - banner:
+    - navigation "Eras":
+      - link "Bodylines" [ref=f6e9] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=f6e12]:
+          - generic [ref=f6e13]:
+            - generic [ref=f6e14]: B
+            - generic [ref=f6e15]: o
+            - generic [ref=f6e16]: d
+            - generic [ref=f6e17]: "y"
+            - generic [ref=f6e18]: l
+            - generic [ref=f6e19]: i
+            - generic [ref=f6e20]: "n"
+            - generic [ref=f6e21]: e
+            - generic [ref=f6e22]: s
+          - generic [ref=f6e23]:
+            - generic [ref=f6e24]: B
+            - generic [ref=f6e25]: o
+            - generic [ref=f6e26]: d
+            - generic [ref=f6e27]: "y"
+            - generic [ref=f6e28]: l
+            - generic [ref=f6e29]: i
+            - generic [ref=f6e30]: "n"
+            - generic [ref=f6e31]: e
+            - generic [ref=f6e32]: s
+  - main [ref=f6e33]:
+    - region "From carriage to supercar." [ref=f6e34]:
+      - generic [ref=f6e35]:
+        - generic:
+          - heading "From carriage to supercar." [level=1]:
+            - text: From carriageto
+            - emphasis: supercar.
+          - paragraph: Scroll to explore
+        - generic:
+          - paragraph: • 1896 to 2025
+          - heading "129 years of bodylines." [level=2]:
+            - text: 129 years of
+            - emphasis: bodylines.
+          - paragraph: Twelve Fords. Hover a card to turn it, click to meet the car.
+        - generic:
+          - button "1896, Ford Quadricycle" [ref=f6e36] [cursor=pointer]:
+            - generic [ref=f6e37]: "1896"
+          - button "1896, Ford Quadricycle" [ref=f6e41] [cursor=pointer]:
+            - generic [ref=f6e42]: "1896"
+          - button "1908, Ford Model T" [ref=f6e46] [cursor=pointer]:
+            - generic [ref=f6e47]: "1908"
+          - button "1908, Ford Model T" [ref=f6e51] [cursor=pointer]:
+            - generic [ref=f6e52]: "1908"
+          - button "1932, Ford V8 (Model 18)" [ref=f6e56] [cursor=pointer]:
+            - generic [ref=f6e57]: "1932"
+          - button "1932, Ford V8 (Model 18)" [ref=f6e61] [cursor=pointer]:
+            - generic [ref=f6e62]: "1932"
+          - button "1955, Ford Thunderbird" [ref=f6e66] [cursor=pointer]:
+            - generic [ref=f6e67]: "1955"
+          - button "1955, Ford Thunderbird" [ref=f6e71] [cursor=pointer]:
+            - generic [ref=f6e72]: "1955"
+          - button "1964, Ford Mustang" [ref=f6e76] [cursor=pointer]:
+            - generic [ref=f6e77]: "1964"
+          - button "1964, Ford Mustang" [ref=f6e81] [cursor=pointer]:
+            - generic [ref=f6e82]: "1964"
+          - button "1966, Ford GT40 Mk II" [ref=f6e86] [cursor=pointer]:
+            - generic [ref=f6e87]: "1966"
+          - button "1966, Ford GT40 Mk II" [ref=f6e91] [cursor=pointer]:
+            - generic [ref=f6e92]: "1966"
+          - button "2017, Ford GT" [ref=f6e96] [cursor=pointer]:
+            - generic [ref=f6e97]: "2017"
+          - button "2017, Ford GT" [ref=f6e101] [cursor=pointer]:
+            - generic [ref=f6e102]: "2017"
+          - button "2020, Ford Mustang Shelby GT500" [ref=f6e106] [cursor=pointer]:
+            - generic [ref=f6e107]: "2020"
+          - button "2020, Ford Mustang Shelby GT500" [ref=f6e111] [cursor=pointer]:
+            - generic [ref=f6e112]: "2020"
+          - button "2021, Ford Mustang Mach-E" [ref=f6e116] [cursor=pointer]:
+            - generic [ref=f6e117]: "2021"
+          - button "2021, Ford Mustang Mach-E" [ref=f6e121] [cursor=pointer]:
+            - generic [ref=f6e122]: "2021"
+          - button "2023, Ford GT Mk IV" [ref=f6e126] [cursor=pointer]:
+            - generic [ref=f6e127]: "2023"
+          - button "2023, Ford GT Mk IV" [ref=f6e131] [cursor=pointer]:
+            - generic [ref=f6e132]: "2023"
+          - button "2024, Ford Mustang Dark Horse" [ref=f6e136] [cursor=pointer]:
+            - generic [ref=f6e137]: "2024"
+          - button "2024, Ford Mustang Dark Horse" [ref=f6e141] [cursor=pointer]:
+            - generic [ref=f6e142]: "2024"
+          - button "2025, Ford Mustang GTD" [ref=f6e146] [cursor=pointer]:
+            - generic [ref=f6e147]: "2025"
+          - button "2025, Ford Mustang GTD" [ref=f6e151] [cursor=pointer]:
+            - generic [ref=f6e152]: "2025"
+    - region "The cars" [ref=f6e156]:
+      - generic [ref=f6e158]:
+        - figure:
+          - generic:
+            - img "Ford Quadricycle"
+    - region [ref=f6e159]:
+      - generic [ref=f6e161]:
+        - generic [ref=f6e162]:
+          - paragraph [ref=f6e163]: 08 The line-up
+          - heading [level=2] [ref=f6e164]:
+            - text: 129 years,
+            - emphasis [ref=f6e165]: in one row.
+        - list [ref=f6e166]:
+          - listitem [aria-hidden] [ref=f6e167]
+          - listitem [ref=f6e168]:
+            - link "1896 Ford Quadricycle" [ref=f6e169] [cursor=pointer]:
+              - /url: "#quadricycle"
+              - generic [ref=f6e170]: "1896"
+              - generic [ref=f6e171]: Ford Quadricycle
+          - listitem [ref=f6e172]:
+            - link "1908 Ford Model T" [ref=f6e173] [cursor=pointer]:
+              - /url: "#modelt"
+              - generic [ref=f6e174]: "1908"
+              - generic [ref=f6e175]: Ford Model T
+          - listitem [ref=f6e176]:
+            - link "1932 Ford V8 (Model 18)" [ref=f6e177] [cursor=pointer]:
+              - /url: "#v8"
+              - generic [ref=f6e178]: "1932"
+              - generic [ref=f6e179]: Ford V8 (Model 18)
+          - listitem [ref=f6e180]:
+            - link "1955 Ford Thunderbird" [ref=f6e181] [cursor=pointer]:
+              - /url: "#thunderbird"
+              - generic [ref=f6e182]: "1955"
+              - generic [ref=f6e183]: Ford Thunderbird
+          - listitem [ref=f6e184]:
+            - link "1964 Ford Mustang" [ref=f6e185] [cursor=pointer]:
+              - /url: "#mustang"
+              - generic [ref=f6e186]: "1964"
+              - generic [ref=f6e187]: Ford Mustang
+          - listitem [ref=f6e188]:
+            - link "1966 Ford GT40 Mk II" [ref=f6e189] [cursor=pointer]:
+              - /url: "#gt40"
+              - generic [ref=f6e190]: "1966"
+              - generic [ref=f6e191]: Ford GT40 Mk II
+          - listitem [ref=f6e192]:
+            - link "2017 Ford GT" [ref=f6e193] [cursor=pointer]:
+              - /url: "#fordgt"
+              - generic [ref=f6e194]: "2017"
+              - generic [ref=f6e195]: Ford GT
+          - listitem [ref=f6e196]:
+            - link "2020 Ford Mustang Shelby GT500" [ref=f6e197] [cursor=pointer]:
+              - /url: "#gt500"
+              - generic [ref=f6e198]: "2020"
+              - generic [ref=f6e199]: Ford Mustang Shelby GT500
+          - listitem [ref=f6e200]:
+            - link "2021 Ford Mustang Mach-E" [ref=f6e201] [cursor=pointer]:
+              - /url: "#mache"
+              - generic [ref=f6e202]: "2021"
+              - generic [ref=f6e203]: Ford Mustang Mach-E
+          - listitem [ref=f6e204]:
+            - link "2023 Ford GT Mk IV" [ref=f6e205] [cursor=pointer]:
+              - /url: "#gtmk4"
+              - generic [ref=f6e206]: "2023"
+              - generic [ref=f6e207]: Ford GT Mk IV
+          - listitem [ref=f6e208]:
+            - link "2024 Ford Mustang Dark Horse" [ref=f6e209] [cursor=pointer]:
+              - /url: "#darkhorse"
+              - generic [ref=f6e210]: "2024"
+              - generic [ref=f6e211]: Ford Mustang Dark Horse
+          - listitem [ref=f6e212]:
+            - link "2025 Ford Mustang GTD" [ref=f6e213] [cursor=pointer]:
+              - /url: "#gtd"
+              - generic [ref=f6e214]: "2025"
+              - generic [ref=f6e215]: Ford Mustang GTD
+  - contentinfo [ref=f6e216]:
+    - generic [ref=f6e217]:
+      - paragraph [ref=f6e218]:
+        - text: From carriageto
+        - emphasis [ref=f6e219]: supercar.
+      - link "Back to top" [ref=f6e220] [cursor=pointer]:
+        - /url: "#hero"
+        - text: Back to top
+        - generic [aria-hidden] [ref=f6e221]: ↑
+    - navigation "All cars" [ref=f6e222]:
+      - list [ref=f6e223]:
+        - listitem [ref=f6e224]:
+          - link "1896 Ford Quadricycle" [ref=f6e225] [cursor=pointer]:
+            - /url: "#quadricycle"
+            - generic [ref=f6e226]: "1896"
+            - generic [ref=f6e227]: Ford Quadricycle
+            - generic [aria-hidden] [ref=f6e228]: →
+        - listitem [ref=f6e229]:
+          - link "1908 Ford Model T" [ref=f6e230] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=f6e231]: "1908"
+            - generic [ref=f6e232]: Ford Model T
+            - generic [aria-hidden] [ref=f6e233]: →
+        - listitem [ref=f6e234]:
+          - link "1932 Ford V8 (Model 18)" [ref=f6e235] [cursor=pointer]:
+            - /url: "#v8"
+            - generic [ref=f6e236]: "1932"
+            - generic [ref=f6e237]: Ford V8 (Model 18)
+            - generic [aria-hidden] [ref=f6e238]: →
+        - listitem [ref=f6e239]:
+          - link "1955 Ford Thunderbird" [ref=f6e240] [cursor=pointer]:
+            - /url: "#thunderbird"
+            - generic [ref=f6e241]: "1955"
+            - generic [ref=f6e242]: Ford Thunderbird
+            - generic [aria-hidden] [ref=f6e243]: →
+        - listitem [ref=f6e244]:
+          - link "1964 Ford Mustang" [ref=f6e245] [cursor=pointer]:
+            - /url: "#mustang"
+            - generic [ref=f6e246]: "1964"
+            - generic [ref=f6e247]: Ford Mustang
+            - generic [aria-hidden] [ref=f6e248]: →
+        - listitem [ref=f6e249]:
+          - link "1966 Ford GT40 Mk II" [ref=f6e250] [cursor=pointer]:
+            - /url: "#gt40"
+            - generic [ref=f6e251]: "1966"
+            - generic [ref=f6e252]: Ford GT40 Mk II
+            - generic [aria-hidden] [ref=f6e253]: →
+        - listitem [ref=f6e254]:
+          - link "2017 Ford GT" [ref=f6e255] [cursor=pointer]:
+            - /url: "#fordgt"
+            - generic [ref=f6e256]: "2017"
+            - generic [ref=f6e257]: Ford GT
+            - generic [aria-hidden] [ref=f6e258]: →
+        - listitem [ref=f6e259]:
+          - link "2020 Ford Mustang Shelby GT500" [ref=f6e260] [cursor=pointer]:
+            - /url: "#gt500"
+            - generic [ref=f6e261]: "2020"
+            - generic [ref=f6e262]: Ford Mustang Shelby GT500
+            - generic [aria-hidden] [ref=f6e263]: →
+        - listitem [ref=f6e264]:
+          - link "2021 Ford Mustang Mach-E" [ref=f6e265] [cursor=pointer]:
+            - /url: "#mache"
+            - generic [ref=f6e266]: "2021"
+            - generic [ref=f6e267]: Ford Mustang Mach-E
+            - generic [aria-hidden] [ref=f6e268]: →
+        - listitem [ref=f6e269]:
+          - link "2023 Ford GT Mk IV" [ref=f6e270] [cursor=pointer]:
+            - /url: "#gtmk4"
+            - generic [ref=f6e271]: "2023"
+            - generic [ref=f6e272]: Ford GT Mk IV
+            - generic [aria-hidden] [ref=f6e273]: →
+        - listitem [ref=f6e274]:
+          - link "2024 Ford Mustang Dark Horse" [ref=f6e275] [cursor=pointer]:
+            - /url: "#darkhorse"
+            - generic [ref=f6e276]: "2024"
+            - generic [ref=f6e277]: Ford Mustang Dark Horse
+            - generic [aria-hidden] [ref=f6e278]: →
+        - listitem [ref=f6e279]:
+          - link "2025 Ford Mustang GTD" [ref=f6e280] [cursor=pointer]:
+            - /url: "#gtd"
+            - generic [ref=f6e281]: "2025"
+            - generic [ref=f6e282]: Ford Mustang GTD
+            - generic [aria-hidden] [ref=f6e283]: →
+    - generic [ref=f6e284]:
+      - paragraph [ref=f6e285]: A non-commercial showcase. Photos collected from Pinterest.
+      - paragraph [ref=f6e286]: 1896 – 2025
+    - paragraph [aria-hidden]:
+      - generic: B
+      - generic: o
+      - generic: d
+      - generic: "y"
+      - generic: l
+      - generic: i
+      - generic: "n"
+      - generic: e
+      - generic: s

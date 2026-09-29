@@ -1,0 +1,48 @@
+- generic [active] [ref=f83e1]:
+  - link "Skip to the line-up" [ref=f83e2] [cursor=pointer]:
+    - /url: "#finale"
+  - banner:
+    - navigation "Eras":
+      - link "Bodylines" [ref=f83e4] [cursor=pointer]:
+        - /url: "#hero"
+      - list
+  - main [ref=f83e5]:
+    - region "From carriage to supercar." [ref=f83e6]:
+      - generic [ref=f83e7]:
+        - generic:
+          - heading "From carriage to supercar." [level=1]:
+            - text: From carriageto
+            - emphasis: supercar.
+          - paragraph: Scroll to explore
+        - generic:
+          - paragraph: • 1896 to 2017
+          - heading "121 years of bodylines." [level=2]:
+            - text: 121 years of
+            - emphasis: bodylines.
+          - paragraph: Seven Fords. Hover a card to turn it, click to meet the car.
+    - region "The cars" [ref=f83e8]:
+      - paragraph [aria-hidden] [ref=f83e11]: 01 / 07
+    - region [ref=f83e12]:
+      - generic [ref=f83e14]:
+        - generic [ref=f83e15]:
+          - paragraph [ref=f83e16]: 08 The line-up
+          - heading [level=2] [ref=f83e17]:
+            - text: 121 years,
+            - emphasis [ref=f83e18]: in one row.
+        - list [ref=f83e19]:
+          - listitem [aria-hidden] [ref=f83e20]
+  - contentinfo [ref=f83e21]:
+    - generic [ref=f83e22]:
+      - paragraph [ref=f83e23]:
+        - text: From carriageto
+        - emphasis [ref=f83e24]: supercar.
+      - link "Back to top" [ref=f83e25] [cursor=pointer]:
+        - /url: "#hero"
+        - text: Back to top
+        - generic [aria-hidden] [ref=f83e26]: ↑
+    - navigation "All cars":
+      - list
+    - generic [ref=f83e27]:
+      - paragraph [ref=f83e28]: A non-commercial showcase. Photos collected from Pinterest.
+      - paragraph [ref=f83e29]: 1896 – 2017
+    - paragraph [aria-hidden]: Bodylines

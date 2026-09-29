@@ -35,6 +35,17 @@ em { font-style: italic; font-weight: 300; }
 .label { margin: 0 0 1.4rem; color: var(--mute); }
 .label .n { color: var(--accent); margin-right: .9em; }
 
+/* ---------- loader: covers the page until every image and font is downloaded and decoded ---------- */
+.loader {
+  position: fixed; inset: 0; z-index: 100; display: grid; place-content: center; justify-items: center; gap: 1.6rem;
+  background: var(--bg); transition: opacity .8s var(--ease), visibility .8s;
+}
+.ready .loader { opacity: 0; visibility: hidden; }
+.load-mark { margin: 0; font: 400 clamp(2.2rem, 6vw, 4rem)/1 var(--serif); letter-spacing: -.01em; color: var(--ink); }
+.load-bar { width: min(220px, 50vw); height: 1px; background: var(--line); overflow: hidden; }
+.load-bar i { display: block; height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(0); transition: transform .4s var(--ease); }
+html:not(.ready) { overflow: hidden; }
+
 /* ---------- shader background ---------- */
 .bg { position: fixed; inset: 0; z-index: -2; background: #000; }
 .bg canvas { display: block; width: 100% !important; height: 100% !important; }
@@ -57,13 +68,20 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 .top { position: fixed; inset: 0 0 auto; z-index: 40; padding: clamp(18px, 3.4vh, 36px) var(--gutter) 0; pointer-events: none; }
 .top nav { display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
 .top nav > * { pointer-events: auto; }
-.wordmark { font: 400 .8rem/1 var(--sans); letter-spacing: .4em; text-transform: uppercase; white-space: nowrap; }
+.wordmark { font: 500 1.05rem/1 var(--sans); letter-spacing: .34em; text-transform: uppercase; white-space: nowrap; }
 #rail { display: flex; gap: clamp(.9rem, 2vw, 2.2rem); list-style: none; margin: 0; padding: 0; }
 #rail a { display: block; padding: .5rem 0; color: var(--faint); transition: color .3s, transform .5s var(--ease); }
 #rail a:hover, #rail a[aria-current] { color: var(--ink); }
 .bar { position: fixed; inset: 0 0 auto; height: 1px; z-index: 41; }
-#bar { height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(var(--p, 0)); }
-@media (max-width: 720px) { #rail { display: none; } }
+#bar { height: 100%; background: var(--accent); transform-origin: left; transform: scaleX(0); will-change: transform; }
+@media (max-width: 1100px) { #rail { display: none; } } /* twelve years need the room */
+.top { transition: color .5s; }
+.ready .top { animation: top-in .9s .2s var(--ease) both; }
+@keyframes top-in { from { translate: 0 -40px; opacity: 0; } }
+.lit .top { color: #111; --ink: #111; --faint: rgba(17, 17, 17, .45); }
+/* On the posters the header inverts against what's behind it, so the years stay legible over the
+   dark stripes as well as the paper (the header is a thin strip, so the blend is cheap). */
+.lit .top { color: #eee; --ink: #eee; --faint: rgba(238, 238, 238, .55); mix-blend-mode: difference; }
 
 /* ---------- hero: scroll-morph cards ---------- */
 .hero { height: 400vh; }
@@ -93,8 +111,11 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 
 .intro, .arc-copy { position: absolute; left: 0; right: 0; z-index: 2; text-align: center; pointer-events: none; padding: 0 var(--gutter); }
 .intro { top: 50%; translate: 0 -50%; opacity: 0; transition: opacity .8s; }
-.intro h1 { margin: 0 0 1.4rem; font: 300 clamp(1.6rem, 4.2vw, 3.6rem)/1 var(--serif); letter-spacing: -.01em; filter: blur(10px); translate: 0 20px; transition: filter 1s, translate 1s var(--ease); }
-.intro.on h1 { filter: none; translate: 0 0; }
+.intro .brand, .intro .tag { filter: blur(10px); translate: 0 20px; transition: filter 1s, translate 1s var(--ease); }
+.intro.on .brand, .intro.on .tag { filter: none; translate: 0 0; }
+/* The site's name, big in the middle of the ring; the tagline sits under it, a beat later. */
+.intro .brand { margin: 0; font: 400 clamp(2.6rem, 7.2vw, 6.4rem)/.95 var(--serif); letter-spacing: -.02em; }
+.intro .tag { margin: .9rem 0 1.6rem; font: 300 clamp(1.05rem, 1.9vw, 1.6rem)/1.2 var(--serif); color: var(--mute); transition-delay: .15s; }
 .intro .label { margin: 0; color: var(--faint); }
 .arc-copy { top: clamp(6rem, 13vh, 9rem); opacity: 0; }
 .arc-copy h2 { margin: 0; font: 300 clamp(2.6rem, 5.6vw, 5.6rem)/1 var(--serif); letter-spacing: -.015em; }
@@ -102,65 +123,82 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 
 /* ---------- showroom: one stage, the cars drive through ---------- */
 .show { position: relative; }
-.show { height: 740vh; } /* (7 cars + HOLD in main.js) screens */
+.show { height: 1240vh; } /* (12 cars + HOLD in main.js) screens */
 .stage { position: sticky; top: 0; height: 100vh; overflow: hidden; }
 /* Anchors for the rail: car i is centred when step i reaches the top. */
 #steps { position: absolute; inset: 0; pointer-events: none; }
 .step { height: 100vh; }
 
-.years span {
-  position: absolute; left: 0; right: 0; top: 40%; translate: -17vw -50%; text-align: center; pointer-events: none; will-change: transform, opacity;
-  /* Solid, barely there: the car in front overlaps it like a magazine spread. */
-  font: 400 clamp(10rem, 34vw, 36rem)/.8 var(--serif); letter-spacing: -.03em; color: rgba(237, 237, 237, .05);
+.word {
+  position: absolute; left: 0; right: 0; top: 40%; translate: -6vw -50%; text-align: center; pointer-events: none; will-change: transform, opacity;
+  /* Poster type: tall, bold, dark, the car in front overlaps it. Size follows the word's length. */
+  font: 400 min(calc(150vw / max(var(--len), 4)), 62vh)/.82 'Anton', 'Impact', sans-serif; letter-spacing: -.01em; white-space: nowrap;
+  color: color-mix(in srgb, var(--ink) 82%, transparent);
 }
 
-/* Per-car light pool (look.js `light`), on the side the photo is lit from; optional era tone. */
-.scenes, .scene { position: absolute; inset: 0; pointer-events: none; }
-.scene {
-  background: radial-gradient(ellipse 42% 46% at var(--lx) var(--ly), color-mix(in srgb, color-mix(in srgb, var(--tint) 25%, #fff3e2) 11%, transparent), transparent 72%);
-  will-change: opacity;
-}
-.toned .scene {
+/* Per-car poster (look.js): paper, two livery stripes, particles, fog. main.js wipes it in. */
+.scenes { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+/* .scene is the wipe's window (wider than the screen so it still covers it when skewed); .scene-in
+   holds the poster, counter-transformed by main.js so it stays put while the window slides. */
+.scene { --in: 0; position: absolute; top: 0; left: 0; width: 160vw; height: 100%; overflow: hidden; transform-origin: 0 0; will-change: transform; }
+.scene-in { position: absolute; top: 0; left: 0; width: 100vw; height: 100%; overflow: hidden; transform-origin: 0 0; will-change: transform; background: radial-gradient(ellipse 80% 70% at 40% 45%, color-mix(in srgb, var(--bg) 70%, #fff), var(--bg)); }
+.stripe { position: absolute; top: -40vh; height: 190vh; rotate: 38deg; transform-origin: 50% 50%; translate: calc((1 - var(--in)) * 45vw) calc((1 - var(--in)) * -35vw); will-change: translate; }
+.s1 { right: 14vw; width: 15vw; background: var(--c1); opacity: .88; }
+.s2 { right: 3vw; width: 6vw; background: var(--c2); }
+.fog {
+  position: absolute; inset: auto 0 0; height: 55%;
   background:
-    radial-gradient(ellipse 42% 46% at var(--lx) var(--ly), color-mix(in srgb, color-mix(in srgb, var(--tint) 25%, #fff3e2) 11%, transparent), transparent 72%),
-    radial-gradient(ellipse 90% 80% at 50% 55%, color-mix(in srgb, var(--tone) 88%, transparent), color-mix(in srgb, var(--tone) 96%, #000));
+    radial-gradient(ellipse 45% 55% at 12% 90%, rgba(255, 255, 255, .85), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 55% 100%, rgba(255, 255, 255, .6), transparent 70%),
+    linear-gradient(transparent, color-mix(in srgb, var(--bg) 60%, #fff) 85%);
 }
+.scene:not(.live) .motes { display: none; }
+.motes i { position: absolute; will-change: transform; left: var(--mx); top: var(--my); background: var(--c2); animation: var(--md) linear var(--mo) infinite; }
+/* Dust: soft specks rising, the larger ones out of focus in front like the leaves in a poster. */
+/* Softness comes from a radial gradient, not filter: blur, so 22 moving specks cost nothing to draw. */
+.dust i { width: calc(9px * var(--ms)); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(closest-side, var(--c2), transparent); opacity: .7; animation-name: rise; }
+.dust i:nth-child(5n) { width: calc(40px * var(--ms)); opacity: .3; }
+@keyframes rise { from { transform: translate(0, 30vh); } to { transform: translate(8vw, -110vh); } }
+/* Air: thin lines streaming past, nose to tail, like smoke in a wind tunnel. */
+.air i { left: 0; width: calc(12vw * var(--ms)); height: 1.5px; border-radius: 2px; opacity: .5; -webkit-mask: linear-gradient(90deg, transparent, #000 40%, #000 70%, transparent); mask: linear-gradient(90deg, transparent, #000 40%, #000 70%, transparent); animation-name: stream; }
+.air i:nth-child(3n) { background: var(--c1); opacity: .3; }
+@keyframes stream { from { transform: translateX(-30vw); } to { transform: translateX(110vw); } }
 
 .cars { position: absolute; inset: 0; perspective: 1600px; perspective-origin: 50% 45%; }
 /* Bigger (look.js `scale`) and a little right of centre (`x`); the tyres sit on the floor line. */
 .car {
-  position: absolute; left: 0; right: 0; bottom: 27%; height: calc(44vh * var(--scale, 1)); margin: 0; translate: var(--x, 0) 0;
+  --h: calc(44vh * var(--scale, 1)); position: absolute; left: 50%; bottom: 27%; height: var(--h); width: max-content; margin: 0; translate: calc(-50% + var(--x, 0px)) 0;
   display: flex; align-items: flex-end; justify-content: center; pointer-events: none; will-change: transform, filter, opacity;
 }
-.body { position: relative; display: block; height: 100%; }
-.car img {
-  position: relative; display: block; width: auto; height: 100%; max-width: min(calc(62vw * var(--scale, 1)), 72vw, 1500px);
-  object-fit: contain; object-position: bottom;
-  /* Studio light brought down to the room (look.js `filter`), plus a thin dark rim over any leftover halo. */
-  filter: var(--f, none) drop-shadow(0 0 1px rgba(0, 0, 0, .85)) drop-shadow(0 0 2px rgba(0, 0, 0, .4));
+.body { position: relative; display: block; }
+.car img:not(.shadow) {
+  /* Both caps keep the photo's ratio, so the box is exactly the car and the shadow lines up. */
+  position: relative; display: block; width: auto; height: auto; max-height: var(--h); max-width: min(calc(62vw * var(--scale, 1)), 72vw, 1500px);
+  filter: var(--f, none);
 }
-/* Contact shadow, scaled to the car's width: a tight dark core under the tyres and a wide soft
-   falloff around it, so the car rests on the floor. */
-.body::before, .body::after { content: ''; position: absolute; pointer-events: none; z-index: -1; }
-.body::before { left: -8%; right: -8%; bottom: -7%; height: 16%; background: radial-gradient(closest-side, rgba(0, 0, 0, .45), rgba(0, 0, 0, .2) 55%, transparent); }
-.body::after { left: 5%; right: 5%; bottom: -2.2%; height: 6%; background: radial-gradient(closest-side, rgba(0, 0, 0, .7), rgba(0, 0, 0, .35) 50%, transparent); }
+/* Ground shadow (img/shadow, made by tools/shadow.py from each cutout): tyre contacts, the
+   footprint under the car and a soft cast shadow back-right. Its canvas is the car's box padded 12%
+   each side and 14% below, so it lines up with these numbers. */
+.car img.shadow { position: absolute; left: -12%; top: 0; width: 124%; height: 114%; max-width: none; }
 /* Falloff away from the light (front-left): the far side of the car sinks into the dark. */
 .shade {
   position: absolute; inset: 0; pointer-events: none; mix-blend-mode: multiply;
   -webkit-mask: var(--src) center bottom / contain no-repeat; mask: var(--src) center bottom / contain no-repeat;
   background: radial-gradient(ellipse 85% 110% at 25% 20%, transparent 40%, rgba(0, 0, 0, var(--falloff, .4)));
 }
-/* A band of light clipped to the car's silhouette; --sweep (0..1) carries it across left to right. */
+/* A band of light clipped to the car's silhouette; main.js slides the band across (transform) and
+   fades the whole sheen in and out (opacity), so the sweep never repaints the car. */
 .sheen {
-  position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen;
+  position: absolute; inset: 0; overflow: hidden; pointer-events: none; mix-blend-mode: screen; opacity: 0; will-change: opacity;
   -webkit-mask: var(--src) center bottom / contain no-repeat; mask: var(--src) center bottom / contain no-repeat;
-  background: linear-gradient(105deg, transparent 30%, rgba(255, 255, 255, .55) 50%, transparent 70%) no-repeat;
-  background-size: 60% 100%; background-position: calc(-60% + var(--sweep, 0) * 260%) 0;
-  opacity: calc(sin(var(--sweep, 0) * 3.1416));
 }
+.sheen b { position: absolute; top: 0; bottom: 0; left: 0; width: 60%; background: linear-gradient(105deg, transparent, rgba(255, 255, 255, .55) 50%, transparent); will-change: transform; }
 
 /* Text for the centred car; lines stagger in (--k) and fade out together. */
-.info { position: absolute; inset: 0; pointer-events: none; text-shadow: 0 1px 24px rgba(0, 0, 0, .7); }
+.info {
+  position: absolute; inset: 0; pointer-events: none; color: var(--ink);
+  --mute: color-mix(in srgb, var(--ink) 72%, transparent); --faint: color-mix(in srgb, var(--ink) 50%, transparent); --line: color-mix(in srgb, var(--ink) 22%, transparent); --accent: var(--c2);
+}
 .info.on { pointer-events: auto; }
 .copy { position: absolute; left: var(--gutter); bottom: clamp(3rem, 8vh, 5.5rem); max-width: min(34rem, 44vw); }
 .info h2 { margin: 0; font: 300 clamp(2.2rem, 3.6vw, 3.8rem)/1 var(--serif); letter-spacing: -.01em; text-wrap: balance; }
@@ -175,10 +213,11 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 /* --a (0..1) is scrubbed by scroll; each line (--k) lags a little behind the one before. */
 .info .label, .info h2, .info .text, .specs div {
   --l: clamp(0, var(--a, 0) * 1.5 - var(--k) * .1, 1);
-  opacity: var(--l); translate: 0 calc((1 - var(--l)) * 28px * var(--dir, 1)); filter: blur(calc((1 - var(--l)) * 6px));
+  opacity: var(--l); translate: 0 calc((1 - var(--l)) * 28px * var(--dir, 1)); filter: blur(calc((1 - var(--l)) * 4px));
+  will-change: opacity, translate, filter;
 }
-.count { position: absolute; right: var(--gutter); top: clamp(4.5rem, 11vh, 7rem); margin: 0; color: var(--faint); }
-#count-n { color: var(--ink); }
+.count { position: absolute; right: var(--gutter); top: clamp(4.5rem, 11vh, 7rem); margin: 0; color: rgba(238, 238, 238, .55); z-index: 1; mix-blend-mode: difference; }
+#count-n { color: #eee; }
 
 /* ---------- finale: pinned sideways timeline (after 21st.dev Product Timeline) ---------- */
 .finale { position: relative; background: linear-gradient(transparent, rgba(0, 0, 0, .6) 20vh); }
@@ -209,6 +248,7 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 .ln-year, .ln-name, .ms img {
   --l: clamp(0, var(--r) * 1.6 - .35, 1);
   opacity: var(--l); translate: 0 calc((1 - var(--l)) * 24px * var(--d, 1)); filter: blur(calc((1 - var(--l)) * 6px));
+  will-change: opacity, translate, filter;
 }
 .up .ln-year, .up .ln-name, .up img { --d: -1; }
 .ln-year { color: var(--accent); padding-left: 1.1rem; }
@@ -231,8 +271,8 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 .foot-up:hover { color: var(--ink); }
 .foot-up:hover span { transform: translateY(-4px); }
 
-/* Index of the seven cars: hairline rows, two columns. */
-.foot-index { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(4, auto); grid-auto-flow: column; column-gap: clamp(2rem, 6vw, 7rem); list-style: none; margin: clamp(3.5rem, 8vh, 6rem) 0 0; padding: 0; }
+/* Index of the twelve cars: hairline rows, two columns. */
+.foot-index { display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(6, auto); grid-auto-flow: column; column-gap: clamp(2rem, 6vw, 7rem); list-style: none; margin: clamp(3.5rem, 8vh, 6rem) 0 0; padding: 0; }
 .foot-index a { display: flex; align-items: baseline; gap: 1.6rem; padding: 1.1rem 0; border-bottom: 1px solid var(--line); }
 .foot-index .label { margin: 0; width: 3.4rem; color: var(--faint); transition: color .3s; }
 .fi-name { flex: 1; font: 300 clamp(1.2rem, 1.6vw, 1.6rem)/1.2 var(--serif); transition: transform .6s var(--ease); }
@@ -254,9 +294,11 @@ a:hover .roll-b > span, a:focus-visible .roll-b > span { transform: translateY(0
 
 /* ---------- small screens ---------- */
 @media (max-width: 900px) {
-  .car { bottom: 38%; height: 32vh; translate: 0 0; }
-  .car img { max-width: 94vw; }
-  .years span { translate: 0 -50%; font-size: 44vw; }
+  /* Phones: copy fades and rises without the blur, which is costly on a 3x screen. */
+  .info .label, .info h2, .info .text, .specs div { filter: none; will-change: opacity, translate; }
+  .car { --h: 32vh; bottom: 38%; translate: -50% 0; }
+  .car img:not(.shadow) { max-width: 94vw; }
+  .word { translate: 0 -50%; top: 39%; } /* above the car, the roofline overlapping it */
   .copy { top: 6rem; bottom: auto; right: var(--gutter); max-width: none; }
   .specs { left: var(--gutter); width: auto; bottom: 2.5rem; gap: 1rem; }
   .specs dd { font-size: 1.05rem; }

@@ -1,0 +1,119 @@
+- generic [ref=f118e3]:
+  - banner [ref=f118e4]:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f118e10]:
+      - generic [ref=f118e11]:
+        - link "Pinterest home" [ref=f118e13] [cursor=pointer]:
+          - /url: /
+        - link "Explore" [ref=f118e32] [cursor=pointer]:
+          - /url: /ideas
+      - generic [ref=f118e37]:
+        - combobox "Search" [ref=f118e39]: ford mustang gtd
+        - button "Remove search input" [ref=f118e43] [cursor=pointer]
+      - generic [ref=f118e48]:
+        - button "Log in" [ref=f118e50] [cursor=pointer]
+        - button "Sign up" [ref=f118e54] [cursor=pointer]
+        - button "Setting" [ref=f118e59] [cursor=pointer]
+  - main [ref=f118e65]:
+    - generic [ref=f118e67]:
+      - generic [ref=f118e70]:
+        - heading "Search" [level=1] [ref=f118e72]
+        - region "Search filters and refinements" [ref=f118e74]:
+          - button "Show filters" [ref=f118e83] [cursor=pointer]
+      - list [ref=f118e138]:
+        - listitem [ref=f118e139]
+        - listitem [ref=f118e143]
+        - listitem [ref=f118e147]
+        - listitem [ref=f118e151]
+        - listitem [ref=f118e155]
+        - listitem [ref=f118e159]
+        - listitem [ref=f118e163]
+        - listitem [ref=f118e167]
+        - listitem [ref=f118e171]
+        - listitem [ref=f118e175]
+        - listitem [ref=f118e179]
+        - listitem [ref=f118e183]
+        - listitem [ref=f118e187]
+        - listitem [ref=f118e191]
+        - listitem [ref=f118e195]
+        - listitem [ref=f118e199]
+        - listitem [ref=f118e203]
+        - listitem [ref=f118e207]
+        - listitem [ref=f118e211]
+  - generic:
+    - dialog "Hybrid banner gift wrap":
+      - generic [ref=f118e215]:
+        - button "Close Bottom Right Upsell" [ref=f118e217] [cursor=pointer]
+        - generic [ref=f118e223]:
+          - heading "You are signed out" [level=2] [ref=f118e225]
+          - generic [ref=f118e226]: Sign in to get the best experience
+        - generic [ref=f118e227]:
+          - button "Continue with email" [ref=f118e229] [cursor=pointer]
+          - generic [ref=f118e233]:
+            - iframe [ref=f118e236]:
+              - button "Continue with Google. Opens in new tab" [ref=f121e3] [cursor=pointer]:
+                - generic [ref=f121e5]: Continue with Google
+            - generic:
+              - generic [aria-hidden]:
+                - button:
+                  - generic: Continue with Google
+          - generic [ref=f118e239]:
+            - text: By continuing, you agree to Pinterest's
+            - link "Terms of Service" [ref=f118e240] [cursor=pointer]:
+              - /url: /_/_/policy/terms-of-service/
+            - text: and acknowledge you've read our
+            - link "Privacy Policy" [ref=f118e241] [cursor=pointer]:
+              - /url: https://www.pinterest.com/_/_/policy/privacy-policy/
+            - text: .
+            - link "Notice at collection" [ref=f118e242] [cursor=pointer]:
+              - /url: https://policy.pinterest.com/notice-at-collection
+            - text: .
+  - dialog "modal" [ref=f118e244]:
+    - generic [ref=f118e245]:
+      - img "Loading" [ref=f118e249]
+      - generic [ref=f118e253]:
+        - generic [ref=f118e254]:
+          - img "Pinterest" [ref=f118e257]
+          - heading "Welcome to Pinterest" [level=1] [ref=f118e259]
+          - generic [ref=f118e260]: Log in to discover more ideas just for you
+        - generic [ref=f118e264]:
+          - form "login form" [ref=f118e265]:
+            - generic [ref=f118e266]:
+              - generic [ref=f118e270]:
+                - generic [ref=f118e271]: Email
+                - textbox "Email" [active] [ref=f118e273]
+              - generic [ref=f118e275]:
+                - generic [ref=f118e278]:
+                  - generic [ref=f118e279]: Password
+                  - textbox "Password" [ref=f118e281]
+                  - generic "Show password" [ref=f118e284]:
+                    - switch "Show password" [ref=f118e285] [cursor=pointer]
+                - link "Forgot password?" [ref=f118e291] [cursor=pointer]:
+                  - /url: /password/reset/
+              - button "Log in" [ref=f118e294] [cursor=pointer]
+          - generic [ref=f118e297]: OR
+          - generic [ref=f118e301]:
+            - generic [ref=f118e303]:
+              - button "Continue with Google. Opens in new tab" [ref=f118e305] [cursor=pointer]:
+                - generic [ref=f118e307]: Continue with Google
+              - iframe
+            - generic:
+              - generic [aria-hidden]:
+                - button:
+                  - generic: Continue with Google
+          - button "QR code login button" [ref=f118e317] [cursor=pointer]:
+            - generic [ref=f118e318]: Continue with QR code
+        - generic [ref=f118e325]:
+          - text: New to Pinterest?
+          - link "Join for free" [ref=f118e326] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f118e328]:
+          - link "Terms of Service" [ref=f118e329] [cursor=pointer]:
+            - /url: /_/_/policy/terms-of-service/
+          - text: ·
+          - link "Privacy Policy" [ref=f118e330] [cursor=pointer]:
+            - /url: https://www.pinterest.com/_/_/policy/privacy-policy/
+          - text: ·
+          - link "Notice at Collection" [ref=f118e331] [cursor=pointer]:
+            - /url: https://policy.pinterest.com/notice-at-collection

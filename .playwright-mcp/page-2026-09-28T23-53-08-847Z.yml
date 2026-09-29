@@ -1,0 +1,329 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the line-up" [ref=e2] [cursor=pointer]:
+    - /url: "#finale"
+  - banner:
+    - navigation "Eras":
+      - link "Bodylines" [ref=e5] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - generic [ref=e10]: B
+            - generic [ref=e11]: o
+            - generic [ref=e12]: d
+            - generic [ref=e13]: "y"
+            - generic [ref=e14]: l
+            - generic [ref=e15]: i
+            - generic [ref=e16]: "n"
+            - generic [ref=e17]: e
+            - generic [ref=e18]: s
+          - generic [ref=e19]:
+            - generic [ref=e20]: B
+            - generic [ref=e21]: o
+            - generic [ref=e22]: d
+            - generic [ref=e23]: "y"
+            - generic [ref=e24]: l
+            - generic [ref=e25]: i
+            - generic [ref=e26]: "n"
+            - generic [ref=e27]: e
+            - generic [ref=e28]: s
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "1896" [ref=e31] [cursor=pointer]:
+            - /url: "#quadricycle"
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - generic [ref=e36]: "1"
+                - generic [ref=e37]: "8"
+                - generic [ref=e38]: "9"
+                - generic [ref=e39]: "6"
+              - generic [ref=e40]:
+                - generic [ref=e41]: "1"
+                - generic [ref=e42]: "8"
+                - generic [ref=e43]: "9"
+                - generic [ref=e44]: "6"
+        - listitem [ref=e45]:
+          - link "1908" [ref=e46] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: "1"
+                - generic [ref=e52]: "9"
+                - generic [ref=e53]: "0"
+                - generic [ref=e54]: "8"
+              - generic [ref=e55]:
+                - generic [ref=e56]: "1"
+                - generic [ref=e57]: "9"
+                - generic [ref=e58]: "0"
+                - generic [ref=e59]: "8"
+        - listitem [ref=e60]:
+          - link "1932" [ref=e61] [cursor=pointer]:
+            - /url: "#v8"
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e66]: "1"
+                - generic [ref=e67]: "9"
+                - generic [ref=e68]: "3"
+                - generic [ref=e69]: "2"
+              - generic [ref=e70]:
+                - generic [ref=e71]: "1"
+                - generic [ref=e72]: "9"
+                - generic [ref=e73]: "3"
+                - generic [ref=e74]: "2"
+        - listitem [ref=e75]:
+          - link "1955" [ref=e76] [cursor=pointer]:
+            - /url: "#thunderbird"
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]: "1"
+                - generic [ref=e82]: "9"
+                - generic [ref=e83]: "5"
+                - generic [ref=e84]: "5"
+              - generic [ref=e85]:
+                - generic [ref=e86]: "1"
+                - generic [ref=e87]: "9"
+                - generic [ref=e88]: "5"
+                - generic [ref=e89]: "5"
+        - listitem [ref=e90]:
+          - link "1964" [ref=e91] [cursor=pointer]:
+            - /url: "#mustang"
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - generic [ref=e96]: "1"
+                - generic [ref=e97]: "9"
+                - generic [ref=e98]: "6"
+                - generic [ref=e99]: "4"
+              - generic [ref=e100]:
+                - generic [ref=e101]: "1"
+                - generic [ref=e102]: "9"
+                - generic [ref=e103]: "6"
+                - generic [ref=e104]: "4"
+        - listitem [ref=e105]:
+          - link "1966" [ref=e106] [cursor=pointer]:
+            - /url: "#gt40"
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: "1"
+                - generic [ref=e112]: "9"
+                - generic [ref=e113]: "6"
+                - generic [ref=e114]: "6"
+              - generic [ref=e115]:
+                - generic [ref=e116]: "1"
+                - generic [ref=e117]: "9"
+                - generic [ref=e118]: "6"
+                - generic [ref=e119]: "6"
+        - listitem [ref=e120]:
+          - link "2017" [ref=e121] [cursor=pointer]:
+            - /url: "#fordgt"
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - generic [ref=e126]: "2"
+                - generic [ref=e127]: "0"
+                - generic [ref=e128]: "1"
+                - generic [ref=e129]: "7"
+              - generic [ref=e130]:
+                - generic [ref=e131]: "2"
+                - generic [ref=e132]: "0"
+                - generic [ref=e133]: "1"
+                - generic [ref=e134]: "7"
+  - main [ref=e135]:
+    - region "From carriage to supercar." [ref=e136]:
+      - generic [ref=e137]:
+        - generic:
+          - heading "From carriage to supercar." [level=1]:
+            - text: From carriageto
+            - emphasis: supercar.
+          - paragraph: Scroll to explore
+        - generic:
+          - paragraph: • 1896 to 2017
+          - heading "121 years of bodylines." [level=2]:
+            - text: 121 years of
+            - emphasis: bodylines.
+          - paragraph: Seven Fords. Hover a card to turn it, click to meet the car.
+        - generic:
+          - button "1896, Ford Quadricycle" [ref=e138] [cursor=pointer]:
+            - generic [ref=e139]: "1896"
+          - button "1896, Ford Quadricycle" [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]: "1896"
+          - button "1896, Ford Quadricycle" [ref=e148] [cursor=pointer]:
+            - generic [ref=e149]: "1896"
+          - button "1908, Ford Model T" [ref=e153] [cursor=pointer]:
+            - generic [ref=e154]: "1908"
+          - button "1908, Ford Model T" [ref=e158] [cursor=pointer]:
+            - generic [ref=e159]: "1908"
+          - button "1908, Ford Model T" [ref=e163] [cursor=pointer]:
+            - generic [ref=e164]: "1908"
+          - button "1932, Ford V8 (Model 18)" [ref=e168] [cursor=pointer]:
+            - generic [ref=e169]: "1932"
+          - button "1932, Ford V8 (Model 18)" [ref=e173] [cursor=pointer]:
+            - generic [ref=e174]: "1932"
+          - button "1932, Ford V8 (Model 18)" [ref=e178] [cursor=pointer]:
+            - generic [ref=e179]: "1932"
+          - button "1955, Ford Thunderbird" [ref=e183] [cursor=pointer]:
+            - generic [ref=e184]: "1955"
+          - button "1955, Ford Thunderbird" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]: "1955"
+          - button "1955, Ford Thunderbird" [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]: "1955"
+          - button "1964, Ford Mustang" [ref=e198] [cursor=pointer]:
+            - generic [ref=e199]: "1964"
+          - button "1964, Ford Mustang" [ref=e203] [cursor=pointer]:
+            - generic [ref=e204]: "1964"
+          - button "1964, Ford Mustang" [ref=e208] [cursor=pointer]:
+            - generic [ref=e209]: "1964"
+          - button "1966, Ford GT40 Mk II" [ref=e213] [cursor=pointer]:
+            - generic [ref=e214]: "1966"
+          - button "1966, Ford GT40 Mk II" [ref=e218] [cursor=pointer]:
+            - generic [ref=e219]: "1966"
+          - button "1966, Ford GT40 Mk II" [ref=e223] [cursor=pointer]:
+            - generic [ref=e224]: "1966"
+          - button "2017, Ford GT" [ref=e228] [cursor=pointer]:
+            - generic [ref=e229]: "2017"
+          - button "2017, Ford GT" [ref=e233] [cursor=pointer]:
+            - generic [ref=e234]: "2017"
+    - region "The cars" [ref=e238]:
+      - generic [ref=e239]:
+        - generic: MUSTANG
+        - generic [ref=e240]:
+          - figure:
+            - generic:
+              - img "Ford Mustang"
+        - article [ref=e241]:
+          - generic [ref=e242]:
+            - paragraph [ref=e243]: 05 The pony car
+            - heading "Ford Mustang" [level=2] [ref=e244]:
+              - generic [aria-hidden] [ref=e246]:
+                - generic [ref=e248]:
+                  - generic [ref=e249]: F
+                  - generic [ref=e250]: o
+                  - generic [ref=e251]: r
+                  - generic [ref=e252]: d
+                - generic [ref=e254]:
+                  - generic [ref=e255]: M
+                  - generic [ref=e256]: u
+                  - generic [ref=e257]: s
+                  - generic [ref=e258]: t
+                  - generic [ref=e259]: a
+                  - generic [ref=e260]: "n"
+                  - generic [ref=e261]: g
+            - paragraph [ref=e262]: Unveiled at the New York World's Fair in April 1964, with a long bonnet and a short tail.
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - term [ref=e265]: Debut
+              - definition [ref=e266]: April 1964
+            - generic [ref=e267]:
+              - term [ref=e268]: Base engine
+              - definition [ref=e269]: 0.0 L straight-six
+            - generic [ref=e270]:
+              - term [ref=e271]: Shape
+              - definition [ref=e272]: Long hood, short deck
+        - paragraph [aria-hidden] [ref=e273]: 05 / 07
+    - region [ref=e274]:
+      - generic [ref=e276]:
+        - generic [ref=e277]:
+          - paragraph [ref=e278]: 08 The line-up
+          - heading [level=2] [ref=e279]:
+            - text: 121 years,
+            - emphasis [ref=e280]: in one row.
+        - list [ref=e281]:
+          - listitem [aria-hidden] [ref=e282]
+          - listitem [ref=e283]:
+            - link "1896 Ford Quadricycle" [ref=e284] [cursor=pointer]:
+              - /url: "#quadricycle"
+              - generic [ref=e285]: "1896"
+              - generic [ref=e286]: Ford Quadricycle
+          - listitem [ref=e287]:
+            - link "1908 Ford Model T" [ref=e288] [cursor=pointer]:
+              - /url: "#modelt"
+              - generic [ref=e289]: "1908"
+              - generic [ref=e290]: Ford Model T
+          - listitem [ref=e291]:
+            - link "1932 Ford V8 (Model 18)" [ref=e292] [cursor=pointer]:
+              - /url: "#v8"
+              - generic [ref=e293]: "1932"
+              - generic [ref=e294]: Ford V8 (Model 18)
+          - listitem [ref=e295]:
+            - link "1955 Ford Thunderbird" [ref=e296] [cursor=pointer]:
+              - /url: "#thunderbird"
+              - generic [ref=e297]: "1955"
+              - generic [ref=e298]: Ford Thunderbird
+          - listitem [ref=e299]:
+            - link "1964 Ford Mustang" [ref=e300] [cursor=pointer]:
+              - /url: "#mustang"
+              - generic [ref=e301]: "1964"
+              - generic [ref=e302]: Ford Mustang
+          - listitem [ref=e303]:
+            - link "1966 Ford GT40 Mk II" [ref=e304] [cursor=pointer]:
+              - /url: "#gt40"
+              - generic [ref=e305]: "1966"
+              - generic [ref=e306]: Ford GT40 Mk II
+          - listitem [ref=e307]:
+            - link "2017 Ford GT" [ref=e308] [cursor=pointer]:
+              - /url: "#fordgt"
+              - generic [ref=e309]: "2017"
+              - generic [ref=e310]: Ford GT
+  - contentinfo [ref=e311]:
+    - generic [ref=e312]:
+      - paragraph [ref=e313]:
+        - text: From carriageto
+        - emphasis [ref=e314]: supercar.
+      - link "Back to top" [ref=e315] [cursor=pointer]:
+        - /url: "#hero"
+        - text: Back to top
+        - generic [aria-hidden] [ref=e316]: ↑
+    - navigation "All cars" [ref=e317]:
+      - list [ref=e318]:
+        - listitem [ref=e319]:
+          - link "1896 Ford Quadricycle" [ref=e320] [cursor=pointer]:
+            - /url: "#quadricycle"
+            - generic [ref=e321]: "1896"
+            - generic [ref=e322]: Ford Quadricycle
+            - generic [aria-hidden] [ref=e323]: →
+        - listitem [ref=e324]:
+          - link "1908 Ford Model T" [ref=e325] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=e326]: "1908"
+            - generic [ref=e327]: Ford Model T
+            - generic [aria-hidden] [ref=e328]: →
+        - listitem [ref=e329]:
+          - link "1932 Ford V8 (Model 18)" [ref=e330] [cursor=pointer]:
+            - /url: "#v8"
+            - generic [ref=e331]: "1932"
+            - generic [ref=e332]: Ford V8 (Model 18)
+            - generic [aria-hidden] [ref=e333]: →
+        - listitem [ref=e334]:
+          - link "1955 Ford Thunderbird" [ref=e335] [cursor=pointer]:
+            - /url: "#thunderbird"
+            - generic [ref=e336]: "1955"
+            - generic [ref=e337]: Ford Thunderbird
+            - generic [aria-hidden] [ref=e338]: →
+        - listitem [ref=e339]:
+          - link "1964 Ford Mustang" [ref=e340] [cursor=pointer]:
+            - /url: "#mustang"
+            - generic [ref=e341]: "1964"
+            - generic [ref=e342]: Ford Mustang
+            - generic [aria-hidden] [ref=e343]: →
+        - listitem [ref=e344]:
+          - link "1966 Ford GT40 Mk II" [ref=e345] [cursor=pointer]:
+            - /url: "#gt40"
+            - generic [ref=e346]: "1966"
+            - generic [ref=e347]: Ford GT40 Mk II
+            - generic [aria-hidden] [ref=e348]: →
+        - listitem [ref=e349]:
+          - link "2017 Ford GT" [ref=e350] [cursor=pointer]:
+            - /url: "#fordgt"
+            - generic [ref=e351]: "2017"
+            - generic [ref=e352]: Ford GT
+            - generic [aria-hidden] [ref=e353]: →
+    - generic [ref=e354]:
+      - paragraph [ref=e355]: A non-commercial showcase. Photos collected from Pinterest.
+      - paragraph [ref=e356]: 1896 – 2017
+    - paragraph [aria-hidden]:
+      - generic: B
+      - generic: o
+      - generic: d
+      - generic: "y"
+      - generic: l
+      - generic: i
+      - generic: "n"
+      - generic: e
+      - generic: s

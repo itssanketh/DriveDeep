@@ -1,18 +1,17 @@
-// Background: the shader-animation React component, ported to plain three.js.
-// A full-screen quad whose fragment shader draws the drifting rainbow rings.
-import * as THREE from 'three';
-
+// Background: the shader-animation React component, ported to plain WebGL (no three.js: the whole
+// thing is one full-screen triangle, and dropping the library saves phones 1.3 MB of script).
+// The fragment shader draws the drifting rainbow rings.
 const vertexShader = `
-  void main() {
-    gl_Position = vec4(position, 1.0);
-  }
+  attribute vec2 p;
+  void main() { gl_Position = vec4(p, 0.0, 1.0); }
 `;
 
 const fragmentShader = `
-  #define TWO_PI 6.2831853072
-  #define PI 3.14159265359
-
+  #ifdef GL_FRAGMENT_PRECISION_HIGH
   precision highp float;
+  #else
+  precision mediump float;
+  #endif
   uniform vec2 resolution;
   uniform float time;
 
@@ -28,46 +27,61 @@ const fragmentShader = `
       }
     }
 
-    gl_FragColor = vec4(color[0], color[1], color[2], 1.0);
+    gl_FragColor = vec4(color, 1.0);
   }
 `;
 
-export function shaderBackground(container, { still = false } = {}) {
-  let renderer;
-  try {
-    renderer = new THREE.WebGLRenderer({ powerPreference: 'high-performance' });
-  } catch {
-    return; // no WebGL: the page background stays plain black
-  }
-  // The shader runs per pixel; 1.5x is indistinguishable from 2x here and much cheaper on retina screens.
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.5));
-  container.appendChild(renderer.domElement);
+export function shaderBackground(container, { still = false, maxDpr = 1.25 } = {}) {
+  const canvas = document.createElement('canvas');
+  const gl = canvas.getContext('webgl', { antialias: false, depth: false, stencil: false, alpha: false, powerPreference: 'high-performance' });
+  if (!gl) return null; // no WebGL: the page background stays plain black
+  container.appendChild(canvas);
 
-  const camera = new THREE.Camera();
-  camera.position.z = 1;
-  const scene = new THREE.Scene();
-  const uniforms = {
-    time: { value: 1.0 },
-    resolution: { value: new THREE.Vector2() },
-  };
-  scene.add(new THREE.Mesh(new THREE.PlaneGeometry(2, 2), new THREE.ShaderMaterial({ uniforms, vertexShader, fragmentShader })));
+  const sh = (type, src) => { const s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return s; };
+  const prog = gl.createProgram();
+  gl.attachShader(prog, sh(gl.VERTEX_SHADER, vertexShader));
+  gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, fragmentShader));
+  gl.bindAttribLocation(prog, 0, 'p');
+  gl.linkProgram(prog);
+  gl.useProgram(prog);
+  gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+  gl.enableVertexAttribArray(0);
+  gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
+  const uRes = gl.getUniformLocation(prog, 'resolution'), uTime = gl.getUniformLocation(prog, 'time');
+  let time = 1;
+  const draw = () => { gl.uniform1f(uTime, time); gl.drawArrays(gl.TRIANGLES, 0, 3); };
 
+  // The rings are soft glows, so rendering them at up to maxDpr (1.25 desktop, 1 on phones) is
+  // indistinguishable from full retina and a fraction of the pixels.
   const resize = () => {
-    renderer.setSize(container.clientWidth, container.clientHeight);
-    uniforms.resolution.value.set(renderer.domElement.width, renderer.domElement.height);
-    if (still) renderer.render(scene, camera);
+    const r = Math.min(devicePixelRatio, maxDpr);
+    canvas.width = Math.round(container.clientWidth * r);
+    canvas.height = Math.round(container.clientHeight * r);
+    gl.viewport(0, 0, canvas.width, canvas.height);
+    gl.uniform2f(uRes, canvas.width, canvas.height);
+    draw();
   };
   resize();
   addEventListener('resize', resize);
 
-  if (still) return;
-  let last = performance.now();
+  if (still) return { run() {} };
+  // run(false) parks the loop (nothing is drawn while an opaque section covers the rings);
+  // run(true) picks it up again where it left off.
+  let on = false, last = 0;
   const loop = (now) => {
+    if (!on) return;
     // Same speed as the original (0.05 per frame at 60 fps), but independent of refresh rate.
-    uniforms.time.value += 0.05 * Math.min((now - last) / 16.67, 4);
+    time += 0.05 * Math.min((now - last) / 16.67, 4);
     last = now;
-    renderer.render(scene, camera);
+    draw();
     requestAnimationFrame(loop);
   };
-  requestAnimationFrame(loop);
+  return {
+    run(v) {
+      if (v === on) return;
+      on = v;
+      if (on) requestAnimationFrame((now) => { last = now; loop(now); });
+    },
+  };
 }

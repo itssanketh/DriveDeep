@@ -1,0 +1,434 @@
+- generic [active] [ref=f8e1]:
+  - status "Loading" [ref=f8e2]:
+    - paragraph [ref=f8e3]: Bodylines
+  - link "Skip to the line-up" [ref=f8e6] [cursor=pointer]:
+    - /url: "#finale"
+  - banner:
+    - navigation "Eras":
+      - link "Bodylines" [ref=f8e9] [cursor=pointer]:
+        - /url: "#hero"
+        - generic [ref=f8e12]:
+          - generic [ref=f8e13]:
+            - generic [ref=f8e14]: B
+            - generic [ref=f8e15]: o
+            - generic [ref=f8e16]: d
+            - generic [ref=f8e17]: "y"
+            - generic [ref=f8e18]: l
+            - generic [ref=f8e19]: i
+            - generic [ref=f8e20]: "n"
+            - generic [ref=f8e21]: e
+            - generic [ref=f8e22]: s
+          - generic [ref=f8e23]:
+            - generic [ref=f8e24]: B
+            - generic [ref=f8e25]: o
+            - generic [ref=f8e26]: d
+            - generic [ref=f8e27]: "y"
+            - generic [ref=f8e28]: l
+            - generic [ref=f8e29]: i
+            - generic [ref=f8e30]: "n"
+            - generic [ref=f8e31]: e
+            - generic [ref=f8e32]: s
+      - list [ref=f8e33]:
+        - listitem [ref=f8e34]:
+          - link "1896" [ref=f8e35] [cursor=pointer]:
+            - /url: "#quadricycle"
+            - generic [ref=f8e38]:
+              - generic [ref=f8e39]:
+                - generic [ref=f8e40]: "1"
+                - generic [ref=f8e41]: "8"
+                - generic [ref=f8e42]: "9"
+                - generic [ref=f8e43]: "6"
+              - generic [ref=f8e44]:
+                - generic [ref=f8e45]: "1"
+                - generic [ref=f8e46]: "8"
+                - generic [ref=f8e47]: "9"
+                - generic [ref=f8e48]: "6"
+        - listitem [ref=f8e49]:
+          - link "1908" [ref=f8e50] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=f8e53]:
+              - generic [ref=f8e54]:
+                - generic [ref=f8e55]: "1"
+                - generic [ref=f8e56]: "9"
+                - generic [ref=f8e57]: "0"
+                - generic [ref=f8e58]: "8"
+              - generic [ref=f8e59]:
+                - generic [ref=f8e60]: "1"
+                - generic [ref=f8e61]: "9"
+                - generic [ref=f8e62]: "0"
+                - generic [ref=f8e63]: "8"
+        - listitem [ref=f8e64]:
+          - link "1932" [ref=f8e65] [cursor=pointer]:
+            - /url: "#v8"
+            - generic [ref=f8e68]:
+              - generic [ref=f8e69]:
+                - generic [ref=f8e70]: "1"
+                - generic [ref=f8e71]: "9"
+                - generic [ref=f8e72]: "3"
+                - generic [ref=f8e73]: "2"
+              - generic [ref=f8e74]:
+                - generic [ref=f8e75]: "1"
+                - generic [ref=f8e76]: "9"
+                - generic [ref=f8e77]: "3"
+                - generic [ref=f8e78]: "2"
+        - listitem [ref=f8e79]:
+          - link "1955" [ref=f8e80] [cursor=pointer]:
+            - /url: "#thunderbird"
+            - generic [ref=f8e83]:
+              - generic [ref=f8e84]:
+                - generic [ref=f8e85]: "1"
+                - generic [ref=f8e86]: "9"
+                - generic [ref=f8e87]: "5"
+                - generic [ref=f8e88]: "5"
+              - generic [ref=f8e89]:
+                - generic [ref=f8e90]: "1"
+                - generic [ref=f8e91]: "9"
+                - generic [ref=f8e92]: "5"
+                - generic [ref=f8e93]: "5"
+        - listitem [ref=f8e94]:
+          - link "1964" [ref=f8e95] [cursor=pointer]:
+            - /url: "#mustang"
+            - generic [ref=f8e98]:
+              - generic [ref=f8e99]:
+                - generic [ref=f8e100]: "1"
+                - generic [ref=f8e101]: "9"
+                - generic [ref=f8e102]: "6"
+                - generic [ref=f8e103]: "4"
+              - generic [ref=f8e104]:
+                - generic [ref=f8e105]: "1"
+                - generic [ref=f8e106]: "9"
+                - generic [ref=f8e107]: "6"
+                - generic [ref=f8e108]: "4"
+        - listitem [ref=f8e109]:
+          - link "1966" [ref=f8e110] [cursor=pointer]:
+            - /url: "#gt40"
+            - generic [ref=f8e113]:
+              - generic [ref=f8e114]:
+                - generic [ref=f8e115]: "1"
+                - generic [ref=f8e116]: "9"
+                - generic [ref=f8e117]: "6"
+                - generic [ref=f8e118]: "6"
+              - generic [ref=f8e119]:
+                - generic [ref=f8e120]: "1"
+                - generic [ref=f8e121]: "9"
+                - generic [ref=f8e122]: "6"
+                - generic [ref=f8e123]: "6"
+        - listitem [ref=f8e124]:
+          - link "2017" [ref=f8e125] [cursor=pointer]:
+            - /url: "#fordgt"
+            - generic [ref=f8e128]:
+              - generic [ref=f8e129]:
+                - generic [ref=f8e130]: "2"
+                - generic [ref=f8e131]: "0"
+                - generic [ref=f8e132]: "1"
+                - generic [ref=f8e133]: "7"
+              - generic [ref=f8e134]:
+                - generic [ref=f8e135]: "2"
+                - generic [ref=f8e136]: "0"
+                - generic [ref=f8e137]: "1"
+                - generic [ref=f8e138]: "7"
+        - listitem [ref=f8e139]:
+          - link "2020" [ref=f8e140] [cursor=pointer]:
+            - /url: "#gt500"
+            - generic [ref=f8e143]:
+              - generic [ref=f8e144]:
+                - generic [ref=f8e145]: "2"
+                - generic [ref=f8e146]: "0"
+                - generic [ref=f8e147]: "2"
+                - generic [ref=f8e148]: "0"
+              - generic [ref=f8e149]:
+                - generic [ref=f8e150]: "2"
+                - generic [ref=f8e151]: "0"
+                - generic [ref=f8e152]: "2"
+                - generic [ref=f8e153]: "0"
+        - listitem [ref=f8e154]:
+          - link "2021" [ref=f8e155] [cursor=pointer]:
+            - /url: "#mache"
+            - generic [ref=f8e158]:
+              - generic [ref=f8e159]:
+                - generic [ref=f8e160]: "2"
+                - generic [ref=f8e161]: "0"
+                - generic [ref=f8e162]: "2"
+                - generic [ref=f8e163]: "1"
+              - generic [ref=f8e164]:
+                - generic [ref=f8e165]: "2"
+                - generic [ref=f8e166]: "0"
+                - generic [ref=f8e167]: "2"
+                - generic [ref=f8e168]: "1"
+        - listitem [ref=f8e169]:
+          - link "2023" [ref=f8e170] [cursor=pointer]:
+            - /url: "#gtmk4"
+            - generic [ref=f8e173]:
+              - generic [ref=f8e174]:
+                - generic [ref=f8e175]: "2"
+                - generic [ref=f8e176]: "0"
+                - generic [ref=f8e177]: "2"
+                - generic [ref=f8e178]: "3"
+              - generic [ref=f8e179]:
+                - generic [ref=f8e180]: "2"
+                - generic [ref=f8e181]: "0"
+                - generic [ref=f8e182]: "2"
+                - generic [ref=f8e183]: "3"
+        - listitem [ref=f8e184]:
+          - link "2024" [ref=f8e185] [cursor=pointer]:
+            - /url: "#darkhorse"
+            - generic [ref=f8e188]:
+              - generic [ref=f8e189]:
+                - generic [ref=f8e190]: "2"
+                - generic [ref=f8e191]: "0"
+                - generic [ref=f8e192]: "2"
+                - generic [ref=f8e193]: "4"
+              - generic [ref=f8e194]:
+                - generic [ref=f8e195]: "2"
+                - generic [ref=f8e196]: "0"
+                - generic [ref=f8e197]: "2"
+                - generic [ref=f8e198]: "4"
+        - listitem [ref=f8e199]:
+          - link "2025" [ref=f8e200] [cursor=pointer]:
+            - /url: "#gtd"
+            - generic [ref=f8e203]:
+              - generic [ref=f8e204]:
+                - generic [ref=f8e205]: "2"
+                - generic [ref=f8e206]: "0"
+                - generic [ref=f8e207]: "2"
+                - generic [ref=f8e208]: "5"
+              - generic [ref=f8e209]:
+                - generic [ref=f8e210]: "2"
+                - generic [ref=f8e211]: "0"
+                - generic [ref=f8e212]: "2"
+                - generic [ref=f8e213]: "5"
+  - main [ref=f8e214]:
+    - region "From carriage to supercar." [ref=f8e215]:
+      - generic [ref=f8e216]:
+        - generic:
+          - heading "From carriage to supercar." [level=1]:
+            - text: From carriageto
+            - emphasis: supercar.
+          - paragraph: Scroll to explore
+        - generic:
+          - paragraph: • 1896 to 2025
+          - heading "129 years of bodylines." [level=2]:
+            - text: 129 years of
+            - emphasis: bodylines.
+          - paragraph: Twelve Fords. Hover a card to turn it, click to meet the car.
+        - generic:
+          - button "1896, Ford Quadricycle" [ref=f8e217] [cursor=pointer]:
+            - generic [ref=f8e218]: "1896"
+          - button "1896, Ford Quadricycle" [ref=f8e222] [cursor=pointer]:
+            - generic [ref=f8e223]: "1896"
+          - button "1908, Ford Model T" [ref=f8e227] [cursor=pointer]:
+            - generic [ref=f8e228]: "1908"
+          - button "1908, Ford Model T" [ref=f8e232] [cursor=pointer]:
+            - generic [ref=f8e233]: "1908"
+          - button "1932, Ford V8 (Model 18)" [ref=f8e237] [cursor=pointer]:
+            - generic [ref=f8e238]: "1932"
+          - button "1932, Ford V8 (Model 18)" [ref=f8e242] [cursor=pointer]:
+            - generic [ref=f8e243]: "1932"
+          - button "1955, Ford Thunderbird" [ref=f8e247] [cursor=pointer]:
+            - generic [ref=f8e248]: "1955"
+          - button "1955, Ford Thunderbird" [ref=f8e252] [cursor=pointer]:
+            - generic [ref=f8e253]: "1955"
+          - button "1964, Ford Mustang" [ref=f8e257] [cursor=pointer]:
+            - generic [ref=f8e258]: "1964"
+          - button "1964, Ford Mustang" [ref=f8e262] [cursor=pointer]:
+            - generic [ref=f8e263]: "1964"
+          - button "1966, Ford GT40 Mk II" [ref=f8e267] [cursor=pointer]:
+            - generic [ref=f8e268]: "1966"
+          - button "1966, Ford GT40 Mk II" [ref=f8e272] [cursor=pointer]:
+            - generic [ref=f8e273]: "1966"
+          - button "2017, Ford GT" [ref=f8e277] [cursor=pointer]:
+            - generic [ref=f8e278]: "2017"
+          - button "2017, Ford GT" [ref=f8e282] [cursor=pointer]:
+            - generic [ref=f8e283]: "2017"
+          - button "2020, Ford Mustang Shelby GT500" [ref=f8e287] [cursor=pointer]:
+            - generic [ref=f8e288]: "2020"
+          - button "2020, Ford Mustang Shelby GT500" [ref=f8e292] [cursor=pointer]:
+            - generic [ref=f8e293]: "2020"
+          - button "2021, Ford Mustang Mach-E" [ref=f8e297] [cursor=pointer]:
+            - generic [ref=f8e298]: "2021"
+          - button "2021, Ford Mustang Mach-E" [ref=f8e302] [cursor=pointer]:
+            - generic [ref=f8e303]: "2021"
+          - button "2023, Ford GT Mk IV" [ref=f8e307] [cursor=pointer]:
+            - generic [ref=f8e308]: "2023"
+          - button "2023, Ford GT Mk IV" [ref=f8e312] [cursor=pointer]:
+            - generic [ref=f8e313]: "2023"
+          - button "2024, Ford Mustang Dark Horse" [ref=f8e317] [cursor=pointer]:
+            - generic [ref=f8e318]: "2024"
+          - button "2024, Ford Mustang Dark Horse" [ref=f8e322] [cursor=pointer]:
+            - generic [ref=f8e323]: "2024"
+          - button "2025, Ford Mustang GTD" [ref=f8e327] [cursor=pointer]:
+            - generic [ref=f8e328]: "2025"
+          - button "2025, Ford Mustang GTD" [ref=f8e332] [cursor=pointer]:
+            - generic [ref=f8e333]: "2025"
+    - region "The cars" [ref=f8e337]:
+      - generic [ref=f8e338]:
+        - generic [ref=f8e339]:
+          - figure:
+            - generic:
+              - img "Ford Quadricycle"
+        - paragraph [aria-hidden] [ref=f8e340]: 01 / 12
+    - region [ref=f8e341]:
+      - generic [ref=f8e343]:
+        - generic [ref=f8e344]:
+          - paragraph [ref=f8e345]: 08 The line-up
+          - heading [level=2] [ref=f8e346]:
+            - text: 129 years,
+            - emphasis [ref=f8e347]: in one row.
+        - list [ref=f8e348]:
+          - listitem [aria-hidden] [ref=f8e349]
+          - listitem [ref=f8e350]:
+            - link "1896 Ford Quadricycle" [ref=f8e351] [cursor=pointer]:
+              - /url: "#quadricycle"
+              - generic [ref=f8e352]: "1896"
+              - generic [ref=f8e353]: Ford Quadricycle
+          - listitem [ref=f8e354]:
+            - link "1908 Ford Model T" [ref=f8e355] [cursor=pointer]:
+              - /url: "#modelt"
+              - generic [ref=f8e356]: "1908"
+              - generic [ref=f8e357]: Ford Model T
+          - listitem [ref=f8e358]:
+            - link "1932 Ford V8 (Model 18)" [ref=f8e359] [cursor=pointer]:
+              - /url: "#v8"
+              - generic [ref=f8e360]: "1932"
+              - generic [ref=f8e361]: Ford V8 (Model 18)
+          - listitem [ref=f8e362]:
+            - link "1955 Ford Thunderbird" [ref=f8e363] [cursor=pointer]:
+              - /url: "#thunderbird"
+              - generic [ref=f8e364]: "1955"
+              - generic [ref=f8e365]: Ford Thunderbird
+          - listitem [ref=f8e366]:
+            - link "1964 Ford Mustang" [ref=f8e367] [cursor=pointer]:
+              - /url: "#mustang"
+              - generic [ref=f8e368]: "1964"
+              - generic [ref=f8e369]: Ford Mustang
+          - listitem [ref=f8e370]:
+            - link "1966 Ford GT40 Mk II" [ref=f8e371] [cursor=pointer]:
+              - /url: "#gt40"
+              - generic [ref=f8e372]: "1966"
+              - generic [ref=f8e373]: Ford GT40 Mk II
+          - listitem [ref=f8e374]:
+            - link "2017 Ford GT" [ref=f8e375] [cursor=pointer]:
+              - /url: "#fordgt"
+              - generic [ref=f8e376]: "2017"
+              - generic [ref=f8e377]: Ford GT
+          - listitem [ref=f8e378]:
+            - link "2020 Ford Mustang Shelby GT500" [ref=f8e379] [cursor=pointer]:
+              - /url: "#gt500"
+              - generic [ref=f8e380]: "2020"
+              - generic [ref=f8e381]: Ford Mustang Shelby GT500
+          - listitem [ref=f8e382]:
+            - link "2021 Ford Mustang Mach-E" [ref=f8e383] [cursor=pointer]:
+              - /url: "#mache"
+              - generic [ref=f8e384]: "2021"
+              - generic [ref=f8e385]: Ford Mustang Mach-E
+          - listitem [ref=f8e386]:
+            - link "2023 Ford GT Mk IV" [ref=f8e387] [cursor=pointer]:
+              - /url: "#gtmk4"
+              - generic [ref=f8e388]: "2023"
+              - generic [ref=f8e389]: Ford GT Mk IV
+          - listitem [ref=f8e390]:
+            - link "2024 Ford Mustang Dark Horse" [ref=f8e391] [cursor=pointer]:
+              - /url: "#darkhorse"
+              - generic [ref=f8e392]: "2024"
+              - generic [ref=f8e393]: Ford Mustang Dark Horse
+          - listitem [ref=f8e394]:
+            - link "2025 Ford Mustang GTD" [ref=f8e395] [cursor=pointer]:
+              - /url: "#gtd"
+              - generic [ref=f8e396]: "2025"
+              - generic [ref=f8e397]: Ford Mustang GTD
+  - contentinfo [ref=f8e398]:
+    - generic [ref=f8e399]:
+      - paragraph [ref=f8e400]:
+        - text: From carriageto
+        - emphasis [ref=f8e401]: supercar.
+      - link "Back to top" [ref=f8e402] [cursor=pointer]:
+        - /url: "#hero"
+        - text: Back to top
+        - generic [aria-hidden] [ref=f8e403]: ↑
+    - navigation "All cars" [ref=f8e404]:
+      - list [ref=f8e405]:
+        - listitem [ref=f8e406]:
+          - link "1896 Ford Quadricycle" [ref=f8e407] [cursor=pointer]:
+            - /url: "#quadricycle"
+            - generic [ref=f8e408]: "1896"
+            - generic [ref=f8e409]: Ford Quadricycle
+            - generic [aria-hidden] [ref=f8e410]: →
+        - listitem [ref=f8e411]:
+          - link "1908 Ford Model T" [ref=f8e412] [cursor=pointer]:
+            - /url: "#modelt"
+            - generic [ref=f8e413]: "1908"
+            - generic [ref=f8e414]: Ford Model T
+            - generic [aria-hidden] [ref=f8e415]: →
+        - listitem [ref=f8e416]:
+          - link "1932 Ford V8 (Model 18)" [ref=f8e417] [cursor=pointer]:
+            - /url: "#v8"
+            - generic [ref=f8e418]: "1932"
+            - generic [ref=f8e419]: Ford V8 (Model 18)
+            - generic [aria-hidden] [ref=f8e420]: →
+        - listitem [ref=f8e421]:
+          - link "1955 Ford Thunderbird" [ref=f8e422] [cursor=pointer]:
+            - /url: "#thunderbird"
+            - generic [ref=f8e423]: "1955"
+            - generic [ref=f8e424]: Ford Thunderbird
+            - generic [aria-hidden] [ref=f8e425]: →
+        - listitem [ref=f8e426]:
+          - link "1964 Ford Mustang" [ref=f8e427] [cursor=pointer]:
+            - /url: "#mustang"
+            - generic [ref=f8e428]: "1964"
+            - generic [ref=f8e429]: Ford Mustang
+            - generic [aria-hidden] [ref=f8e430]: →
+        - listitem [ref=f8e431]:
+          - link "1966 Ford GT40 Mk II" [ref=f8e432] [cursor=pointer]:
+            - /url: "#gt40"
+            - generic [ref=f8e433]: "1966"
+            - generic [ref=f8e434]: Ford GT40 Mk II
+            - generic [aria-hidden] [ref=f8e435]: →
+        - listitem [ref=f8e436]:
+          - link "2017 Ford GT" [ref=f8e437] [cursor=pointer]:
+            - /url: "#fordgt"
+            - generic [ref=f8e438]: "2017"
+            - generic [ref=f8e439]: Ford GT
+            - generic [aria-hidden] [ref=f8e440]: →
+        - listitem [ref=f8e441]:
+          - link "2020 Ford Mustang Shelby GT500" [ref=f8e442] [cursor=pointer]:
+            - /url: "#gt500"
+            - generic [ref=f8e443]: "2020"
+            - generic [ref=f8e444]: Ford Mustang Shelby GT500
+            - generic [aria-hidden] [ref=f8e445]: →
+        - listitem [ref=f8e446]:
+          - link "2021 Ford Mustang Mach-E" [ref=f8e447] [cursor=pointer]:
+            - /url: "#mache"
+            - generic [ref=f8e448]: "2021"
+            - generic [ref=f8e449]: Ford Mustang Mach-E
+            - generic [aria-hidden] [ref=f8e450]: →
+        - listitem [ref=f8e451]:
+          - link "2023 Ford GT Mk IV" [ref=f8e452] [cursor=pointer]:
+            - /url: "#gtmk4"
+            - generic [ref=f8e453]: "2023"
+            - generic [ref=f8e454]: Ford GT Mk IV
+            - generic [aria-hidden] [ref=f8e455]: →
+        - listitem [ref=f8e456]:
+          - link "2024 Ford Mustang Dark Horse" [ref=f8e457] [cursor=pointer]:
+            - /url: "#darkhorse"
+            - generic [ref=f8e458]: "2024"
+            - generic [ref=f8e459]: Ford Mustang Dark Horse
+            - generic [aria-hidden] [ref=f8e460]: →
+        - listitem [ref=f8e461]:
+          - link "2025 Ford Mustang GTD" [ref=f8e462] [cursor=pointer]:
+            - /url: "#gtd"
+            - generic [ref=f8e463]: "2025"
+            - generic [ref=f8e464]: Ford Mustang GTD
+            - generic [aria-hidden] [ref=f8e465]: →
+    - generic [ref=f8e466]:
+      - paragraph [ref=f8e467]: A non-commercial showcase. Photos collected from Pinterest.
+      - paragraph [ref=f8e468]: 1896 – 2025
+    - paragraph [aria-hidden]:
+      - generic: B
+      - generic: o
+      - generic: d
+      - generic: "y"
+      - generic: l
+      - generic: i
+      - generic: "n"
+      - generic: e
+      - generic: s

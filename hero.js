@@ -4,7 +4,7 @@
 // Each card springs toward its target (stiffness 40, damping 15, as in the original).
 import { ERAS } from './eras.js';
 
-const TOTAL = 20;
+const TOTAL = 24; // two shots for each of the twelve cars
 const K = 40, C = 15; // spring stiffness, damping (mass 1)
 const KEYS = ['x', 'y', 'r', 's', 'o'];
 // Cards are laid out at their largest (arch) size and scaled down, so they stay sharp when they grow.
@@ -12,19 +12,19 @@ const BIG = 1.8;
 const lerp = (a, b, t) => a * (1 - t) + b * t;
 const clamp01 = (v) => Math.min(Math.max(v, 0), 1);
 
-export function morphHero(stage, { reduce, onPick }) {
+export function morphHero(stage, { reduce, onPick, ready = Promise.resolve() }) {
   const deck = stage.querySelector('.deck');
   const intro = stage.querySelector('.intro');
   const arcCopy = stage.querySelector('.arc-copy');
 
-  // Three shots per car in date order, so the arch reads 1896 on the left to 2017 on the right.
+  // Three shots per car in date order, so the arch reads 1896 on the left to 2025 on the right.
   const shots = ERAS.flatMap((e, ei) => Array.from({ length: Math.min(e.shots, 3) }, (_, n) => ({ e, ei, n }))).slice(0, TOTAL);
   const cards = shots.map(({ e, ei, n }) => {
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'card';
     b.setAttribute('aria-label', `${e.label}, ${e.name}`);
-    b.innerHTML = `<span class="card-in"><span class="face"><img src="img/card/${e.id}-${n}.jpg" alt=""></span><span class="face back"><span>${e.label}</span></span></span>`;
+    b.innerHTML = `<span class="card-in"><span class="face"><img src="img/card/${e.id}-${n}.webp" alt=""></span><span class="face back"><span>${e.label}</span></span></span>`;
     b.addEventListener('click', () => onPick(ei));
     deck.append(b);
     return b;
@@ -37,10 +37,11 @@ export function morphHero(stage, { reduce, onPick }) {
   const vel = cards.map(() => ({ x: 0, y: 0, r: 0, s: 0, o: 0 }));
 
   let phase = reduce ? 'circle' : 'scatter';
-  if (!reduce) {
+  // The intro plays once the page is revealed (after the loader), not behind it.
+  if (!reduce) ready.then(() => {
     setTimeout(() => (phase = 'line'), 500);
     setTimeout(() => (phase = 'circle'), 2500);
-  }
+  });
 
   let W = stage.clientWidth, H = stage.clientHeight;
   addEventListener('resize', () => { W = stage.clientWidth; H = stage.clientHeight; });

@@ -1,0 +1,191 @@
+- generic [ref=f45e3]:
+  - banner [ref=f45e4]:
+    - link "Skip to content":
+      - /url: "#"
+    - generic [ref=f45e10]:
+      - generic [ref=f45e11]:
+        - link "Pinterest home" [ref=f45e13] [cursor=pointer]:
+          - /url: /
+        - link "Explore" [ref=f45e32] [cursor=pointer]:
+          - /url: /ideas
+      - generic [ref=f45e37]:
+        - combobox "Search" [ref=f45e39]: 2017 ford gt blue wallpaper 4k
+        - button "Remove search input" [ref=f45e43] [cursor=pointer]
+      - generic [ref=f45e48]:
+        - button "Log in" [ref=f45e50] [cursor=pointer]
+        - button "Sign up" [ref=f45e54] [cursor=pointer]
+        - button "Setting" [ref=f45e59] [cursor=pointer]
+  - main [ref=f45e65]:
+    - generic [ref=f45e67]:
+      - generic [ref=f45e70]:
+        - heading "Search" [level=1] [ref=f45e72]
+        - region "Search filters and refinements" [ref=f45e74]:
+          - generic [ref=f45e77]:
+            - button "Show filters" [ref=f45e83] [cursor=pointer]
+            - button "Less AI" [ref=f45e94] [cursor=pointer]
+            - button "Mustang" [ref=f45e105] [cursor=pointer]
+            - button "40" [ref=f45e116] [cursor=pointer]
+      - list [ref=f45e134]:
+        - listitem [ref=f45e135]:
+          - button [ref=f45e139] [cursor=pointer]:
+            - img "Pin" [ref=f45e144]
+        - listitem [ref=f45e145]:
+          - button [ref=f45e149] [cursor=pointer]:
+            - img "Pin" [ref=f45e154]
+        - listitem [ref=f45e155]:
+          - button [ref=f45e159] [cursor=pointer]:
+            - generic [ref=f45e163]:
+              - img "Pin"
+        - listitem [ref=f45e164]:
+          - button [ref=f45e168] [cursor=pointer]:
+            - img "Pin" [ref=f45e173]
+        - listitem [ref=f45e174]:
+          - button [ref=f45e178] [cursor=pointer]:
+            - generic [ref=f45e182]:
+              - img "Pin"
+        - listitem [ref=f45e183]:
+          - button [ref=f45e187] [cursor=pointer]:
+            - img "Pin" [ref=f45e192]
+        - listitem [ref=f45e193]:
+          - button [ref=f45e197] [cursor=pointer]:
+            - generic [ref=f45e201]:
+              - img "Pin"
+        - listitem [ref=f45e202]:
+          - button [ref=f45e206] [cursor=pointer]:
+            - generic [ref=f45e210]:
+              - img "Pin"
+        - listitem [ref=f45e211]:
+          - button [ref=f45e215] [cursor=pointer]:
+            - img "Pin" [ref=f45e220]
+        - listitem [ref=f45e221]:
+          - button [ref=f45e225] [cursor=pointer]:
+            - generic [ref=f45e229]:
+              - img "Pin"
+        - listitem [ref=f45e230]:
+          - button [ref=f45e234] [cursor=pointer]:
+            - img "Pin" [ref=f45e239]
+        - listitem [ref=f45e240]:
+          - button [ref=f45e244] [cursor=pointer]:
+            - generic [ref=f45e248]:
+              - img "Pin"
+        - listitem [ref=f45e249]:
+          - button [ref=f45e253] [cursor=pointer]:
+            - generic [ref=f45e257]:
+              - img "Pin"
+        - listitem [ref=f45e258]:
+          - button [ref=f45e262] [cursor=pointer]:
+            - img "Pin" [ref=f45e267]
+        - listitem [ref=f45e268]:
+          - button [ref=f45e272] [cursor=pointer]:
+            - generic [ref=f45e276]:
+              - img "Pin"
+        - listitem [ref=f45e277]:
+          - button [ref=f45e281] [cursor=pointer]:
+            - generic [ref=f45e285]:
+              - img "Pin"
+        - listitem [ref=f45e286]:
+          - button [ref=f45e290] [cursor=pointer]:
+            - img "Pin" [ref=f45e295]
+        - listitem [ref=f45e296]:
+          - button [ref=f45e300] [cursor=pointer]:
+            - img "Pin" [ref=f45e305]
+        - listitem [ref=f45e306]:
+          - button [ref=f45e310] [cursor=pointer]:
+            - img "Pin" [ref=f45e315]
+        - listitem [ref=f45e316]:
+          - button [ref=f45e320] [cursor=pointer]:
+            - img "Pin" [ref=f45e325]
+        - listitem [ref=f45e326]:
+          - button [ref=f45e330] [cursor=pointer]:
+            - generic [ref=f45e334]:
+              - img "Pin"
+        - listitem [ref=f45e335]:
+          - button [ref=f45e339] [cursor=pointer]:
+            - generic [ref=f45e343]:
+              - img "Pin"
+        - listitem [ref=f45e344]:
+          - button [ref=f45e348] [cursor=pointer]:
+            - img "Pin" [ref=f45e353]
+        - listitem [ref=f45e354]:
+          - button [ref=f45e358] [cursor=pointer]:
+            - generic [ref=f45e362]:
+              - img "Pin"
+        - listitem [ref=f45e363]:
+          - button [ref=f45e367] [cursor=pointer]:
+            - generic [ref=f45e371]:
+              - img "Pin"
+  - generic:
+    - dialog "Hybrid banner gift wrap":
+      - generic [ref=f45e372]:
+        - button "Close Bottom Right Upsell" [ref=f45e374] [cursor=pointer]
+        - generic [ref=f45e380]:
+          - heading "You are signed out" [level=2] [ref=f45e382]
+          - generic [ref=f45e383]: Sign in to get the best experience
+        - generic [ref=f45e384]:
+          - button "Continue with email" [ref=f45e386] [cursor=pointer]
+          - generic [ref=f45e390]:
+            - iframe [ref=f45e393]:
+              - button "Continue with Google. Opens in new tab" [ref=f47e3] [cursor=pointer]:
+                - generic [ref=f47e5]: Continue with Google
+            - generic:
+              - generic [aria-hidden]:
+                - button:
+                  - generic: Continue with Google
+          - generic [ref=f45e396]:
+            - text: By continuing, you agree to Pinterest's
+            - link "Terms of Service" [ref=f45e397] [cursor=pointer]:
+              - /url: /_/_/policy/terms-of-service/
+            - text: and acknowledge you've read our
+            - link "Privacy Policy" [ref=f45e398] [cursor=pointer]:
+              - /url: https://www.pinterest.com/_/_/policy/privacy-policy/
+            - text: .
+            - link "Notice at collection" [ref=f45e399] [cursor=pointer]:
+              - /url: https://policy.pinterest.com/notice-at-collection
+            - text: .
+  - dialog "modal" [ref=f45e401]:
+    - generic [ref=f45e402]:
+      - img "Loading" [ref=f45e406]
+      - generic [ref=f45e412]:
+        - generic [ref=f45e413]:
+          - img "Pinterest" [ref=f45e416]
+          - heading "Welcome to Pinterest" [level=1] [ref=f45e418]
+          - generic [ref=f45e419]: Log in to discover more ideas just for you
+        - generic [ref=f45e423]:
+          - form "login form" [ref=f45e424]:
+            - generic [ref=f45e425]:
+              - generic [ref=f45e429]:
+                - generic [ref=f45e430]: Email
+                - textbox "Email" [active] [ref=f45e432]
+              - generic [ref=f45e434]:
+                - generic [ref=f45e437]:
+                  - generic [ref=f45e438]: Password
+                  - textbox "Password" [ref=f45e440]
+                  - generic "Show password" [ref=f45e443]:
+                    - switch "Show password" [ref=f45e444] [cursor=pointer]
+                - link "Forgot password?" [ref=f45e450] [cursor=pointer]:
+                  - /url: /password/reset/
+              - button "Log in" [ref=f45e453] [cursor=pointer]
+          - generic [ref=f45e456]: OR
+          - generic [ref=f45e460]:
+            - iframe [ref=f45e463]:
+              - button "Continue with Google. Opens in new tab" [ref=f48e3] [cursor=pointer]:
+                - generic [ref=f48e5]: Continue with Google
+            - generic:
+              - generic [aria-hidden]:
+                - button:
+                  - generic: Continue with Google
+          - button "QR code login button" [ref=f45e464] [cursor=pointer]:
+            - generic [ref=f45e465]: Continue with QR code
+        - generic [ref=f45e472]:
+          - text: New to Pinterest?
+          - link "Join for free" [ref=f45e473] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f45e475]:
+          - link "Terms of Service" [ref=f45e476] [cursor=pointer]:
+            - /url: /_/_/policy/terms-of-service/
+          - text: ·
+          - link "Privacy Policy" [ref=f45e477] [cursor=pointer]:
+            - /url: https://www.pinterest.com/_/_/policy/privacy-policy/
+          - text: ·
+          - link "Notice at Collection" [ref=f45e478] [cursor=pointer]:
+            - /url: https://policy.pinterest.com/notice-at-collection

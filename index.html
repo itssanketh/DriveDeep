@@ -3,31 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bodylines</title>
-  <meta name="description" content="Seven Fords from 1896 to 2017, in one scroll through the history of the automobile.">
+  <title>Drivedeep</title>
+  <meta name="description" content="Twelve Fords from 1896 to 2025, in one scroll through the history of the automobile.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:,">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Anton&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=2">
+  <meta name="theme-color" content="#0a0a0a">
   <link rel="stylesheet" href="style.css">
+  <link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.mjs" crossorigin>
   <script type="importmap">
     {
       "imports": {
-        "motion": "https://cdn.jsdelivr.net/npm/motion@12.23.12/+esm",
-        "lenis": "https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.mjs",
-        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+        "lenis": "https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.mjs"
       }
     }
   </script>
 </head>
 <body>
+  <div id="loader" class="loader" role="status" aria-label="Loading">
+    <p class="load-mark">Drivedeep</p>
+    <div class="load-bar"><i id="load-fill"></i></div>
+  </div>
   <a class="skip" href="#finale">Skip to the line-up</a>
 
   <div id="bg" class="bg" aria-hidden="true"></div>
 
   <header class="top">
     <nav aria-label="Eras">
-      <a class="wordmark" href="#hero">Bodylines</a>
+      <a class="wordmark" href="#hero">Drivedeep</a>
       <ol id="rail"></ol>
     </nav>
     <div class="bar" aria-hidden="true"><div id="bar"></div></div>
@@ -37,13 +42,14 @@
     <section id="hero" class="hero" aria-labelledby="hero-h">
       <div class="hero-stick">
         <div class="intro">
-          <h1 id="hero-h">From carriage<br>to <em>supercar.</em></h1>
+          <h1 id="hero-h" class="brand">Drivedeep</h1>
+          <p class="tag">From carriage to <em>supercar.</em></p>
           <p class="label">Scroll to explore</p>
         </div>
         <div class="arc-copy">
-          <p class="label"><span class="n">&bull;</span> 1896 to 2017</p>
-          <h2>121 years of <em>bodylines.</em></h2>
-          <p class="lede">Seven Fords. Hover a card to turn it, click to meet the car.</p>
+          <p class="label"><span class="n">&bull;</span> 1896 to 2025</p>
+          <h2>129 years of <em>bodylines.</em></h2>
+          <p class="lede">Twelve Fords. Hover a card to turn it, click to meet the car.</p>
         </div>
         <div class="deck"></div>
       </div>
@@ -52,10 +58,9 @@
     <section id="show" class="show" aria-label="The cars">
       <div class="stage">
         <div id="scenes" class="scenes" aria-hidden="true"></div>
-        <div id="years" class="years" aria-hidden="true"></div>
         <div id="cars" class="cars"></div>
         <div id="infos"></div>
-        <p class="count label" aria-hidden="true"><span id="count-n">01</span> / 07</p>
+        <p class="count label" aria-hidden="true"><span id="count-n">01</span> / <span id="count-total">08</span></p>
       </div>
       <div id="steps"></div>
     </section>
@@ -65,7 +70,7 @@
         <div id="track" class="track">
           <div class="fin-intro">
             <p class="label"><span class="n">08</span> The line-up</p>
-            <h2 id="finale-h">121 years, <em>in one row.</em></h2>
+            <h2 id="finale-h">129 years, <em>in one row.</em></h2>
           </div>
           <ol id="lineup" class="lineup">
             <li class="rail" aria-hidden="true"><i id="rail-fill"></i></li>
@@ -83,9 +88,9 @@
     <nav aria-label="All cars"><ol id="foot-index" class="foot-index"></ol></nav>
     <div class="foot-base">
       <p class="small">A non-commercial showcase. Photos collected from Pinterest.</p>
-      <p class="small">1896 &ndash; 2017</p>
+      <p class="small">1896 &ndash; 2025</p>
     </div>
-    <p id="foot-mark" class="foot-mark" aria-hidden="true">Bodylines</p>
+    <p id="foot-mark" class="foot-mark" aria-hidden="true">Drivedeep</p>
   </footer>
 
   <script type="module" src="main.js"></script>
